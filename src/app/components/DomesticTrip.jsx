@@ -35,26 +35,33 @@ const domesticTrips = [
   },
 ];
 
-export default function DomesticTripsSimple() {
+export default function DomesticTripsSection() {
   return (
-    <section className="my-12 px-6 max-w-7xl mx-auto">
-      <h2 className="text-3xl font-bold text-[var(--theme)] mb-6">
-        Domestic Trips
-      </h2>
+    <section className="py-14 px-4 max-w-7xl mx-auto">
+      {/* Heading */}
+      <div className="text-center mb-10">
+        <h2 className="text-2xl md:text-3xl font-semibold t text-pink-950">
+          Popular Domestic Destinations
+        </h2>
+        <div className="w-20 h-[2px] bg-black mx-auto mt-3" />
+      </div>
 
-      <div className="flex overflow-x-auto gap-6 py-4 scrollbar-hide">
+      {/* Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
         {domesticTrips.map((trip, index) => (
           <div
             key={index}
-            className="relative flex-shrink-0 w-64 h-64 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transform transition"
+            className="group relative rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
           >
             <img
               src={trip.image}
               alt={trip.title}
-              className="w-full h-full object-cover"
+              className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-              <h3 className="text-white font-bold text-xl text-center">
+
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/10 flex items-end">
+              <h3 className="text-white text-lg font-semibold p-4">
                 {trip.title}
               </h3>
             </div>

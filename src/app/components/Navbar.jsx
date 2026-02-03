@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -10,10 +11,15 @@ export default function Navbar() {
       <nav className="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* LOGO */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-[var(--theme)] flex items-center justify-center text-white font-bold text-lg">
-              PYT
-            </div>
+          <div className="flex items-center gap-3">
+            <img
+              src="/pyt-logo.jpg"
+              alt="Plan Your Trip"
+              width={44}
+              height={44}
+              className="w-11 h-11 rounded-full object-cover"
+            />
+
             <span className="text-lg font-semibold text-gray-800">
               Plan Your Trip
             </span>
@@ -59,7 +65,7 @@ export default function Navbar() {
 
       {/* MOBILE DRAWER */}
       <div
-        className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white z-50 transform transition-transform duration-300 ease-in-out
+        className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white z-50 transform transition-transform duration-300
         ${open ? "translate-x-0" : "translate-x-full"}`}
       >
         <div className="p-6 flex justify-between items-center border-b">
@@ -74,34 +80,16 @@ export default function Navbar() {
         </div>
 
         <div className="flex flex-col gap-6 p-6 text-gray-700 font-medium">
-          <a
-            onClick={() => setOpen(false)}
-            href="#"
-            className="hover:text-[var(--theme)]"
-          >
-            Home
-          </a>
-          <a
-            onClick={() => setOpen(false)}
-            href="#"
-            className="hover:text-[var(--theme)]"
-          >
-            Packages
-          </a>
-          <a
-            onClick={() => setOpen(false)}
-            href="#"
-            className="hover:text-[var(--theme)]"
-          >
-            Reviews
-          </a>
-          <a
-            onClick={() => setOpen(false)}
-            href="#"
-            className="hover:text-[var(--theme)]"
-          >
-            Contact
-          </a>
+          {["Home", "Packages", "Reviews", "Contact"].map((item) => (
+            <a
+              key={item}
+              href="#"
+              onClick={() => setOpen(false)}
+              className="hover:text-[var(--theme)]"
+            >
+              {item}
+            </a>
+          ))}
 
           <button className="mt-4 bg-[var(--theme)] text-white py-3 rounded-lg">
             Book Your Trip

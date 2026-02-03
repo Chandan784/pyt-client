@@ -5,6 +5,9 @@ import TravelEnquirySection from "./components/EnquiryForm";
 import FooterFull from "./components/FooterFull";
 import DomesticTripsSimple from "./components/DomesticTrip";
 import ContactSection from "./components/Contact";
+import WhyPYT from "./components/WhyPyt";
+import InternationalDestinations from "./components/InternationalDestination";
+import TripStats from "./components/TripStats";
 function Home() {
   return (
     <div>
@@ -13,6 +16,9 @@ function Home() {
       <DomesticTripsSimple />
       <ContactSection />
       <TravelEnquirySection />
+      <InternationalDestinations />
+      <TripStats />
+      <WhyPYT />
       <FooterFull />
     </div>
   );

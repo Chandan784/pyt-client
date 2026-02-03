@@ -2,29 +2,43 @@
 
 export default function ContactSection() {
   return (
-    <section className="bg-gray-100 py-16 px-6">
-      <div className="max-w-7xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold text-[var(--theme)] mb-4">
-          Let's Start Your Journey
+    <section className="bg-gray-50 py-14 px-6">
+      <div className="max-w-6xl mx-auto text-center mb-10">
+        <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-2">
+          Let’s Start Your Journey
         </h2>
-        <p className="text-gray-700 text-lg">
-          Reach out to us and plan your dream trip today!
+        <p className="text-sm text-gray-600">
+          Connect with our travel experts to plan your perfect trip
         </p>
       </div>
 
-      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Phone Card */}
-        <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center gap-4 hover:shadow-xl transition">
-          <div className="text-[var(--theme)] text-4xl">📞</div>
-          <h3 className="font-semibold text-xl">Call us on</h3>
-          <p className="text-gray-700 font-medium">+91-9871597736</p>
+      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Phone */}
+        <div className="bg-white border rounded-lg p-6 flex items-center gap-4 hover:shadow-md transition">
+          <div className="w-11 h-11 flex items-center justify-center rounded-full bg-[var(--theme)]/10 text-[var(--theme)] text-lg">
+            📞
+          </div>
+          <div className="text-left">
+            <p className="text-xs text-gray-500 uppercase tracking-wide">
+              Call Us
+            </p>
+            <p className="text-sm font-medium text-gray-800">+91 98715 97736</p>
+          </div>
         </div>
 
-        {/* Email Card */}
-        <div className="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center gap-4 hover:shadow-xl transition">
-          <div className="text-[var(--theme)] text-4xl">✉️</div>
-          <h3 className="font-semibold text-xl">Email us on</h3>
-          <p className="text-gray-700 font-medium">info@traveljunky.co.in</p>
+        {/* Email */}
+        <div className="bg-white border rounded-lg p-6 flex items-center gap-4 hover:shadow-md transition">
+          <div className="w-11 h-11 flex items-center justify-center rounded-full bg-[var(--theme)]/10 text-[var(--theme)] text-lg">
+            ✉️
+          </div>
+          <div className="text-left">
+            <p className="text-xs text-gray-500 uppercase tracking-wide">
+              Email Us
+            </p>
+            <p className="text-sm font-medium text-gray-800">
+              info@traveljunky.co.in
+            </p>
+          </div>
         </div>
       </div>
     </section>
