@@ -1,99 +1,204 @@
 "use client";
-import { useState } from "react";
-import Image from "next/image";
+import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState(null);
+  const menuRef = useRef(null);
+
+  const domestic = [
+    "Goa",
+    "Kashmir",
+    "Kerala",
+    "Rajasthan",
+    "Himachal",
+    "Andaman",
+  ];
+
+  const international = [
+    "Thailand",
+    "Dubai",
+    "Singapore",
+    "Bali",
+    "Maldives",
+    "Europe",
+  ];
+
+  // Close dropdown when clicking outside (desktop)
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setActiveMenu(null);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <>
-      {/* NAVBAR */}
-      <nav className="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-50">
+      <nav className="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* LOGO */}
           <div className="flex items-center gap-3">
             <img
               src="/pyt-logo.jpg"
               alt="Plan Your Trip"
-              width={44}
-              height={44}
-              className="w-11 h-11 rounded-full object-cover"
+              className="w-11 h-11 rounded-full object-cover shadow"
             />
-
-            <span className="text-lg font-semibold text-gray-800">
-              Plan Your Trip
+            <span className="text-sm md:text-xl font-semibold text-gray-800">
+              PremiumVistaJourney
             </span>
           </div>
 
           {/* DESKTOP MENU */}
-          <div className="hidden md:flex items-center gap-8 font-medium text-gray-700">
-            <a className="hover:text-[var(--theme)] transition" href="#">
+          <div
+            ref={menuRef}
+            className="hidden md:flex items-center gap-10 font-medium text-gray-700 relative"
+          >
+            <Link href="/" className="hover:text-[var(--theme)] transition">
               Home
-            </a>
-            <a className="hover:text-[var(--theme)] transition" href="#">
-              Packages
-            </a>
-            <a className="hover:text-[var(--theme)] transition" href="#">
-              Reviews
-            </a>
-            <a className="hover:text-[var(--theme)] transition" href="#">
-              Contact
-            </a>
-            <button className="bg-[var(--theme)] text-white px-5 py-2 rounded-lg hover:opacity-90 transition">
+            </Link>
+
+            {/* Domestic */}
+            <div className="relative">
+              <button
+                onClick={() =>
+                  setActiveMenu(activeMenu === "domestic" ? null : "domestic")
+                }
+                className="hover:text-[var(--theme)] transition"
+              >
+                Domestic ▾
+              </button>
+
+              {activeMenu === "domestic" && (
+                <div className="absolute top-12 left-0 bg-white shadow-2xl rounded-2xl w-60 py-4 border z-50">
+                  {domestic.map((place) => (
+                    <Link
+                      key={place}
+                      href={`/domestic/${place.toLowerCase()}`}
+                      onClick={() => setActiveMenu(null)}
+                      className="block px-6 py-2 hover:bg-gray-100"
+                    >
+                      {place}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* International */}
+            <div className="relative">
+              <button
+                onClick={() =>
+                  setActiveMenu(
+                    activeMenu === "international" ? null : "international",
+                  )
+                }
+                className="hover:text-[var(--theme)] transition"
+              >
+                International ▾
+              </button>
+
+              {activeMenu === "international" && (
+                <div className="absolute top-12 left-0 bg-white shadow-2xl rounded-2xl w-60 py-4 border z-50">
+                  {international.map((place) => (
+                    <Link
+                      key={place}
+                      href={`/international/${place.toLowerCase()}`}
+                      onClick={() => setActiveMenu(null)}
+                      className="block px-6 py-2 hover:bg-gray-100"
+                    >
+                      {place}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <button className="bg-[var(--theme)] text-white px-6 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition">
               Book Now
             </button>
           </div>
 
-          {/* MOBILE TOGGLE */}
+          {/* HAMBURGER */}
           <button
-            onClick={() => setOpen(!open)}
+            onClick={() => setDrawerOpen(true)}
             className="md:hidden text-3xl text-gray-700"
-            aria-label="Toggle Menu"
           >
-            {open ? "✕" : "☰"}
+            ☰
           </button>
         </div>
       </nav>
 
       {/* OVERLAY */}
-      <div
-        className={`fixed inset-0 bg-black/40 z-40 transition-opacity duration-300 ${
-          open ? "opacity-100 visible" : "opacity-0 invisible"
-        }`}
-        onClick={() => setOpen(false)}
-      />
+      {drawerOpen && (
+        <div
+          onClick={() => setDrawerOpen(false)}
+          className="fixed inset-0 bg-black/40 z-40"
+        />
+      )}
 
       {/* MOBILE DRAWER */}
+      {/* MOBILE DRAWER */}
       <div
-        className={`fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white z-50 transform transition-transform duration-300
-        ${open ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed top-0 right-0 h-screen w-[80%] max-w-sm bg-white z-50 shadow-2xl 
+  transform transition-transform duration-300 ${
+    drawerOpen ? "translate-x-0" : "translate-x-full"
+  }`}
       >
-        <div className="p-6 flex justify-between items-center border-b">
-          <span className="font-semibold text-lg">Menu</span>
-          <button
-            onClick={() => setOpen(false)}
-            className="text-2xl"
-            aria-label="Close Menu"
-          >
-            ✕
-          </button>
-        </div>
+        <div className="h-full flex flex-col">
+          {/* Header */}
+          <div className="p-6 flex justify-between items-center border-b shrink-0">
+            <span className="font-semibold text-lg">Menu</span>
+            <button onClick={() => setDrawerOpen(false)} className="text-2xl">
+              ✕
+            </button>
+          </div>
 
-        <div className="flex flex-col gap-6 p-6 text-gray-700 font-medium">
-          {["Home", "Packages", "Reviews", "Contact"].map((item) => (
-            <a
-              key={item}
-              href="#"
-              onClick={() => setOpen(false)}
-              className="hover:text-[var(--theme)]"
-            >
-              {item}
-            </a>
-          ))}
+          {/* Scrollable Content */}
+          <div className="flex-1 overflow-y-auto p-6 flex flex-col gap-5 font-medium text-gray-700">
+            <Link href="/" onClick={() => setDrawerOpen(false)}>
+              Home
+            </Link>
 
-          <button className="mt-4 bg-[var(--theme)] text-white py-3 rounded-lg">
-            Book Your Trip
-          </button>
+            {/* Domestic Mobile */}
+            <details>
+              <summary className="cursor-pointer">Domestic Travel</summary>
+              <div className="ml-4 mt-3 flex flex-col gap-2 text-sm">
+                {domestic.map((place) => (
+                  <Link
+                    key={place}
+                    href={`/domestic/${place.toLowerCase()}`}
+                    onClick={() => setDrawerOpen(false)}
+                  >
+                    {place}
+                  </Link>
+                ))}
+              </div>
+            </details>
+
+            {/* International Mobile */}
+            <details>
+              <summary className="cursor-pointer">International Travel</summary>
+              <div className="ml-4 mt-3 flex flex-col gap-2 text-sm">
+                {international.map((place) => (
+                  <Link
+                    key={place}
+                    href={`/international/${place.toLowerCase()}`}
+                    onClick={() => setDrawerOpen(false)}
+                  >
+                    {place}
+                  </Link>
+                ))}
+              </div>
+            </details>
+
+            <button className="mt-4 bg-[var(--theme)] text-white py-3 rounded-full shadow">
+              Book Now
+            </button>
+          </div>
         </div>
       </div>
     </>

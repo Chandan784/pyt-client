@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 
 const destinations = [
   {
@@ -41,53 +42,65 @@ const destinations = [
     place: "Almaty",
     image: "https://images.pexels.com/photos/733174/pexels-photo-733174.jpeg",
   },
-  {
-    name: "Europe Package",
-    place: "Europe",
-    image: "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg",
-  },
-  {
-    name: "Mauritius Package",
-    place: "Mauritius",
-    image: "https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg",
-  },
 ];
 
 export default function InternationalDestinations() {
   return (
-    <section className="py-16 px-6 bg-gray-50">
-      <div className="max-w-7xl mx-auto">
+    <section className="relative py-16 md:py-20 px-4 md:px-6 overflow-hidden bg-gradient-to-br from-yellow-50 via-white to-yellow-100">
+      {/* Soft Premium Glow Background */}
+      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300/30 rounded-full blur-[100px]"></div>
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-yellow-400/20 rounded-full blur-[120px]"></div>
+
+      <div className="relative max-w-7xl mx-auto">
         {/* Heading */}
-        <div className="mb-10">
-          <h2 className="text-4xl font-bold text-[var(--theme)] mb-2">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="mb-10 md:mb-14 text-center"
+        >
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-gray-900 mb-3">
             Popular International Destinations
           </h2>
-          <p className="text-gray-600">
-            Handpicked international holiday packages for unforgettable
-            experiences
+          <p className="text-gray-600 text-sm sm:text-base max-w-2xl mx-auto">
+            Discover handpicked international holiday packages crafted for
+            unforgettable experiences.
           </p>
-        </div>
+        </motion.div>
 
-        {/* Cards */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {destinations.map((item, index) => (
-            <div
+            <motion.div
               key={index}
-              className="relative rounded-xl overflow-hidden shadow-md group cursor-pointer"
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.07 }}
+              viewport={{ once: true }}
+              className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-500 cursor-pointer"
             >
-              <img
-                src={item.image}
-                alt={item.place}
-                className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
-              />
+              {/* Image */}
+              <div className="overflow-hidden">
+                <img
+                  src={item.image}
+                  alt={item.place}
+                  loading="lazy"
+                  className="w-full h-56 object-cover transition duration-700 group-hover:scale-110"
+                />
+              </div>
 
-              <div className="absolute inset-0 bg-black/40 flex flex-col justify-end p-4">
-                <h3 className="text-white font-semibold text-sm">
+              {/* Content */}
+              <div className="p-5 text-center">
+                <h3 className="text-lg font-semibold text-gray-800 group-hover:text-yellow-600 transition">
                   {item.name}
                 </h3>
-                <span className="text-white/80 text-xs">{item.place}</span>
+                <p className="text-sm text-gray-500 mt-1">{item.place}</p>
+
+                {/* Hover Underline Animation */}
+                <div className="mt-3 h-[2px] w-0 bg-yellow-500 mx-auto group-hover:w-16 transition-all duration-500"></div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
