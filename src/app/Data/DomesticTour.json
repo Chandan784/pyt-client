@@ -1,0 +1,207 @@
+{
+  "type": "domestic",
+  "country": "India",
+  "destinations": [
+    {
+      "state": "Jammu & Kashmir",
+      "slug": "kashmir",
+      "bannerImage": "https://images.pexels.com/photos/1586298/pexels-photo-1586298.jpeg",
+      "description": "Experience the breathtaking beauty of Kashmir – snow-capped mountains, serene lakes, lush valleys and unforgettable romantic landscapes.",
+
+      "packages": [
+        {
+          "packageId": "kash-001",
+          "title": "Kashmir Tour: Mesmerizing Beauty",
+          "slug": "kashmir-5d-4n-mesmerizing-beauty",
+          "duration": "5D/4N",
+          "citiesCovered": ["Srinagar", "Gulmarg", "Sonmarg", "Pahalgam"],
+          "ratings": "4.9",
+
+          "price": {
+            "startingFrom": 18999,
+            "originalPrice": 22999,
+            "currency": "INR",
+            "per": "Per Adult on twin sharing basis"
+          },
+
+          "tags": ["Couple", "Family", "Nature", "Honeymoon"],
+          "thumbnail": "https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg",
+
+          "inclusions": [
+            "4 Nights accommodation in hotel",
+            "Daily breakfast and dinner",
+            "Aru & Betab Valley cab service",
+            "Phase 1 Gondola ride in Gulmarg",
+            "Comprehensive sightseeing transfers (Dzire/Innova)",
+            "Airport pick-up and drop-off transfers",
+            "All toll, parking and driver allowances"
+          ],
+
+          "exclusions": [
+            "Airfare / Train tickets",
+            "Pony charges",
+            "Sightseeing entry fees",
+            "Personal expenses (tips, laundry, shopping)",
+            "Extra meals not mentioned",
+            "Travel insurance",
+            "5% GST",
+            "Anything not mentioned under Inclusions"
+          ],
+
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Srinagar",
+              "stay": "Srinagar",
+              "meals": ["Dinner"],
+              "highlights": [
+                "Airport pickup",
+                "Mughal Gardens",
+                "Shankaracharya Temple",
+                "Dal Lake view"
+              ],
+              "description": "Arrive at Srinagar Airport. Visit Mughal Gardens and Shankaracharya Hill. Evening at leisure and overnight stay in Srinagar."
+            },
+            {
+              "day": 2,
+              "title": "Excursion to Gulmarg",
+              "stay": "Srinagar",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Tangmarg",
+                "Gulmarg Valley",
+                "Gondola Ride Phase 1",
+                "Horse riding (optional)"
+              ],
+              "description": "After breakfast, proceed to Gulmarg. Enjoy scenic beauty and Gondola ride. Return to Srinagar for overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Excursion to Sonmarg",
+              "stay": "Srinagar",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Kangan",
+                "Gagangir",
+                "Thajiwas Glacier",
+                "Local shopping"
+              ],
+              "description": "Drive to Sonmarg and explore glacier views. Optional pony ride available. Return to Srinagar for overnight stay."
+            },
+            {
+              "day": 4,
+              "title": "Pahalgam Sightseeing",
+              "stay": "Pahalgam",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Bijbehara",
+                "Aru Valley",
+                "Betab Valley",
+                "Lidder River"
+              ],
+              "description": "Travel to Pahalgam and explore Aru and Betab Valley. Enjoy scenic river views and relax overnight in Pahalgam."
+            },
+            {
+              "day": 5,
+              "title": "Departure",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": ["Hotel checkout", "Airport transfer"],
+              "description": "After breakfast, transfer to Srinagar Airport for your onward journey."
+            }
+          ],
+
+          "keyInfo": [
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "March to October for pleasant weather.",
+                "December to February for snowfall experience."
+              ]
+            },
+            {
+              "title": "Climate",
+              "points": [
+                "Cool summers and cold winters.",
+                "Carry warm clothes even in summer."
+              ]
+            },
+            {
+              "title": "Local Transport",
+              "points": [
+                "Private cab provided for sightseeing.",
+                "Ponies available for valley visits (extra cost)."
+              ]
+            },
+            {
+              "title": "Dress Code",
+              "points": [
+                "Warm clothing recommended.",
+                "Comfortable walking shoes advised."
+              ]
+            },
+            {
+              "title": "Safety Tips",
+              "points": [
+                "Follow local government travel advisories.",
+                "Keep personal belongings secure."
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 100",
+                "Ambulance: 108",
+                "Tourist Helpline: 1363"
+              ]
+            }
+          ],
+
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "50% advance required to confirm booking.",
+                "Balance payment before travel date.",
+                "Booking subject to availability."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 10% charge.",
+                "15–29 days before departure: 25% charge.",
+                "7–14 days before departure: 50% charge.",
+                "Less than 7 days: 100% charge.",
+                "No refund for unused services."
+              ]
+            },
+            {
+              "title": "Hotels & Accommodation",
+              "points": [
+                "Hotels subject to availability.",
+                "Similar category hotels may be provided.",
+                "Check-in/out as per hotel rules."
+              ]
+            },
+            {
+              "title": "Liability",
+              "points": [
+                "Company acts as intermediary.",
+                "Not responsible for natural calamities or delays."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": ["All disputes subject to Indian jurisdiction."]
+            }
+          ],
+
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-11"
+        }
+      ]
+    }
+  ]
+}

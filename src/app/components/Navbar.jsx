@@ -48,7 +48,7 @@ export default function Navbar() {
               className="w-11 h-11 rounded-full object-cover shadow"
             />
             <span className="text-sm md:text-xl font-semibold text-gray-800">
-              PremiumVistaJourney
+              PrimeVistaJourney
             </span>
           </div>
 

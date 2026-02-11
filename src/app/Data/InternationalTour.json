@@ -1,0 +1,251 @@
+{
+  "type": "international",
+  "destinations": [
+    {
+      "country": "Thailand",
+      "slug": "thailand",
+      "bannerImage": "https://images.pexels.com/photos/460621/pexels-photo-460621.jpeg",
+      "description": "Experience tropical beaches, vibrant nightlife, cultural temples and island adventures in Thailand.",
+      "packages": [
+        {
+          "packageId": "thai-001",
+          "title": "Thailand Family Holidays: A 7-Day Adventure",
+          "slug": "thailand-family-holidays-7-day-adventure",
+          "duration": "7D/6N",
+          "citiesCovered": ["Krabi", "Phi Phi Islands", "Phuket"],
+          "price": {
+            "startingFrom": 54000,
+            "originalPrice": 64000,
+            "currency": "INR",
+            "per": "Per Adult on twin sharing basis"
+          },
+          "tags": ["Family", "Island Tour", "Beach Holiday"],
+          "thumbnail": "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg",
+          "inclusions": [
+            "3 nights’ accommodation in Krabi with breakfast",
+            "3 nights’ accommodation in Phuket with breakfast",
+            "All transfers and sightseeing by air-conditioned shared vehicle",
+            "4 Island Tour by speed boat (shared basis)",
+            "Half-day Krabi City Tour with shared transfers",
+            "Transfer from Krabi Hotel to Phuket Hotel",
+            "Phuket City Tour with shared transfers",
+            "Full-day Phi Phi Island Tour by speed boat with lunch",
+            "Airport pick-up and drop-off transfers"
+          ],
+          "exclusions": [
+            "GST and TCS",
+            "National Park Fee during the Phi Phi Island Tour",
+            "Airfare or visa charges",
+            "Personal expenses such as laundry, telephone calls, tips, and shopping",
+            "Any meals not mentioned in the itinerary",
+            "Travel insurance",
+            "Early check-in or late check-out at hotels",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Krabi",
+              "stay": "Krabi",
+              "meals": [],
+              "highlights": ["Arrival", "Scenic drive", "Leisure evening"],
+              "description": "Arrive at Krabi Airport, transfer to hotel, check in and relax."
+            },
+            {
+              "day": 2,
+              "title": "4 Island Tour",
+              "stay": "Krabi",
+              "meals": ["Breakfast", "Lunch"],
+              "highlights": [
+                "Phranang Cave Beach",
+                "Tup Island",
+                "Poda Island",
+                "Chicken Island"
+              ],
+              "description": "Enjoy speedboat tour to famous 4 islands with swimming and beach relaxation."
+            },
+            {
+              "day": 3,
+              "title": "Krabi City Tour",
+              "stay": "Krabi",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Khao Khanab Nam",
+                "Mud Crabs Sculpture",
+                "Wat Sai Thai",
+                "Tiger Cave Temple"
+              ],
+              "description": "Half-day city tour exploring Krabi landmarks and scenic viewpoints."
+            },
+            {
+              "day": 4,
+              "title": "Transfer to Phuket",
+              "stay": "Phuket",
+              "meals": ["Breakfast"],
+              "highlights": ["Road transfer", "Leisure evening"],
+              "description": "Check out and transfer to Phuket. Evening free for leisure."
+            },
+            {
+              "day": 5,
+              "title": "Phi Phi Island Tour",
+              "stay": "Phuket",
+              "meals": ["Breakfast", "Lunch"],
+              "highlights": [
+                "Phi Phi Island",
+                "Maya Bay",
+                "Monkey Beach",
+                "Snorkeling"
+              ],
+              "description": "Full-day island tour by speedboat with lunch."
+            },
+            {
+              "day": 6,
+              "title": "Phuket City Tour",
+              "stay": "Phuket",
+              "meals": ["Breakfast"],
+              "highlights": ["Karon View Point", "Wat Chalong", "Big Buddha"],
+              "description": "Explore Phuket’s cultural and scenic attractions."
+            },
+            {
+              "day": 7,
+              "title": "Departure",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": ["Airport transfer"],
+              "description": "Transfer to airport for onward journey."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Visa Requirements",
+              "points": [
+                "Indian travelers can enjoy visa-free entry to Thailand for stays up to 30 days.",
+                "Passport must be valid for at least 6 months from date of entry."
+              ]
+            },
+            {
+              "title": "Currency",
+              "points": [
+                "Official currency is Thai Baht (THB).",
+                "Credit and debit cards widely accepted in hotels and malls.",
+                "Carry some cash for local markets."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "November to April offers pleasant weather.",
+                "Ideal for island-hopping and sightseeing."
+              ]
+            },
+            {
+              "title": "Language",
+              "points": [
+                "Thai is the official language.",
+                "English widely spoken in tourist areas."
+              ]
+            },
+            {
+              "title": "Local Transport",
+              "points": [
+                "Tuk-tuks, taxis and local buses available.",
+                "Speedboats and ferries used for island travel.",
+                "Agree on fares before starting ride."
+              ]
+            },
+            {
+              "title": "Dress Code",
+              "points": [
+                "Beachwear allowed at resorts and islands.",
+                "Modest clothing recommended at temples.",
+                "Remove shoes before entering temples."
+              ]
+            },
+            {
+              "title": "Safety & Etiquette",
+              "points": [
+                "Thailand is generally safe for travelers.",
+                "Keep belongings safe in crowded places.",
+                "Respect monks and elders."
+              ]
+            },
+            {
+              "title": "Time Zone",
+              "points": [
+                "Thailand follows Indochina Time (ICT).",
+                "ICT is 1 hour 30 minutes ahead of India (IST +1.5 hrs)."
+              ]
+            },
+            {
+              "title": "Electricity",
+              "points": [
+                "Standard voltage is 220V.",
+                "Two-prong round or flat plugs used.",
+                "Universal adapter recommended."
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": ["Tourist Police: 1155", "Ambulance: 1669", "Fire: 199"]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "Minimum booking amount required to confirm package.",
+                "Remaining balance must be paid as per schedule.",
+                "Booking confirmed only after full payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 25% charge.",
+                "15–29 days before departure: 50% charge.",
+                "Less than 15 days: 100% charge.",
+                "No refund for unused services or no-shows."
+              ]
+            },
+            {
+              "title": "Travel Documents & Visa",
+              "points": [
+                "Traveler responsible for valid passport and visa.",
+                "Visa approval subject to embassy discretion."
+              ]
+            },
+            {
+              "title": "Flights & Transfers",
+              "points": [
+                "Airfare subject to dynamic pricing.",
+                "Fare increases to be borne by traveler."
+              ]
+            },
+            {
+              "title": "Hotels & Accommodation",
+              "points": [
+                "Subject to availability.",
+                "Similar category hotels may be provided.",
+                "Check-in/out as per hotel policy."
+              ]
+            },
+            {
+              "title": "Responsibility & Liability",
+              "points": [
+                "Agency acts as intermediary.",
+                "Not responsible for natural calamities or third-party delays."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": ["All disputes subject to Indian jurisdiction."]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-11"
+        }
+      ]
+    }
+  ]
+}
