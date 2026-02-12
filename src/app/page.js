@@ -4,10 +4,11 @@ import HeroSlider from "./components/Hero";
 import TravelEnquirySection from "./components/EnquiryForm";
 
 import ContactSection from "./components/Contact";
-import WhyPYT from "./components/WhyPyt";
+
 import InternationalDestinations from "./components/InternationalDestination";
 import TripStats from "./components/TripStats";
 import DomesticTripsSection from "./components/DomesticTrip";
+import WhyPrimevista from "./components/WhyPyt";
 function Home() {
   return (
     <div>
@@ -18,7 +19,7 @@ function Home() {
       <TravelEnquirySection />
       <InternationalDestinations />
       <TripStats />
-      <WhyPYT />
+      <WhyPrimevista />
     </div>
   );
 }

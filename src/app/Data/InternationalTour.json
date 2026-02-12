@@ -246,6 +246,901 @@
           "createdAt": "2026-02-11"
         }
       ]
+    },
+    {
+      "country": "UAE",
+      "slug": "dubai",
+      "bannerImage": "https://images.pexels.com/photos/739987/pexels-photo-739987.jpeg",
+      "description": "Experience the perfect blend of modern wonders, desert adventures, and family-friendly attractions in Dubai and Abu Dhabi.",
+      "packages": [
+        {
+          "packageId": "dxb-001",
+          "title": "Dubai Tour Package for Family: 6-Day Adventure",
+          "slug": "dubai-family-holidays-6-day-adventure",
+          "duration": "6D/5N",
+          "citiesCovered": ["Abu Dhabi", "Dubai", "Yas Island"],
+          "price": {
+            "startingFrom": 65000,
+            "originalPrice": 75000,
+            "currency": "INR",
+            "per": "Per Adult on twin sharing basis"
+          },
+          "tags": ["Family", "Theme Parks", "Desert Safari", "Luxury"],
+          "thumbnail": "https://images.pexels.com/photos/1461974/pexels-photo-1461974.jpeg",
+          "featured": true,
+          "highlights": [
+            "Stay on Yas Island – home to world-famous theme parks",
+            "Visit Sea World, Warner Bros World & Ferrari World",
+            "Free shuttle service across Yas Island",
+            "Dubai Frame panoramic views",
+            "Burj Khalifa – 124th floor observation deck",
+            "Dubai Dolphinarium interactive show",
+            "Desert Safari with dune bashing & BBQ dinner"
+          ],
+          "inclusions": [
+            "Meet and greet at the airport with personalized assistance",
+            "Private airport pick-up and drop-off in air-conditioned vehicle",
+            "5 nights accommodation in well-rated hotels",
+            "Daily breakfast at the hotel",
+            "All entrance tickets as per itinerary",
+            "All sightseeing and transfers on private basis",
+            "Modern, fully air-conditioned private vehicle"
+          ],
+          "exclusions": [
+            "5% TCS will be charged additionally as per government regulations",
+            "Airfare is not included",
+            "Dubai Tourism Dirham (AED 15 per room per night) payable directly at hotel",
+            "RT-PCR test charges, if required",
+            "Tips for guides, drivers, and porterage",
+            "Optional excursions not listed",
+            "Early check-in or late check-out charges",
+            "Personal expenses (phone calls, minibar, laundry, etc.)",
+            "Expenses due to flight delays, cancellations or natural disasters",
+            "Transfer surcharges on public holidays",
+            "Visa cost"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Abu Dhabi & Sea World Adventure",
+              "stay": "Abu Dhabi (Yas Island)",
+              "meals": [],
+              "highlights": [
+                "Arrival at Abu Dhabi Airport",
+                "Hotel check-in",
+                "Sea World Abu Dhabi",
+                "Free shuttle service on Yas Island"
+              ],
+              "description": "Upon arrival at Abu Dhabi International Airport, you will be greeted and transferred to your hotel at Yas Island. After check-in, spend the day at Sea World Abu Dhabi, a one-of-a-kind marine theme park with underwater worlds, thrilling rides, and animal encounters. Enjoy free shuttle service around Yas Island. Overnight stay in Abu Dhabi."
+            },
+            {
+              "day": 2,
+              "title": "Warner Bros World – Heroes & Cartoons",
+              "stay": "Abu Dhabi (Yas Island)",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Warner Bros World Abu Dhabi",
+                "Gotham City",
+                "Metropolis",
+                "Cartoon Junction",
+                "Free shuttle service"
+              ],
+              "description": "After breakfast, enjoy a full day at Warner Bros World Abu Dhabi, an indoor theme park bringing your favorite cartoon characters and superheroes to life. Explore themed zones from Flintstones to Gotham City with exciting rides, shows, and interactive attractions. Use free shuttle service across Yas Island. Overnight stay in Abu Dhabi."
+            },
+            {
+              "day": 3,
+              "title": "Ferrari World – Speed & Thrills",
+              "stay": "Abu Dhabi (Yas Island)",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Ferrari World Abu Dhabi",
+                "Formula Rossa – World's fastest roller coaster",
+                "Family rides & simulators",
+                "Car displays"
+              ],
+              "description": "Today is all about high-speed thrills. After breakfast, spend the full day at Ferrari World, home to the world's fastest roller coaster, Formula Rossa. Enjoy family rides, simulators, and Ferrari car displays. Return to your hotel for overnight stay in Abu Dhabi."
+            },
+            {
+              "day": 4,
+              "title": "Transfer to Dubai – Frame & Burj Khalifa",
+              "stay": "Dubai",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Transfer to Dubai",
+                "Dubai Frame",
+                "Dubai Mall",
+                "Burj Khalifa – 124th floor"
+              ],
+              "description": "After check-out from Abu Dhabi hotel, travel to Dubai. First stop is the Dubai Frame, offering panoramic views of old and new Dubai from its glass bridge. Later, explore Dubai Mall with endless shopping, dining and entertainment. Evening visit to Burj Khalifa – ascend to the 124th floor observation deck of the world's tallest building. Overnight stay in Dubai."
+            },
+            {
+              "day": 5,
+              "title": "Dolphinarium & Desert Safari",
+              "stay": "Dubai",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Dubai Dolphinarium",
+                "Dolphin & seal show",
+                "Desert Safari",
+                "Dune bashing",
+                "Camel rides",
+                "Henna painting",
+                "Cultural performances",
+                "BBQ dinner"
+              ],
+              "description": "After breakfast, visit Dubai Dolphinarium to watch playful dolphins and seals in interactive performances. In the afternoon, experience the famous Desert Safari with dune bashing, camel rides, henna painting, and cultural performances. Enjoy BBQ dinner under the desert sky. Return to Dubai hotel for overnight stay."
+            },
+            {
+              "day": 6,
+              "title": "Departure from Dubai",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": ["Hotel check-out", "Airport transfer"],
+              "description": "Your wonderful Dubai family tour comes to an end today. After breakfast, check out from your hotel and transfer to Dubai International Airport for your flight back home."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Visa Requirements",
+              "points": [
+                "Indian passport holders require a UAE tourist visa.",
+                "Visa on arrival is available for certain passport categories.",
+                "Passport must be valid for at least 6 months from date of arrival.",
+                "Visa processing takes 3-5 working days."
+              ]
+            },
+            {
+              "title": "Currency",
+              "points": [
+                "Official currency is UAE Dirham (AED).",
+                "1 AED ≈ ₹22-23 INR (subject to exchange rate).",
+                "Credit/debit cards widely accepted.",
+                "ATMs readily available across Dubai and Abu Dhabi."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "November to March offers pleasant weather (15°C - 28°C).",
+                "Perfect for outdoor activities and sightseeing.",
+                "April to October is hot (35°C - 45°C) with indoor attractions recommended."
+              ]
+            },
+            {
+              "title": "Language",
+              "points": [
+                "Arabic is the official language.",
+                "English widely spoken in all tourist areas, hotels, and attractions."
+              ]
+            },
+            {
+              "title": "Local Transport",
+              "points": [
+                "Dubai Metro – connects major attractions",
+                "Taxis readily available and reasonably priced",
+                "Careem and Uber operate in both cities",
+                "Yas Island offers free shuttle between attractions"
+              ]
+            },
+            {
+              "title": "Dress Code",
+              "points": [
+                "Modest clothing recommended in public areas.",
+                "Swimwear allowed only at beaches and pools.",
+                "Shoulders and knees should be covered in malls and traditional areas.",
+                "Mosques require full coverage – abayas available for rent."
+              ]
+            },
+            {
+              "title": "Safety & Etiquette",
+              "points": [
+                "Dubai and Abu Dhabi are extremely safe for tourists.",
+                "Public displays of affection should be minimal.",
+                "Photography of government buildings or local people without permission is restricted.",
+                "Alcohol served only in licensed hotels and restaurants."
+              ]
+            },
+            {
+              "title": "Time Zone",
+              "points": [
+                "UAE follows Gulf Standard Time (GST).",
+                "GST is 1 hour 30 minutes behind India (IST -1.5 hrs)."
+              ]
+            },
+            {
+              "title": "Electricity",
+              "points": [
+                "Standard voltage is 220V.",
+                "Three-pin UK-style plugs (Type G) are used.",
+                "Universal adapter recommended."
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 999",
+                "Ambulance: 998",
+                "Fire: 997",
+                "Tourist Police: 800-4848"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "25% advance payment required to confirm booking.",
+                "Remaining balance must be paid 15 days before departure.",
+                "Booking confirmed only after full payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 25% charge.",
+                "15–29 days before departure: 50% charge.",
+                "7–14 days before departure: 75% charge.",
+                "Less than 7 days: 100% charge.",
+                "No refund for unused services or no-shows."
+              ]
+            },
+            {
+              "title": "TCS (Tax Collected at Source)",
+              "points": [
+                "5% TCS is applicable on total package cost.",
+                "TCS can be fully claimed back by filing ITR.",
+                "TCS is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Tourism Dirham",
+              "points": [
+                "Dubai Tourism Dirham: AED 15 per room per night.",
+                "Abu Dhabi Tourism Dirham: AED 10-15 per room per night.",
+                "Payable directly at the hotel upon check-in/out."
+              ]
+            },
+            {
+              "title": "Flights & Transfers",
+              "points": [
+                "Airfare subject to dynamic pricing and availability.",
+                "Any fare increase to be borne by traveler.",
+                "Transfer surcharges may apply on public holidays."
+              ]
+            },
+            {
+              "title": "Hotels & Accommodation",
+              "points": [
+                "Subject to availability at time of booking.",
+                "Similar category hotels may be provided if booked property unavailable.",
+                "Standard check-in: 2:00 PM, Check-out: 12:00 PM.",
+                "Early check-in/late check-out subject to availability and charges."
+              ]
+            },
+            {
+              "title": "Responsibility & Liability",
+              "points": [
+                "Company acts as intermediary between traveler and service providers.",
+                "Not responsible for delays, cancellations due to natural calamities, weather, or third-party actions.",
+                "Travel insurance is strongly recommended."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "country": "Maldives",
+      "slug": "maldives",
+      "bannerImage": "https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg",
+      "description": "Discover a tropical paradise with crystal-clear turquoise waters, pristine white beaches, and luxurious overwater villas at Adaaran Select Hudhuran Fushi.",
+      "packages": [
+        {
+          "packageId": "mlv-001",
+          "title": "Adaaran Select Hudhuran Fushi: Maldives Paradise Escape",
+          "slug": "adaaran-select-hudhuran-fushi-maldives-5-day",
+          "duration": "5D/4N",
+          "citiesCovered": ["Male", "Hudhuran Fushi Island"],
+          "price": {
+            "startingFrom": 85000,
+            "originalPrice": 95000,
+            "currency": "INR",
+            "per": "Per Adult on twin sharing basis"
+          },
+          "tags": [
+            "Honeymoon",
+            "Luxury",
+            "Beach",
+            "Water Sports",
+            "All Inclusive"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg",
+          "featured": true,
+          "highlights": [
+            "Stay at Adaaran Select Hudhuran Fushi – a tropical paradise",
+            "Crystal-clear lagoons with lush greenery",
+            "Unlimited meals at Banyan Restaurant or Sunset Restaurant",
+            "Cocktails at Lohis Bar or Hiyala Bar",
+            "Complimentary non-motorized water sports",
+            "Sunset Cruise & Dolphin Watching excursions included",
+            "Snorkeling twice daily with fins & masks provided",
+            "Cookery & cocktail demonstrations"
+          ],
+          "inclusions": [
+            "4 nights accommodation at Adaaran Select Hudhuran Fushi",
+            "Daily breakfast at the hotel",
+            "One Sunset Cruise excursion – once during stay",
+            "One Dolphin Watching excursion – once during stay",
+            "Snorkeling excursions (twice daily - prior reservations recommended)",
+            "Snorkeling fins and masks (prior reservations recommended)",
+            "Cookery demonstration (once a week)",
+            "Cocktail demonstration (once a week)",
+            "Non-motorized water sports:",
+            "  - Windsurfing",
+            "  - Catamaran (license required)",
+            "  - Canoe",
+            "  - Stand up paddleboard",
+            "Airport transfers (speedboat)"
+          ],
+          "exclusions": [
+            "Airfare",
+            "Visa charges (Visa on arrival for Indians)",
+            "5% TCS",
+            "Green Tax / Environment Levy (payable directly at resort)",
+            "Motorized water sports",
+            "Scuba diving",
+            "Personal expenses (laundry, spa, mini-bar, phone calls)",
+            "Tips and gratuities",
+            "Early check-in or late check-out",
+            "Meals other than breakfast",
+            "Optional excursions not mentioned",
+            "Travel insurance",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Maldives & Resort Transfer",
+              "stay": "Adaaran Select Hudhuran Fushi",
+              "meals": [],
+              "highlights": [
+                "Arrival at Male International Airport",
+                "Speedboat transfer to resort",
+                "Check-in (standard 1400 hrs)",
+                "Leisure evening"
+              ],
+              "description": "Upon arrival at Male International Airport, you will be greeted and transferred to Adaaran Select Hudhuran Fushi by speedboat. Check-in at the hotel (standard check-in time 1400 hrs). Enjoy the rest of the day at leisure, exploring the pristine beaches and crystal-clear lagoons. Overnight stay at the resort."
+            },
+            {
+              "day": 2,
+              "title": "Sunset Cruise & Dolphin Watching",
+              "stay": "Adaaran Select Hudhuran Fushi",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at resort",
+                "Day at leisure",
+                "Sunset Cruise excursion",
+                "Dolphin Watching"
+              ],
+              "description": "Enjoy breakfast at the hotel. Later, enjoy your day at leisure, exploring the island on your own. In the evening, embark on a magical Sunset Cruise followed by Dolphin Watching excursion. Witness the stunning orange hues of the Maldivian sunset and playful dolphins in their natural habitat. Return to the resort for overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Snorkeling & Water Sports",
+              "stay": "Adaaran Select Hudhuran Fushi",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at resort",
+                "Snorkeling excursions (twice daily)",
+                "Non-motorized water sports",
+                "Windsurfing, Canoe, Stand up paddleboard",
+                "Cookery/Cocktail demonstration"
+              ],
+              "description": "Enjoy breakfast at the hotel. Today, explore the vibrant underwater world with complimentary snorkeling excursions (twice daily). Snorkeling fins and masks are provided. Enjoy non-motorized water sports including windsurfing, canoe, and stand up paddleboard. If available, participate in cookery or cocktail demonstrations. Overnight stay at the resort."
+            },
+            {
+              "day": 4,
+              "title": "Leisure & Island Exploration",
+              "stay": "Adaaran Select Hudhuran Fushi",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at resort",
+                "Day at leisure",
+                "Beach relaxation",
+                "Sunset cocktails at Lohis Bar/Hiyala Bar"
+              ],
+              "description": "Enjoy breakfast at the hotel. Spend the day at leisure, relaxing on the pristine white beaches or swimming in the crystal-clear lagoons. Indulge in your preferred tropical cocktail at Lohis Bar or Hiyala Bar while taking in the alluring island surroundings. Overnight stay at the resort."
+            },
+            {
+              "day": 5,
+              "title": "Departure from Maldives",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at resort",
+                "Check-out (standard 1200 hrs)",
+                "Speedboat transfer to airport",
+                "Departure"
+              ],
+              "description": "After breakfast, check out from the hotel (standard check-out time 1200 hrs). Transfer by speedboat to Male International Airport for your departure flight back to India or onwards destination."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Visa Requirements",
+              "points": [
+                "Visa on arrival for Indian passport holders – FREE for 30 days.",
+                "Passport must be valid for at least 6 months from date of arrival.",
+                "Confirmed hotel booking and return flight ticket required.",
+                "Sufficient funds for stay (approx. $100+/day)."
+              ]
+            },
+            {
+              "title": "Currency",
+              "points": [
+                "Official currency is Maldivian Rufiyaa (MVR).",
+                "USD widely accepted at resorts and tourist areas.",
+                "Credit/debit cards accepted at most resorts.",
+                "1 USD ≈ 15.42 MVR (approx. ₹82)."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "November to April – Dry season, sunny skies, calm seas.",
+                "Ideal for snorkeling, diving, and water sports.",
+                "May to October – Wet season, occasional rain, lower prices."
+              ]
+            },
+            {
+              "title": "Language",
+              "points": [
+                "Dhivehi is the official language.",
+                "English widely spoken at all resorts and tourist areas."
+              ]
+            },
+            {
+              "title": "Local Transport",
+              "points": [
+                "Speedboat transfers – 30-40 minutes from Male Airport to Hudhuran Fushi.",
+                "Seaplane transfers available for distant atolls.",
+                "Dhoni (traditional boats) for local island transfers."
+              ]
+            },
+            {
+              "title": "Dress Code",
+              "points": [
+                "Swimwear allowed only at beaches and pool areas.",
+                "Modest clothing recommended when visiting local islands.",
+                "Cover shoulders and knees on inhabited islands.",
+                "Resort island – relaxed dress code."
+              ]
+            },
+            {
+              "title": "Green Tax / Environment Levy",
+              "points": [
+                "Approx. $6 per person per night.",
+                "Payable directly at resort upon check-in/out.",
+                "Mandatory government levy."
+              ]
+            },
+            {
+              "title": "Time Zone",
+              "points": [
+                "Maldives follows Maldives Time (MVT).",
+                "MVT is 0 hours 30 minutes behind India (IST -0.5 hrs)."
+              ]
+            },
+            {
+              "title": "Electricity",
+              "points": [
+                "Standard voltage is 230V.",
+                "UK-style three-pin plugs (Type G).",
+                "Universal adapter recommended."
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 119",
+                "Ambulance: 102",
+                "Tourism Helpline: 1477"
+              ]
+            },
+            {
+              "title": "Alcohol Policy",
+              "points": [
+                "Alcohol served only at resort islands.",
+                "Banned on local inhabited islands.",
+                "Adaaran Select Hudhuran Fushi – fully licensed bars available."
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "25% advance payment required to confirm booking.",
+                "Remaining balance must be paid 21 days before departure.",
+                "Booking confirmed only after full payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 25% charge.",
+                "21–29 days before departure: 50% charge.",
+                "14–20 days before departure: 75% charge.",
+                "Less than 14 days: 100% charge.",
+                "No refund for unused services or no-shows."
+              ]
+            },
+            {
+              "title": "TCS (Tax Collected at Source)",
+              "points": [
+                "5% TCS applicable on total package cost.",
+                "TCS can be claimed back while filing ITR.",
+                "TCS is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Green Tax / Environment Levy",
+              "points": [
+                "Approximately $6 per person per night.",
+                "Subject to change by Maldives government.",
+                "Payable directly at the resort.",
+                "Not included in package cost."
+              ]
+            },
+            {
+              "title": "Flights & Transfers",
+              "points": [
+                "Airfare subject to dynamic pricing.",
+                "Any fare increase to be borne by traveler.",
+                "Speedboat transfers included in package."
+              ]
+            },
+            {
+              "title": "Hotels & Accommodation",
+              "points": [
+                "Subject to availability at time of booking.",
+                "Standard check-in: 1400 hrs, Check-out: 1200 hrs.",
+                "Early check-in/late check-out subject to availability and charges.",
+                "Room category confirmed at booking."
+              ]
+            },
+            {
+              "title": "Responsibility & Liability",
+              "points": [
+                "Company acts as intermediary between traveler and service providers.",
+                "Not responsible for delays, cancellations due to weather, natural calamities, or third-party actions.",
+                "Travel insurance strongly recommended."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "state": "Himachal Pradesh",
+      "slug": "himachal-pradesh",
+      "bannerImage": "https://images.pexels.com/photos/1486785/pexels-photo-1486785.jpeg",
+      "description": "Himachal Pradesh, nestled in the western Himalayas, is a picturesque northern Indian state known for its breathtaking landscapes, snow-clad peaks, and serene valleys. Often referred to as the 'Land of Gods' (Dev Bhoomi), it is dotted with ancient temples, peaceful monasteries, and charming hill towns.",
+      "packages": [
+        {
+          "packageId": "hp-010",
+          "title": "Kasol to Kheerganga: Nature, Trek & Tranquility",
+          "slug": "kasol-kheerganga-trek-4-days",
+          "duration": "4D/3N",
+          "citiesCovered": [
+            "Delhi",
+            "Kasol",
+            "Barshaini",
+            "Kheerganga",
+            "Manikaran"
+          ],
+          "price": {
+            "startingFrom": 6999,
+            "originalPrice": 8999,
+            "currency": "INR",
+            "per": "Per Person"
+          },
+          "tags": [
+            "Trekking",
+            "Adventure",
+            "Himalayas",
+            "Camping",
+            "Hot Springs",
+            "Backpacking"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/748636/pexels-photo-748636.jpeg",
+          "featured": true,
+          "highlights": [
+            "12 km scenic Kheerganga trek through dense forests",
+            "Natural hot water springs with healing properties",
+            "Overnight camping under starry Himalayan skies",
+            "Famous Israeli cafes in Kasol – Jim Morrison, Moon Dance",
+            "Visit Manikaran Sahib Gurudwara & hot springs",
+            "Bonfire and music session at campsite",
+            "Sunrise & sunset views from 3,050 meters altitude",
+            "Parvati Valley's breathtaking landscapes"
+          ],
+          "inclusions": [
+            "Accommodation: 1 night in Kasol + 1 night in Kheerganga campsite",
+            "3 Breakfasts & 2 Dinners",
+            "Transportation from Delhi (AC Volvo bus)",
+            "All toll taxes and parking",
+            "All sightseeing as per itinerary",
+            "Bonfire and Music session (subject to availability)",
+            "Taxi transfers from Kasol to Barshaini & return"
+          ],
+          "exclusions": [
+            "Air / Train fare",
+            "Any pony / mule charges",
+            "Entry fee at Kheerganga (if applicable)",
+            "Any adventure activities (river rafting, paragliding, etc.)",
+            "Expenses of personal nature like tips, laundry, phone calls",
+            "Any extra meal not mentioned in inclusions",
+            "5% GST",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Departure from Delhi – Overnight Journey",
+              "stay": "Overnight Bus",
+              "meals": [],
+              "highlights": [
+                "Board AC Volvo bus from Delhi",
+                "9-10 hours overnight journey",
+                "Scenic night views",
+                "Chill mountain breeze"
+              ],
+              "description": "Your amazing Himachal trip begins in the evening as you board the AC Volvo bus from Delhi to Kasol. Settle into your comfortable seat and enjoy the 9-10 hour journey through the night. Watch the stars, feel the chill breeze, listen to music, or simply relax as you head towards the mountains."
+            },
+            {
+              "day": 2,
+              "title": "Arrival in Kasol – Cafes & Local Exploration",
+              "stay": "Kasol",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Early morning arrival in Kasol",
+                "Hotel check-in & freshen up",
+                "Explore Parvati Valley",
+                "Jim Morrison Café & Moon Dance Café",
+                "Israeli food tasting",
+                "Local Pahadi shopping"
+              ],
+              "description": "Early morning arrival in the beautiful town of Kasol, located in the Parvati Valley. Our driver will take you to your accommodation. Relax for a while, then begin your exploration of this charming hill town. Visit iconic cafes like Jim Morrison Café or Moon Dance Café. Don't miss trying authentic Israeli food, for which Kasol is famous. You can also shop for interesting Pahadi items, woolens, and handicrafts. In the evening, enjoy the chill vibes with soft music. Return to your hotel for an overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Kheerganga Trek – Waterfalls & Hot Springs",
+              "stay": "Kheerganga Campsite",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Wake up early for trek preparation",
+                "Taxi transfer to Barshaini",
+                "12 km trek (4-5 hours)",
+                "Waterfall views",
+                "Natural hot water springs",
+                "Mountain vistas & dense forest trail",
+                "Sunset views",
+                "Bonfire at campsite"
+              ],
+              "description": "Wake up early and enjoy a healthy breakfast to fuel up for the adventurous Kheerganga trek. Board a local taxi to reach Barshaini, the starting point of the trek. Begin your 12 km trek which takes approximately 4-5 hours. Along the way, enjoy stunning waterfalls, natural hot springs, breathtaking mountain views, and dense pine and oak forest paths. Upon reaching Kheerganga at 3,050 meters altitude, reward yourself with stunning photographs. Sit quietly, witness the mesmerizing sunset, and later gather around the bonfire. A delicious hot dinner will be served. Sleep peacefully in your campsite under the starry Himalayan sky."
+            },
+            {
+              "day": 4,
+              "title": "Trek Down – Manikaran Sahib & Departure",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Early morning sunrise at Kheerganga",
+                "Trek down to Barshaini (4-5 hours)",
+                "Visit Manikaran Sahib Gurudwara",
+                "Holy hot springs with healing properties",
+                "Last minute shopping in Kasol",
+                "Evening bus to Delhi"
+              ],
+              "description": "Wake up early to witness the spectacular sunrise over the Himalayas at Kheerganga. Enjoy a delicious breakfast, then begin your trek down to Barshaini (another 4-5 hours). Upon reaching, visit the sacred Manikaran Sahib Gurudwara, a revered religious site for both Hindus and Sikhs. Don't miss the holy hot springs, believed to have healing and medicinal properties. Continue your journey back to Kasol, where you can do some last-minute shopping for souvenirs and local handicrafts. In the evening, board your Volvo bus to Delhi, carrying wonderful memories of your Himachal adventure."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Expect chilly mornings and cool evenings even in summer.",
+                "Pack warm layers and woolens for high-altitude regions.",
+                "Sturdy trekking/hiking shoes are essential.",
+                "Sunscreen and sunglasses are musts due to higher UV at elevation.",
+                "Carry a waterproof jacket (rain protection)."
+              ]
+            },
+            {
+              "title": "Trek Difficulty",
+              "points": [
+                "Kheerganga trek is moderate in difficulty.",
+                "Total distance: 12 km one way (24 km round trip).",
+                "Trek duration: 4-5 hours uphill, 3-4 hours downhill.",
+                "Suitable for beginners with basic fitness level.",
+                "Altitude gain: From 1,900m to 3,050m."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Kasol has decent mobile and Wi-Fi coverage.",
+                "Jio and Airtel work reasonably well.",
+                "Kheerganga has very limited/no network - embrace digital detox.",
+                "Carry cash as ATMs are only in Kasol and Bhuntar."
+              ]
+            },
+            {
+              "title": "Food and Water",
+              "points": [
+                "Enjoy simple mountain fare - momos, maggi, rajma-chawal, thukpa.",
+                "Kasol is famous for Israeli cuisine and bakeries.",
+                "Drink only bottled or filtered water.",
+                "Eat at trusted cafes and pre-recommended places.",
+                "Carry energy bars, nuts, and chocolates for the trek."
+              ]
+            },
+            {
+              "title": "Cultural Etiquette",
+              "points": [
+                "Himachalis are warm and respectful - greet with 'Namaste'.",
+                "Dress modestly in villages and religious sites.",
+                "Always ask before photographing locals.",
+                "Remove shoes before entering Gurudwara and temples.",
+                "Respect local customs and traditions."
+              ]
+            },
+            {
+              "title": "Health Precautions",
+              "points": [
+                "Carry basic medicines - pain relievers, antiseptic, bandages.",
+                "Motion sickness pills for winding mountain roads.",
+                "Avoid overexertion on the first day.",
+                "Stay hydrated during the trek.",
+                "Carry ORS packets and quick energy supplements."
+              ]
+            },
+            {
+              "title": "Local Laws",
+              "points": [
+                "Alcohol is available in licensed shops, avoid drinking in public.",
+                "Cannabis grows wild here but its use is strictly illegal.",
+                "Respect forest boundaries and local customs.",
+                "Follow trekking guidelines and stay on marked trails."
+              ]
+            },
+            {
+              "title": "Eco-Responsibility",
+              "points": [
+                "Protect Himachal's fragile ecosystems.",
+                "Carry your trash back - leave no trace.",
+                "Avoid plastic - carry a reusable water bottle.",
+                "Stick to marked trekking trails.",
+                "Say no to bonfires in forest areas.",
+                "Respect wildlife and natural habitats."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "May to June: Pleasant weather, ideal for trekking.",
+                "September to October: Post-monsoon, clear skies.",
+                "December to February: Snow trek (requires experience/gear).",
+                "Avoid July-August: Heavy rainfall, landslide risk."
+              ]
+            },
+            {
+              "title": "Emergency Contacts",
+              "points": [
+                "Kasol Police Station: 01902-272235",
+                "Bhuntar Hospital: 01902-265032",
+                "Kullu DM Office: 01902-222500",
+                "Mountain Rescue: 112"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "50% advance payment required to confirm booking.",
+                "Remaining balance must be paid 7 days before departure.",
+                "Booking confirmed only after full payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "15+ days before departure: 25% charge.",
+                "8–14 days before departure: 50% charge.",
+                "4–7 days before departure: 75% charge.",
+                "Less than 3 days: 100% charge.",
+                "No refund for unused services or no-shows.",
+                "Trek cancellations due to weather - alternate dates offered."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Trekking Guidelines",
+              "points": [
+                "Participants must be physically fit for 12 km trek.",
+                "Minors must be accompanied by adults.",
+                "Follow trek leader instructions at all times.",
+                "Carry valid ID proof for forest checkposts.",
+                "Medical clearance recommended for elderly/health conditions."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "AC Volvo bus from Delhi to Kasol and return.",
+                "Private taxi for Kasol to Barshaini transfer.",
+                "Any changes in schedule due to weather/road conditions - alternate arrangements provided."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Kasol: Standard hotel/guesthouse on double/triple sharing.",
+                "Kheerganga: Alpine/Dome tents on multiple sharing.",
+                "Sleeping bags and mattresses provided at campsite.",
+                "Common washroom facilities at campsite.",
+                "Subject to availability; similar category may be provided."
+              ]
+            },
+            {
+              "title": "Responsibility & Liability",
+              "points": [
+                "Company acts as facilitator between traveler and service providers.",
+                "Not responsible for delays, cancellations due to weather, landslides, roadblocks, or natural calamities.",
+                "Travel insurance is strongly recommended."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
     }
   ]
 }

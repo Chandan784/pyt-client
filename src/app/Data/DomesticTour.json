@@ -202,6 +202,2744 @@
           "createdAt": "2026-02-11"
         }
       ]
+    },
+    {
+      "state": "Himachal Pradesh",
+      "slug": "himachal-pradesh",
+      "bannerImage": "https://images.pexels.com/photos/1486785/pexels-photo-1486785.jpeg",
+      "description": "Himachal Pradesh, nestled in the western Himalayas, is a picturesque northern Indian state known for its breathtaking landscapes, snow-clad peaks, and serene valleys. Often referred to as the 'Land of Gods' (Dev Bhoomi), it is dotted with ancient temples, peaceful monasteries, and charming hill towns.",
+      "packages": [
+        {
+          "packageId": "hp-010",
+          "title": "Kasol to Kheerganga: Nature, Trek & Tranquility",
+          "slug": "kasol-kheerganga-trek-4-days",
+          "duration": "4D/3N",
+          "citiesCovered": [
+            "Delhi",
+            "Kasol",
+            "Barshaini",
+            "Kheerganga",
+            "Manikaran"
+          ],
+          "price": {
+            "startingFrom": 6999,
+            "originalPrice": 8999,
+            "currency": "INR",
+            "per": "Per Person"
+          },
+          "tags": [
+            "Trekking",
+            "Adventure",
+            "Himalayas",
+            "Camping",
+            "Hot Springs",
+            "Backpacking"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/748636/pexels-photo-748636.jpeg",
+          "featured": true,
+          "highlights": [
+            "12 km scenic Kheerganga trek through dense forests",
+            "Natural hot water springs with healing properties",
+            "Overnight camping under starry Himalayan skies",
+            "Famous Israeli cafes in Kasol – Jim Morrison, Moon Dance",
+            "Visit Manikaran Sahib Gurudwara & hot springs",
+            "Bonfire and music session at campsite",
+            "Sunrise & sunset views from 3,050 meters altitude",
+            "Parvati Valley's breathtaking landscapes"
+          ],
+          "inclusions": [
+            "Accommodation: 1 night in Kasol + 1 night in Kheerganga campsite",
+            "3 Breakfasts & 2 Dinners",
+            "Transportation from Delhi (AC Volvo bus)",
+            "All toll taxes and parking",
+            "All sightseeing as per itinerary",
+            "Bonfire and Music session (subject to availability)",
+            "Taxi transfers from Kasol to Barshaini & return"
+          ],
+          "exclusions": [
+            "Air / Train fare",
+            "Any pony / mule charges",
+            "Entry fee at Kheerganga (if applicable)",
+            "Any adventure activities (river rafting, paragliding, etc.)",
+            "Expenses of personal nature like tips, laundry, phone calls",
+            "Any extra meal not mentioned in inclusions",
+            "5% GST",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Departure from Delhi – Overnight Journey",
+              "stay": "Overnight Bus",
+              "meals": [],
+              "highlights": [
+                "Board AC Volvo bus from Delhi",
+                "9-10 hours overnight journey",
+                "Scenic night views",
+                "Chill mountain breeze"
+              ],
+              "description": "Your amazing Himachal trip begins in the evening as you board the AC Volvo bus from Delhi to Kasol. Settle into your comfortable seat and enjoy the 9-10 hour journey through the night. Watch the stars, feel the chill breeze, listen to music, or simply relax as you head towards the mountains."
+            },
+            {
+              "day": 2,
+              "title": "Arrival in Kasol – Cafes & Local Exploration",
+              "stay": "Kasol",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Early morning arrival in Kasol",
+                "Hotel check-in & freshen up",
+                "Explore Parvati Valley",
+                "Jim Morrison Café & Moon Dance Café",
+                "Israeli food tasting",
+                "Local Pahadi shopping"
+              ],
+              "description": "Early morning arrival in the beautiful town of Kasol, located in the Parvati Valley. Our driver will take you to your accommodation. Relax for a while, then begin your exploration of this charming hill town. Visit iconic cafes like Jim Morrison Café or Moon Dance Café. Don't miss trying authentic Israeli food, for which Kasol is famous. You can also shop for interesting Pahadi items, woolens, and handicrafts. In the evening, enjoy the chill vibes with soft music. Return to your hotel for an overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Kheerganga Trek – Waterfalls & Hot Springs",
+              "stay": "Kheerganga Campsite",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Wake up early for trek preparation",
+                "Taxi transfer to Barshaini",
+                "12 km trek (4-5 hours)",
+                "Waterfall views",
+                "Natural hot water springs",
+                "Mountain vistas & dense forest trail",
+                "Sunset views",
+                "Bonfire at campsite"
+              ],
+              "description": "Wake up early and enjoy a healthy breakfast to fuel up for the adventurous Kheerganga trek. Board a local taxi to reach Barshaini, the starting point of the trek. Begin your 12 km trek which takes approximately 4-5 hours. Along the way, enjoy stunning waterfalls, natural hot springs, breathtaking mountain views, and dense pine and oak forest paths. Upon reaching Kheerganga at 3,050 meters altitude, reward yourself with stunning photographs. Sit quietly, witness the mesmerizing sunset, and later gather around the bonfire. A delicious hot dinner will be served. Sleep peacefully in your campsite under the starry Himalayan sky."
+            },
+            {
+              "day": 4,
+              "title": "Trek Down – Manikaran Sahib & Departure",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Early morning sunrise at Kheerganga",
+                "Trek down to Barshaini (4-5 hours)",
+                "Visit Manikaran Sahib Gurudwara",
+                "Holy hot springs with healing properties",
+                "Last minute shopping in Kasol",
+                "Evening bus to Delhi"
+              ],
+              "description": "Wake up early to witness the spectacular sunrise over the Himalayas at Kheerganga. Enjoy a delicious breakfast, then begin your trek down to Barshaini (another 4-5 hours). Upon reaching, visit the sacred Manikaran Sahib Gurudwara, a revered religious site for both Hindus and Sikhs. Don't miss the holy hot springs, believed to have healing and medicinal properties. Continue your journey back to Kasol, where you can do some last-minute shopping for souvenirs and local handicrafts. In the evening, board your Volvo bus to Delhi, carrying wonderful memories of your Himachal adventure."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Expect chilly mornings and cool evenings even in summer.",
+                "Pack warm layers and woolens for high-altitude regions.",
+                "Sturdy trekking/hiking shoes are essential.",
+                "Sunscreen and sunglasses are musts due to higher UV at elevation.",
+                "Carry a waterproof jacket (rain protection)."
+              ]
+            },
+            {
+              "title": "Trek Difficulty",
+              "points": [
+                "Kheerganga trek is moderate in difficulty.",
+                "Total distance: 12 km one way (24 km round trip).",
+                "Trek duration: 4-5 hours uphill, 3-4 hours downhill.",
+                "Suitable for beginners with basic fitness level.",
+                "Altitude gain: From 1,900m to 3,050m."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Kasol has decent mobile and Wi-Fi coverage.",
+                "Jio and Airtel work reasonably well.",
+                "Kheerganga has very limited/no network - embrace digital detox.",
+                "Carry cash as ATMs are only in Kasol and Bhuntar."
+              ]
+            },
+            {
+              "title": "Food and Water",
+              "points": [
+                "Enjoy simple mountain fare - momos, maggi, rajma-chawal, thukpa.",
+                "Kasol is famous for Israeli cuisine and bakeries.",
+                "Drink only bottled or filtered water.",
+                "Eat at trusted cafes and pre-recommended places.",
+                "Carry energy bars, nuts, and chocolates for the trek."
+              ]
+            },
+            {
+              "title": "Cultural Etiquette",
+              "points": [
+                "Himachalis are warm and respectful - greet with 'Namaste'.",
+                "Dress modestly in villages and religious sites.",
+                "Always ask before photographing locals.",
+                "Remove shoes before entering Gurudwara and temples.",
+                "Respect local customs and traditions."
+              ]
+            },
+            {
+              "title": "Health Precautions",
+              "points": [
+                "Carry basic medicines - pain relievers, antiseptic, bandages.",
+                "Motion sickness pills for winding mountain roads.",
+                "Avoid overexertion on the first day.",
+                "Stay hydrated during the trek.",
+                "Carry ORS packets and quick energy supplements."
+              ]
+            },
+            {
+              "title": "Local Laws",
+              "points": [
+                "Alcohol is available in licensed shops, avoid drinking in public.",
+                "Cannabis grows wild here but its use is strictly illegal.",
+                "Respect forest boundaries and local customs.",
+                "Follow trekking guidelines and stay on marked trails."
+              ]
+            },
+            {
+              "title": "Eco-Responsibility",
+              "points": [
+                "Protect Himachal's fragile ecosystems.",
+                "Carry your trash back - leave no trace.",
+                "Avoid plastic - carry a reusable water bottle.",
+                "Stick to marked trekking trails.",
+                "Say no to bonfires in forest areas.",
+                "Respect wildlife and natural habitats."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "May to June: Pleasant weather, ideal for trekking.",
+                "September to October: Post-monsoon, clear skies.",
+                "December to February: Snow trek (requires experience/gear).",
+                "Avoid July-August: Heavy rainfall, landslide risk."
+              ]
+            },
+            {
+              "title": "Emergency Contacts",
+              "points": [
+                "Kasol Police Station: 01902-272235",
+                "Bhuntar Hospital: 01902-265032",
+                "Kullu DM Office: 01902-222500",
+                "Mountain Rescue: 112"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "50% advance payment required to confirm booking.",
+                "Remaining balance must be paid 7 days before departure.",
+                "Booking confirmed only after full payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "15+ days before departure: 25% charge.",
+                "8–14 days before departure: 50% charge.",
+                "4–7 days before departure: 75% charge.",
+                "Less than 3 days: 100% charge.",
+                "No refund for unused services or no-shows.",
+                "Trek cancellations due to weather - alternate dates offered."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Trekking Guidelines",
+              "points": [
+                "Participants must be physically fit for 12 km trek.",
+                "Minors must be accompanied by adults.",
+                "Follow trek leader instructions at all times.",
+                "Carry valid ID proof for forest checkposts.",
+                "Medical clearance recommended for elderly/health conditions."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "AC Volvo bus from Delhi to Kasol and return.",
+                "Private taxi for Kasol to Barshaini transfer.",
+                "Any changes in schedule due to weather/road conditions - alternate arrangements provided."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Kasol: Standard hotel/guesthouse on double/triple sharing.",
+                "Kheerganga: Alpine/Dome tents on multiple sharing.",
+                "Sleeping bags and mattresses provided at campsite.",
+                "Common washroom facilities at campsite.",
+                "Subject to availability; similar category may be provided."
+              ]
+            },
+            {
+              "title": "Responsibility & Liability",
+              "points": [
+                "Company acts as facilitator between traveler and service providers.",
+                "Not responsible for delays, cancellations due to weather, landslides, roadblocks, or natural calamities.",
+                "Travel insurance is strongly recommended."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "state": "Andaman & Nicobar Islands",
+      "slug": "andaman",
+      "bannerImage": "https://images.pexels.com/photos/1430676/pexels-photo-1430676.jpeg",
+      "description": "Discover the pristine beauty of the Andaman Islands with turquoise waters, sun-kissed beaches, vibrant coral reefs, and lush tropical landscapes. This island paradise offers the perfect blend of adventure, relaxation, and history in the Bay of Bengal.",
+      "packages": [
+        {
+          "packageId": "an-007",
+          "title": "Andaman Islands Itinerary: A Perfect 7-Day Escape",
+          "slug": "andaman-islands-7-day-escape",
+          "duration": "7D/6N",
+          "citiesCovered": [
+            "Port Blair",
+            "Havelock Island",
+            "Neil Island",
+            "Ross Island",
+            "North Bay Island"
+          ],
+          "price": {
+            "startingFrom": 24999,
+            "originalPrice": 29999,
+            "currency": "INR",
+            "per": "Per Person on twin sharing basis"
+          },
+          "tags": [
+            "Beach",
+            "Snorkeling",
+            "Island Tour",
+            "Honeymoon",
+            "History",
+            "Water Sports"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/2387871/pexels-photo-2387871.jpeg",
+          "featured": true,
+          "highlights": [
+            "Visit Cellular Jail & attend the stirring Light & Sound Show",
+            "Explore Ross Island's colonial ruins & North Bay's coral reefs",
+            "Witness Asia's best beach - Radhanagar Beach, Havelock",
+            "Complimentary snorkeling at Elephant Beach with vibrant corals",
+            "Discover Neil Island's Natural Coral Bridge (Howrah Bridge)",
+            "Glass bottom boat ride at Bharatpur Beach",
+            "Scenic ferry rides through turquoise waters",
+            "Perfect blend of history, adventure & relaxation"
+          ],
+          "inclusions": [
+            "Accommodation for 6 nights as per the itinerary",
+            "Accommodation in standard rooms at hotels in Port Blair, Havelock, and Neil Island",
+            "6 Breakfasts at the hotels",
+            "Assistance at all arrival and departure points",
+            "Sightseeing in private air-conditioned vehicle at Port Blair, Havelock & Neil as per itinerary",
+            "Airport Pick up and Drop",
+            "All ferry tickets as per itinerary (Port Blair ↔ Havelock ↔ Neil)",
+            "Complimentary snorkeling at Elephant Beach",
+            "Travel assistance by Travel Junky Experts in all islands"
+          ],
+          "exclusions": [
+            "Any Airfare, Train fare, or Overland Journey not mentioned in itinerary",
+            "5% GST",
+            "Any medical/rescue evacuation due to mishaps",
+            "Personal expenses - laundry, bar bills, table bills, camera fees, tips",
+            "Vehicle not at disposal on any islands (point-to-point basis)",
+            "Water sports activities at North Bay Island (Scuba diving, Sea Walking, Glass bottom boat)",
+            "Any extra excursion or sightseeing different from itinerary",
+            "Cost incidental to any change in itinerary/stay due to flight/ferry cancellation, bad weather, ill health, roadblocks, or factors beyond control",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Port Blair – Cellular Jail & Light Show",
+              "stay": "Port Blair",
+              "meals": [],
+              "highlights": [
+                "Arrival at Veer Savarkar Airport",
+                "Hotel check-in & relax",
+                "Visit Cellular Jail",
+                "Light and Sound Show"
+              ],
+              "description": "Your Andaman tour begins as you fly to Port Blair Airport. Our representative will meet and assist you at the airport, then drive you to your hotel. Check-in and relax for a while. In the afternoon, visit the historic Cellular Jail, a three-storey prison built by the Britishers in 1906, where our freedom fighters spent gruesome years. In the evening, witness the enchanting light and sound show at Cellular Jail, which vividly portrays the struggle for independence. Return to your hotel for an overnight stay in Port Blair."
+            },
+            {
+              "day": 2,
+              "title": "North Bay Island (Coral Island) & Ross Island",
+              "stay": "Port Blair",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "North Bay Island - Coral Island",
+                "Water sports (additional cost)",
+                "Ross Island - colonial ruins",
+                "Chief Commissioner's House",
+                "Corbyn's Cove Beach"
+              ],
+              "description": "After breakfast, get ready to visit North Bay Island, also known as Coral Island, famous for its vibrant coral reefs and water sports. Enjoy a boat ride to the island where you can indulge in thrilling activities like Scuba Diving, Sea Walking, Snorkeling, and glass-bottom boat rides at additional costs. Next, proceed to Ross Island (Subash Chandra Bose Island), where you'll explore historical ruins including the Chief Commissioner's House, Government House, Church, Bakery, Swimming Pool, and Cemetery. Finally, visit Corbyn's Cove Beach, located 7km from Port Blair town. Relax on the shores, click pictures, and enjoy the coastal vibes. Return to your hotel for overnight stay."
+            },
+            {
+              "day": 6,
+              "title": "Neil Island – Bharatpur Beach & Natural Coral Bridge",
+              "stay": "Neil Island",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Bharatpur Beach",
+                "Glass bottom boat ride",
+                "Natural Coral Bridge (Howrah Bridge)",
+                "Marine life viewing"
+              ],
+              "description": "Wake up and enjoy your breakfast. Get ready to visit Bharatpur Beach, famous for its water activities. Take a glass bottom boat ride to see beautiful marine life through the transparent floor. Later, visit the Natural Coral Bridge, also known as Howrah Bridge, a unique natural formation created by dead corals over centuries. Conclude your exploration at Neil Island, then catch a ferry back to Port Blair. Upon arrival, check into your hotel and enjoy an overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Havelock Island – Radhanagar Beach",
+              "stay": "Havelock Island",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Ferry to Havelock Island (Swaraj Deep)",
+                "Radhanagar Beach - Asia's Best Beach",
+                "Beach walking & sunset views",
+                "Time Magazine recognition"
+              ],
+              "description": "After breakfast, you'll be transferred to Phoenix Bay Harbour to board the ferry to Havelock Island, also known as Swaraj Deep. This beautiful island is part of Ritchie's Archipelago and has been voted as the Best Beach in Asia by Time Magazine. Upon arrival, check into your beachside resort. Later, head to Radhanagar Beach, recognized as one of the best beaches in Asia. Spend quality time walking on the pristine white sands, swimming in crystal clear waters, or simply relaxing as the sun sets. Return to your hotel for an overnight stay in Havelock."
+            },
+            {
+              "day": 4,
+              "title": "Elephant Beach – Snorkeling & Coral Paradise",
+              "stay": "Havelock Island",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "40-45 min boat ride to Elephant Beach",
+                "Complimentary snorkeling",
+                "Vibrant coral life",
+                "Colorful marine life"
+              ],
+              "description": "Wake up early and enjoy your breakfast. Set out for Elephant Beach via a 40-45 minute scenic boat ride. Upon arrival, relax for a while, then explore the stunning Elephant Beach. Complimentary snorkeling is included, allowing you to experience vibrant coral reefs and colorful marine life up close. Elephant Beach is famous for its excellent snorkeling conditions and underwater biodiversity. After enjoying your time at the beach, return to your resort in Havelock for a peaceful overnight stay."
+            },
+            {
+              "day": 5,
+              "title": "Kalapathar Beach & Transfer to Neil Island",
+              "stay": "Neil Island",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Kalapathar Beach",
+                "Scenic coastal views",
+                "Ferry to Neil Island"
+              ],
+              "description": "After breakfast, check out from your hotel in Havelock. Visit Kalapathar Beach, known for its black rocks and serene atmosphere. Admire the beauty, relax on the shore, and enjoy scenic coastal views. Later, board the ferry to Neil Island. Upon arrival, check into your hotel and relax for a while. Overnight stay at Neil Island."
+            },
+            {
+              "day": 7,
+              "title": "Departure from Port Blair",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at hotel",
+                "Hotel check-out",
+                "Airport transfer",
+                "Flight back home"
+              ],
+              "description": "On the final day, wake up to the beautiful ambiance of Port Blair. Enjoy your hearty breakfast, then pack your bags as your 6-night 7-day Andaman package comes to an end. Check out from your hotel, and our representative will take you to the airport. Board your flight back home, carrying unforgettable memories of turquoise waters, white sands, and island adventures with Travel Junky."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Tropical and humid climate throughout the year.",
+                "Light cottons, breathable clothing, swimsuits, and flip-flops are recommended.",
+                "Carry a sunhat, sunscreen (SPF 50+), and sunglasses.",
+                "Light jacket or shawl for boat rides and windy evenings.",
+                "Waterproof bag for ferry journeys and beach visits."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "October to May – Ideal weather, calm seas, perfect for water activities.",
+                "November to February – Pleasant temperatures, best for sightseeing.",
+                "March to May – Hot and humid, but great for snorkeling and diving.",
+                "June to September – Monsoon season, ferry disruptions possible."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Port Blair has decent mobile (4G) and Wi-Fi coverage.",
+                "Havelock and Neil Island have limited BSNL/Airtel network.",
+                "Jio works selectively in some areas.",
+                "Consider it the perfect excuse for a digital detox.",
+                "Carry sufficient cash – ATMs are limited outside Port Blair."
+              ]
+            },
+            {
+              "title": "Food & Water",
+              "points": [
+                "Fresh seafood is a highlight – lobster, crab, tuna, red snapper.",
+                "South Indian, Bengali, and North Indian cuisine widely available.",
+                "Stick to bottled water for drinking.",
+                "Eat at popular cafes and hotel restaurants to avoid food issues.",
+                "Try local coconut water and fresh lime soda."
+              ]
+            },
+            {
+              "title": "Ferry Information",
+              "points": [
+                "Government ferries: Cheaper but slower, book in advance.",
+                "Private ferries: Makruzz, Green Ocean, Coastal Cruise – faster and more comfortable.",
+                "Journey time: Port Blair → Havelock (1.5-2 hrs), Havelock → Neil (30-45 min).",
+                "Carry motion sickness pills if prone to seasickness.",
+                "Reach ferry terminal 45 mins before departure."
+              ]
+            },
+            {
+              "title": "Cultural Etiquette",
+              "points": [
+                "Andaman is peaceful and culturally diverse.",
+                "Dress modestly when not on the beach.",
+                "Avoid public intoxication.",
+                "Respect local tribal communities – do not try to interact with or photograph them.",
+                "Photography prohibited near defense installations."
+              ]
+            },
+            {
+              "title": "Health Precautions",
+              "points": [
+                "Carry motion sickness pills for ferry rides.",
+                "Sunscreen, mosquito repellent, and basic first aid kit essential.",
+                "Basic medical facilities available in Port Blair.",
+                "Remote islands may not have immediate medical care.",
+                "Travel insurance strongly recommended."
+              ]
+            },
+            {
+              "title": "Local Laws",
+              "points": [
+                "Photography prohibited near defense installations and tribal reserves.",
+                "Alcohol available in Port Blair and Havelock (permit required for some areas).",
+                "Public drinking not allowed.",
+                "Avoid littering beaches and marine areas.",
+                "Do not touch or step on corals – strictly prohibited."
+              ]
+            },
+            {
+              "title": "Eco-Responsibility",
+              "points": [
+                "These islands are ecologically sensitive.",
+                "Avoid single-use plastics – carry reusable water bottle.",
+                "Don't touch coral or marine life while snorkeling.",
+                "Carry back your waste – take only memories, leave only footprints.",
+                "Use reef-safe sunscreen to protect marine ecosystems.",
+                "Respect marine life – do not feed fish."
+              ]
+            },
+            {
+              "title": "Packing Essentials",
+              "points": [
+                "Swimwear and beach essentials",
+                "Light cotton clothes and evening jacket",
+                "Sturdy flip-flops and water shoes",
+                "Sunscreen, sunglasses, sunhat",
+                "Mosquito repellent",
+                "Power bank (limited charging points on ferries)",
+                "Waterproof phone pouch",
+                "Basic medications"
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 100",
+                "Ambulance: 102/108",
+                "Port Blair Police Station: 03192-232100",
+                "GB Pant Hospital: 03192-230373",
+                "Tourist Helpline: 1363"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "25% advance payment required to confirm booking.",
+                "50% payment required 15 days before departure.",
+                "Remaining balance must be paid 7 days before departure.",
+                "Booking confirmed only after full payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 15% charge.",
+                "20–29 days before departure: 30% charge.",
+                "10–19 days before departure: 50% charge.",
+                "5–9 days before departure: 75% charge.",
+                "Less than 5 days: 100% charge.",
+                "No refund for unused services or no-shows.",
+                "Ferry cancellation due to weather: Alternate dates provided."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Ferry & Weather Policy",
+              "points": [
+                "Ferry schedules subject to change due to weather/sea conditions.",
+                "In case of ferry cancellation, alternate arrangements will be provided.",
+                "No refund for missed ferry due to flight delay.",
+                "November to December – Northeast monsoon, possible ferry disruptions."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Standard check-in: 12:00 PM / 1:00 PM (hotel dependent).",
+                "Standard check-out: 8:00 AM / 9:00 AM (hotel dependent).",
+                "Early check-in/late check-out subject to availability and charges.",
+                "Similar category hotels may be provided if booked property unavailable.",
+                "Room category confirmed at booking (subject to availability)."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "Vehicle at Port Blair, Havelock & Neil is point-to-point basis, not at disposal.",
+                "AC vehicles subject to road conditions in islands.",
+                "Ferry tickets included as per itinerary (deck/government/private as per package)."
+              ]
+            },
+            {
+              "title": "Water Sports",
+              "points": [
+                "Complimentary snorkeling at Elephant Beach included.",
+                "Other water sports (Scuba, Sea Walking, Glass boat) at additional cost.",
+                "Water sports subject to weather conditions and operational status.",
+                "No refund if water sports closed due to weather/technical reasons."
+              ]
+            },
+            {
+              "title": "Responsibility & Liability",
+              "points": [
+                "Company acts as facilitator between traveler and service providers.",
+                "Not responsible for delays, cancellations due to weather, sea conditions, ferry disruptions, or natural calamities.",
+                "Travel insurance is strongly recommended.",
+                "Not liable for loss/theft of personal belongings."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "state": "Kerala",
+      "slug": "kerala",
+      "bannerImage": "https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg",
+      "description": "Nestled on the southwestern coast of India, Kerala is a land of stunning contrasts, where serene backwaters meet rolling hills, and golden beaches stretch beneath swaying palm trees. Known as 'God's Own Country,' Kerala enchants travelers with its rich cultural heritage, lush landscapes, and warm hospitality.",
+      "packages": [
+        {
+          "packageId": "kl-012",
+          "title": "Kerala Packages: Tea, Temples & Tranquil Waters Await",
+          "slug": "kerala-tea-temples-backwaters-8-days",
+          "duration": "8D/7N",
+          "citiesCovered": [
+            "Cochin",
+            "Munnar",
+            "Thekkady",
+            "Alleppey",
+            "Varkala",
+            "Kovalam",
+            "Trivandrum"
+          ],
+          "price": {
+            "startingFrom": 29999,
+            "originalPrice": 34999,
+            "currency": "INR",
+            "per": "Per Person on twin sharing basis"
+          },
+          "tags": [
+            "Backwaters",
+            "Tea Gardens",
+            "Hill Station",
+            "Beach",
+            "Wildlife",
+            "Temples",
+            "Ayurveda",
+            "Honeymoon"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/1049298/pexels-photo-1049298.jpeg",
+          "featured": true,
+          "highlights": [
+            "Scenic drive through Cheeyappara & Valara waterfalls en route to Munnar",
+            "Visit Mattupetty Dam, Kundala Lake & Echo Point in tea country",
+            "Spot Nilgiri Tahrs at Eravikulam National Park (UNESCO site)",
+            "Elephant camp experience & Kathakali dance show in Thekkady",
+            "Shikara ride through Alleppey's serene backwaters",
+            "Varkala's stunning 15m high cliffs overlooking Arabian Sea",
+            "Kovalam's Samudra Beach & iconic Lighthouse Beach",
+            "Explore Padmanabhaswamy Temple & Napier Museum in Trivandrum",
+            "Tata Tea Museum – history of tea cultivation",
+            "Periyar National Park & Lake wildlife safari"
+          ],
+          "inclusions": [
+            "Accommodation for 7 nights as per the itinerary",
+            "6 Breakfasts at the hotels",
+            "Sightseeing as per the itinerary",
+            "All toll taxes and parking",
+            "All sightseeing and transfers by private sedan vehicle (AC)",
+            "Pick up and Drop from Airport / Railway station (Cochin/Trivandrum)",
+            "Driver allowance, fuel, and night charges included",
+            "Assistance at all arrival and departure points"
+          ],
+          "exclusions": [
+            "Air / Train fare",
+            "5% GST",
+            "Any Pony / Elephant ride",
+            "Expenses of personal nature like tips, laundry, phone calls, etc",
+            "Any extra meal not mentioned in inclusions",
+            "Any Massage / Spa treatments",
+            "Any Safari (Periyar Jeep Safari, Boat Safari)",
+            "Any adventure activities (Paragliding, Trekking, etc)",
+            "Houseboat stay in Alleppey (optional add-on)",
+            "Camera fees at monuments and museums",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Cochin – Drive to Munnar via Waterfalls",
+              "stay": "Munnar",
+              "meals": [],
+              "highlights": [
+                "Arrival at Cochin Airport/Railway Station",
+                "3-4 hour scenic drive to Munnar",
+                "Cheeyappara Waterfall",
+                "Valara Waterfalls",
+                "Spice Garden visit"
+              ],
+              "description": "Your journey to serene Kerala begins as you arrive at Cochin Airport or Railway Station. Our driver will welcome you and take you to the 'Kashmir of the South' – Munnar. During this 3-4 hour journey, enjoy the incredible Cheeyappara and Valara Waterfalls along the route. Click soothing photos or take a quick dip in the fresh, chilly water. You'll also visit a beautiful spice garden to experience Kerala's aromatic treasures. In the evening, reach your accommodation in Munnar. Rest well to prepare for the next day's exploration."
+            },
+            {
+              "day": 2,
+              "title": "Munnar Sightseeing – Dams, Lakes & Tea Gardens",
+              "stay": "Munnar",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Mattupetty Dam & Lake",
+                "Kundala Lake",
+                "Echo Point",
+                "Tata Tea Museum",
+                "Eravikulam National Park",
+                "Nilgiri Tahr spotting"
+              ],
+              "description": "After breakfast, head to explore Munnar's main attractions. Visit Mattupetty Dam and its perennial lake, surrounded by pretty natural landscapes. Proceed to the gorgeous Kundala Lake, enveloped in greenery and beautiful vegetation. Next, experience Echo Point, located 25 km from Munnar at over 600 feet above sea level – say something and hear it echo back. Enjoy the scenic tea gardens nearby. Discover the history and evolution of tea cultivation at the Tata Tea Museum. Continue to Eravikulam National Park, a 25-minute drive from Munnar. This UNESCO World Heritage site is home to the endangered Nilgiri Tahr, elusive lion-tailed macaque, and the world's largest moth – the Atlas moth. Return to your accommodation for a peaceful overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Munnar to Thekkady – Wildlife & Cultural Evening",
+              "stay": "Thekkady",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "4-hour scenic drive to Thekkady",
+                "Periyar National Park & Lake",
+                "Elephant camp interaction",
+                "Kathakali dance show",
+                "Martial arts performance"
+              ],
+              "description": "After breakfast, bid farewell to Munnar and head to the 'Spice Bag of Kerala' – Thekkady. Enjoy a beautiful 4-hour drive through the hills and valleys of the Western Ghats. Upon arrival, check into your hotel and rest. Begin your exploration at Periyar National Park and Lake – a tiger reserve perfect for animal lovers. Spot unique species or simply sit by the serene Periyar Lake. Later, visit the elephant camp where you can interact directly with elephants – feed them or enjoy a ride. In the evening, entertain yourself with a mesmerizing Kathakali dance show and a thrilling martial arts performance. Return to your hotel for an overnight stay."
+            },
+            {
+              "day": 4,
+              "title": "Thekkady to Alleppey – Venice of the South",
+              "stay": "Alleppey",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "5-hour drive to Alleppey",
+                "Shri Krishna Temple",
+                "Palpayasam (famous rice pudding)",
+                "Alleppey Beach",
+                "Shikara ride in backwaters"
+              ],
+              "description": "Wake up early, enjoy breakfast, and head to Alleppey – the 'Venice of the South' – approximately 5 hours away. Upon arrival, check into your hotel. Visit the Shri Krishna Temple, a beautiful traditional Kerala-style temple. Don't miss the temple's famous rice pudding, 'Palpayasam'. Enjoy leisure time at Alleppey Beach, stroll along the coastline, or try the famous Shikara ride through narrow canals and serene backwaters. Return to your hotel for an overnight stay."
+            },
+            {
+              "day": 5,
+              "title": "Alleppey to Varkala – Cliffs & Arabian Sea",
+              "stay": "Varkala",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Jatayu Earth Centre",
+                "World's largest bird sculpture",
+                "Varkala Beach",
+                "15m high cliffs overlooking Arabian Sea"
+              ],
+              "description": "After breakfast, bid farewell to Alleppey and set off to Varkala, an amazing beach town in Kerala. En route, visit the Jatayu Earth Centre, home to the world's largest bird sculpture. Upon arrival, check into your hotel and rejuvenate. Varkala is unique – the only town in Kerala with 15-meter high cliffs overlooking the Arabian Sea. Explore Varkala Beach, known for its beautiful cliffs and quiet atmosphere. Take your time discovering nearby places at your own pace. Return to your hotel for a peaceful overnight stay."
+            },
+            {
+              "day": 6,
+              "title": "Varkala to Kovalam – Samudra & Lighthouse Beaches",
+              "stay": "Kovalam",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "4-hour drive to Kovalam",
+                "Samudra Beach",
+                "Lighthouse Beach",
+                "36m tall lighthouse",
+                "Bird's eye view of Arabian Sea"
+              ],
+              "description": "After a hearty breakfast, set out for Kovalam – a 4-hour scenic journey. Upon arrival, check into your hotel and begin exploring Samudra Beach, for which Kovalam is famous. Swim in the blue waters or simply relax on the coastline. Later, visit the iconic Lighthouse Beach with its 36-meter tall lighthouse, offering the best bird's eye view of the Arabian Sea and backwaters. Wrap up your day and return to your accommodation for an overnight stay."
+            },
+            {
+              "day": 7,
+              "title": "Kovalam to Trivandrum – Temples & Museums",
+              "stay": "Kovalam",
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Padmanabhaswamy Temple",
+                "Sri Chitra Art Gallery",
+                "Raja Ravi Varma paintings",
+                "Napier Museum",
+                "500+ exhibits & 5000+ coins"
+              ],
+              "description": "After breakfast, head to Trivandrum, Kerala's capital city surrounded by seven hills. Begin your exploration at the magnificent Padmanabhaswamy Temple, a Vishnu temple with a massive fort gateway built in Dravidian style. Visit the Sri Chitra Art Gallery, featuring a unique collection of traditional and contemporary paintings, including works of the legendary Raja Ravi Varma. Discover the Napier Museum, housing over 500 fascinating exhibits and 5,000+ coins, along with bronze idols, ivory carvings, and historical weapons. Wrap up your day and return to Kovalam for overnight stay."
+            },
+            {
+              "day": 8,
+              "title": "Departure from Trivandrum",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at hotel",
+                "Last minute souvenir shopping",
+                "Airport/Railway station transfer",
+                "Departure"
+              ],
+              "description": "On your final day, wake up early to absorb all the beauty of Kerala one last time. Enjoy your hearty breakfast. Do some last-minute souvenir shopping, taking pieces of Kerala back home with you. Thereafter, our driver will take you to Trivandrum Airport or Railway Station, ending your wonderful Kerala trip with unforgettable memories of tea gardens, tranquil backwaters, and coastal serenity."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Warm days and cooler evenings in hill stations like Munnar and Thekkady.",
+                "Pack lightweight cotton clothes, a light jacket, and comfortable walking shoes.",
+                "Beachwear for Kovalam and Varkala beaches.",
+                "Umbrella or raincoat handy during monsoon (June-September).",
+                "Modest clothing required for temple visits (cover shoulders and knees)."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "October to March – Pleasant weather, ideal for sightseeing and backwater cruises.",
+                "April to May – Summer, good for hill stations (Munnar, Thekkady).",
+                "June to September – Monsoon season, lush greenery, Ayurveda treatments.",
+                "December-January – Peak season, advance booking recommended."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Major cities (Cochin, Trivandrum) have excellent 4G and Wi-Fi coverage.",
+                "Munnar and Thekkady have decent mobile network (Jio/Airtel).",
+                "Remote backwater areas may have limited connectivity – perfect for digital detox.",
+                "Carry sufficient cash; ATMs available in towns but limited in remote areas."
+              ]
+            },
+            {
+              "title": "Food & Water",
+              "points": [
+                "Kerala cuisine is rich in spices, coconut, and seafood.",
+                "Must-try: Appam with stew, Karimeen pollichathu (pearl spot fish), Malabar biryani, Puttu and Kadala curry.",
+                "Stick to bottled or filtered water.",
+                "Eat at trusted local restaurants and pre-recommended eateries.",
+                "Try traditional Sadya (feast) served on banana leaf."
+              ]
+            },
+            {
+              "title": "Cultural Etiquette",
+              "points": [
+                "Kerala is culturally rooted and traditional.",
+                "Dress modestly when visiting temples and local homes.",
+                "Remove shoes before entering temple premises.",
+                "Photography often prohibited inside temples and certain museums.",
+                "Greet with 'Namaskaram' (folded hands)."
+              ]
+            },
+            {
+              "title": "Health Precautions",
+              "points": [
+                "Carry basic medications – pain relievers, antiseptic, bandages.",
+                "Motion sickness pills recommended for winding roads in Munnar and Thekkady.",
+                "Mosquito repellent essential, especially near backwaters.",
+                "Sunscreen and sunglasses for beach visits.",
+                "Travel insurance recommended."
+              ]
+            },
+            {
+              "title": "Local Laws",
+              "points": [
+                "Alcohol is regulated in Kerala – buy only from government-approved shops (Bevco) or hotel bars.",
+                "Avoid consuming alcohol in public spaces.",
+                "Smoking banned in public places.",
+                "Respect wildlife and forest zones – do not litter or disturb animals.",
+                "Plastic bags banned in many eco-sensitive zones."
+              ]
+            },
+            {
+              "title": "Eco-Responsibility",
+              "points": [
+                "Help preserve Kerala's pristine beauty.",
+                "Avoid single-use plastics – carry reusable water bottle.",
+                "Do not litter in nature spots, backwaters, or beaches.",
+                "Respect wildlife and maintain silence in forest areas.",
+                "Say no to plastic straws and bags.",
+                "Take only memories, leave only footprints."
+              ]
+            },
+            {
+              "title": "Backwaters & Houseboat Tips",
+              "points": [
+                "Alleppey is the backwater capital of Kerala.",
+                "Shikara rides offer a glimpse into narrow canals and village life.",
+                "Houseboat stays (optional add-on) available – book in advance.",
+                "Best time for backwater cruises: October to March.",
+                "Monsoon houseboat rides offer unique lush green experience."
+              ]
+            },
+            {
+              "title": "Ayurveda & Wellness",
+              "points": [
+                "Kerala is world-famous for authentic Ayurveda treatments.",
+                "Popular therapies: Abhyanga (oil massage), Shirodhara, Panchakarma.",
+                "Consult qualified practitioners only.",
+                "Advance booking recommended for Ayurveda packages.",
+                "Avoid heavy meals before treatments."
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 100",
+                "Ambulance: 102/108",
+                "Tourist Helpline: 1363",
+                "Kerala Tourism: 1-800-425-4747",
+                "Cochin Airport: 0484-2610115",
+                "Trivandrum Airport: 0471-2502244"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "25% advance payment required to confirm booking.",
+                "50% payment required 21 days before departure.",
+                "Remaining balance must be paid 10 days before departure.",
+                "Booking confirmed only after full payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 15% charge.",
+                "21–29 days before departure: 25% charge.",
+                "14–20 days before departure: 50% charge.",
+                "7–13 days before departure: 75% charge.",
+                "Less than 7 days: 100% charge.",
+                "No refund for unused services or no-shows."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Standard check-in: 12:00 PM, Check-out: 11:00 AM (hotel dependent).",
+                "Early check-in/late check-out subject to availability and charges.",
+                "Similar category hotels may be provided if booked property unavailable.",
+                "Room category confirmed at time of booking (subject to availability)."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "Private air-conditioned sedan vehicle (Swift Dzire/Etios or similar).",
+                "Vehicle is point-to-point basis, not at disposal.",
+                "Driver allowance, fuel, toll, parking, and night charges included.",
+                "AC may not operate in hilly terrains (Munnar, Thekkady) due to gradient."
+              ]
+            },
+            {
+              "title": "Houseboat Option",
+              "points": [
+                "Houseboat stay in Alleppey is an optional add-on (supplement cost).",
+                "Check-in: 12:00 PM, Check-out: 9:00 AM.",
+                "Lunch and dinner available at additional cost.",
+                "Houseboat subject to availability and weather conditions."
+              ]
+            },
+            {
+              "title": "Sightseeing",
+              "points": [
+                "Eravikulam National Park remains closed February-March (calving season).",
+                "Periyar Tiger Reserve entry subject to forest department timings and availability.",
+                "Some temples may have dress code restrictions.",
+                "Photography/videography charges applicable at certain monuments."
+              ]
+            },
+            {
+              "title": "Responsibility & Liability",
+              "points": [
+                "Company acts as facilitator between traveler and service providers.",
+                "Not responsible for delays, cancellations due to weather, landslides, roadblocks, hartals, or natural calamities.",
+                "Travel insurance is strongly recommended.",
+                "Not liable for loss/theft of personal belongings."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "state": "Ladakh",
+      "slug": "ladakh",
+      "bannerImage": "https://images.pexels.com/photos/2240764/pexels-photo-2240764.jpeg",
+      "description": "Ladakh, the most beautiful region of North India, also known as 'the Land of High Passes', is located in northern India and is famous for its alluring terrain, unique culture, ancient monasteries, and numerous options for adventure sports. Nestled between the Karakoram and Himalayan mountain ranges, this cold desert offers breathtaking landscapes, from turquoise lakes to sand dunes, and from world's highest motorable passes to centuries-old Buddhist monasteries.",
+      "packages": [
+        {
+          "packageId": "ld-015",
+          "title": "Ladakh: A Journey Through the Land of High Passes",
+          "slug": "ladakh-land-of-high-passes-7-days",
+          "duration": "7D/6N",
+          "citiesCovered": [
+            "Leh",
+            "Nubra Valley",
+            "Pangong Lake",
+            "Hanley",
+            "Khardung La",
+            "Sham Valley"
+          ],
+          "price": {
+            "startingFrom": 34999,
+            "originalPrice": 39999,
+            "currency": "INR",
+            "per": "Per Person on twin sharing basis"
+          },
+          "tags": [
+            "Adventure",
+            "High Altitude",
+            "Monasteries",
+            "Lakes",
+            "Desert",
+            "Biking",
+            "Photography"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/789410/pexels-photo-789410.jpeg",
+          "featured": true,
+          "highlights": [
+            "Experience the world's highest motorable road – Khardung La Pass (18,380 ft)",
+            "Camp beside the mesmerizing Pangong Lake, famous for changing colors",
+            "Ride double-humped Bactrian camels on Hunder Sand Dunes, Nubra Valley",
+            "Visit Diskit Monastery with its iconic 106-ft Maitreya Buddha statue",
+            "Witness Magnetic Hill where vehicles appear to move uphill by themselves",
+            "Confluence of Zanskar & Indus rivers at Sangam",
+            "Explore Hanley – one of the world's highest astronomical observation sites",
+            "Drive through Sham Valley, Gurudwara Pathar Sahib & Hall of Fame",
+            "Experience Ladakhi culture, monasteries, and high-altitude desert landscapes"
+          ],
+          "inclusions": [
+            "Accommodation for 6 nights: 3 nights in Leh, 1 night in Nubra Valley camp, 1 night in Pangong camp, 1 night in Hanley camp/homestay",
+            "Rooms on double/triple sharing basis",
+            "6 Breakfasts & 6 Dinners",
+            "Transfers by Tempo Traveller/Innova/Xylo from Leh to Leh",
+            "All Inner Line permits for the trip",
+            "Parking fees, toll taxes, driver's night charges",
+            "24-hour oxygen cylinder in vehicle for emergency",
+            "Assistance at all arrival and departure points"
+          ],
+          "exclusions": [
+            "5% GST",
+            "Airfare / Train fare",
+            "Any food or drink not mentioned – alcoholic beverages, mineral water, highway lunches, refreshments",
+            "Personal expenses: tips for drivers, monument/monastery entry fees, camera/video charges",
+            "Adventure activities: river rafting, camel safari, trekking, mountain biking",
+            "Laundry, phone bills, tips, etc",
+            "Any expenses resulting from natural disasters, landslides, roadblocks, etc",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Leh – Acclimatization & Rest",
+              "stay": "Leh",
+              "meals": ["Dinner"],
+              "highlights": [
+                "Arrival at Leh Airport",
+                "Hotel check-in",
+                "Acclimatization rest",
+                "Evening stroll in local markets"
+              ],
+              "description": "On the first day, you will arrive at Leh, known as the 'Land of High Passes'. After arrival, check into your hotel and enjoy a delicious dinner in this Himalayan paradise. Today is reserved for rest and acclimatization to the high altitude (11,562 ft). Take a gentle stroll in the nearby markets if you feel comfortable. Get some sound sleep to prepare yourself to kickstart the Ladakh adventure the next day."
+            },
+            {
+              "day": 2,
+              "title": "Leh Sightseeing – Magnetic Hill, Sangam & Sham Valley",
+              "stay": "Leh",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Hall of Fame",
+                "Gurudwara Shri Pathar Sahib",
+                "Sham Valley",
+                "Sangam – Confluence of Zanskar & Indus rivers",
+                "Magnetic Hill",
+                "Local markets & cafes"
+              ],
+              "description": "After a hearty breakfast, begin your Ladakh adventure by exploring the top attractions of Leh. Visit the Hall of Fame, a museum dedicated to Indian soldiers. Proceed to Gurudwara Shri Pathar Sahib, commemorating Guru Nanak's visit. Continue through Sham Valley and witness the magical Magnetic Hill, where vehicles appear to move uphill by themselves. Visit Sangam, the breathtaking confluence of Zanskar and Indus rivers. In the evening, head back to Leh to discover delightful local markets and lovely cafes. Wrap up your day with a flavourful dinner and overnight stay at the hotel."
+            },
+            {
+              "day": 3,
+              "title": "Leh to Nubra Valley – Khardung La & Hunder Sand Dunes",
+              "stay": "Nubra Valley",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Khardung La Pass – World's highest motorable road (18,380 ft)",
+                "South & North Pullu",
+                "Diskit Monastery & Maitreya Buddha statue",
+                "Hunder Sand Dunes",
+                "Double-humped Bactrian camel ride (own cost)"
+              ],
+              "description": "After breakfast, prepare for an exhilarating drive to Nubra Valley via Khardung La Pass, the world's highest motorable road at 18,380 feet. Enjoy refreshment breaks at South and North Pullu. Visit the magnificent Diskit Monastery, home to the famous 106-ft Maitreya Buddha statue overlooking the valley. Continue to the fascinating Hunder Sand Dunes, where cold desert meets sand. Opt for an exciting camel ride on the rare double-humped Bactrian camels at your own cost. Relive today's adventure over a satisfying meal and overnight stay at Nubra Valley camp."
+            },
+            {
+              "day": 4,
+              "title": "Nubra Valley to Pangong Lake – Shyok River & Blue Waters",
+              "stay": "Pangong Lake",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Scenic drive via Shyok River",
+                "Pangong Lake – Chameleon lake",
+                "Lake-side camping",
+                "Crystal clear blue waters"
+              ],
+              "description": "Enjoy breakfast before heading to the iconic Pangong Lake from Nubra Valley. The drive takes you along the serene Shyok River – don't forget to capture the beautiful river views. Upon arrival at Pangong Lake, witness the magical lake that changes colors throughout the day – from azure blue to emerald green and deep grey. Camp beside the lake to experience the calmness of this nature's gift. Conclude your day with a satisfying dinner before retiring to your camp for an overnight stay."
+            },
+            {
+              "day": 5,
+              "title": "Pangong to Hanley – World's Highest Astronomical Site",
+              "stay": "Hanley",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Transfer to Hanley",
+                "Hanley River",
+                "High-altitude astronomical observation site",
+                "Peaceful village atmosphere"
+              ],
+              "description": "After finishing your breakfast, transfer from Pangong to Hanley, one of the highest locations in the world for astronomical observation. Upon arrival, get absorbed in the peaceful Hanley River and surrounding landscape. This remote village offers breathtaking views of the night sky, making it a paradise for stargazers. Enjoy snacks en route and absorb the tranquility. Return to Hanley camp/homestay for a satisfying dinner and overnight accommodation."
+            },
+            {
+              "day": 6,
+              "title": "Hanley to Leh – Return to Civilization",
+              "stay": "Leh",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Scenic drive back to Leh",
+                "Traditional Ladakhi villages",
+                "Photography stops",
+                "Evening at leisure"
+              ],
+              "description": "On the sixth day, begin your journey from Hanley back to the wonderful city of Leh. En route, explore traditional Ladakhi villages, interact with locals, and capture photographs of the stunning landscapes. Take your time with photography stops and pause occasionally to enjoy your packed goodies. Arrive in Leh by evening, check into your hotel, and spend a relaxing night. Enjoy your final dinner in Ladakh with memories of incredible adventures."
+            },
+            {
+              "day": 7,
+              "title": "Departure from Leh",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at hotel",
+                "Last views of Himalayas",
+                "Airport transfer",
+                "Departure"
+              ],
+              "description": "Enjoy a great breakfast amidst Ladakh's breathtaking scenery as your adventure through the Land of High Passes comes to an end. Pack your bags and gather your belongings with a heart full of wonderful memories and adventures. After checking out from the hotel, proceed to Leh Airport to begin your journey back home, carrying with you the magic of the Himalayas."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "High Altitude & Acclimatization",
+              "points": [
+                "Leh is at an altitude of 11,562 feet (3,524 m) above sea level.",
+                "Altitude sickness is common – consult your doctor before traveling.",
+                "Day 1 is strictly for rest and acclimatization – no sightseeing.",
+                "Avoid alcohol and smoking on the first day.",
+                "Stay hydrated – drink plenty of water.",
+                "Carry Diamox (altitude sickness medication) after consulting your doctor.",
+                "If you experience severe headache, nausea, or breathlessness, inform your guide immediately."
+              ]
+            },
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "June to September – Peak season, pleasant weather, all roads open.",
+                "May and October – Shoulder season, fewer crowds, budget-friendly.",
+                "December to February – Extreme cold (-20°C to -30°C), Chadar Trek season.",
+                "March to April – Cold but beautiful, some passes still closed.",
+                "July-August – Green Ladakh, blooming flowers, Nubra and Pangong at their best."
+              ]
+            },
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Day temperature: 20°C to 30°C in summer, 0°C to 10°C in winter.",
+                "Night temperature: 5°C to 10°C in summer, -15°C to -30°C in winter.",
+                "Summer: Pack lightweight woolens, thermals, fleece jacket, windcheater.",
+                "Winter: Heavy woolens, multiple layers, down jacket, thermal inners, monkey cap, gloves.",
+                "Sturdy waterproof trekking shoes are essential.",
+                "Sunscreen, sunglasses, and lip balm are mandatory – UV rays are strong at high altitude."
+              ]
+            },
+            {
+              "title": "Permits",
+              "points": [
+                "Indian citizens require Inner Line Permits (ILP) for Nubra, Pangong, and Hanley.",
+                "Travel Junky facilitates all Inner Line permits as part of the package.",
+                "Carry original government ID (Aadhar, Voter ID, Passport) and 2 passport-size photos.",
+                "Foreign nationals require Protected Area Permit (PAP) and must travel in groups of 2+.",
+                "Permit fees are subject to change as per government regulations."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "BSNL and Airtel work in Leh town (4G).",
+                "Jio has limited connectivity in Leh.",
+                "Nubra Valley, Pangong, and Hanley have very poor or no network.",
+                "Wi-Fi is available in select hotels in Leh (paid).",
+                "Embrace digital detox – inform family and friends beforehand."
+              ]
+            },
+            {
+              "title": "Food & Water",
+              "points": [
+                "Ladakhi cuisine: Thukpa (noodle soup), Momos, Skyu, Butter Tea.",
+                "North Indian, Chinese, and Continental food available in Leh.",
+                "Stick to bottled or filtered water.",
+                "Avoid heavy, oily food on the first day.",
+                "Carry energy bars, dry fruits, and chocolates for long drives."
+              ]
+            },
+            {
+              "title": "Cultural Sensitivity",
+              "points": [
+                "Ladakh is known as 'Little Tibet' – home to Tibetan Buddhism.",
+                "Respect local customs and traditions.",
+                "Walk clockwise around stupas, monasteries, and prayer wheels.",
+                "Remove shoes before entering monastery prayer halls.",
+                "Ask permission before photographing monks and locals.",
+                "Dress modestly, especially in religious sites."
+              ]
+            },
+            {
+              "title": "Unique Landscapes",
+              "points": [
+                "Ladakh offers incredible diversity – cold desert, sand dunes, turquoise lakes, snow peaks.",
+                "Nubra Valley – Cold desert with sand dunes and Bactrian camels.",
+                "Pangong TSO – Chameleon lake, changes color from blue to green to grey.",
+                "TSO Moriri – Protected wetland, less crowded, equally beautiful.",
+                "Khardung La – World's highest motorable road (18,380 ft).",
+                "Umla La – Another high mountain pass on the way to Hanley."
+              ]
+            },
+            {
+              "title": "Safety & Health",
+              "points": [
+                "Ladakh is a cold desert with harsh climatic conditions.",
+                "Carry a basic first aid kit with pain relievers, antiseptic, bandages.",
+                "Motion sickness pills recommended for winding mountain roads.",
+                "24-hour oxygen cylinder available in vehicle for emergencies.",
+                "Travel insurance is strongly recommended.",
+                "Be cautious in remote areas – inform your driver/guide if unwell."
+              ]
+            },
+            {
+              "title": "Pre-Travel Planning",
+              "points": [
+                "Book at least 30-45 days in advance during peak season (June-September).",
+                "Choose a reliable travel agency like Travel Junky for stress-free experience.",
+                "Share your itinerary with friends and family.",
+                "Keep digital and physical copies of all documents.",
+                "Carry sufficient cash – ATMs are limited and often non-functional in remote areas.",
+                "Check weather and road conditions before departure."
+              ]
+            },
+            {
+              "title": "Packing Essentials",
+              "points": [
+                "Warm clothing (layers, fleece, down jacket)",
+                "Sturdy waterproof trekking shoes",
+                "Sunscreen (SPF 50+), sunglasses, lip balm",
+                "Personal medications and first aid kit",
+                "Power bank (frequent power cuts)",
+                "Water bottle (preferably insulated)",
+                "Snacks, dry fruits, energy bars",
+                "Valid ID proof and passport-size photos",
+                "Camera with extra batteries (batteries drain faster in cold)"
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 100",
+                "Ambulance: 102/108",
+                "Leh Police Station: 01982-252022",
+                "SNM Hospital Leh: 01982-252033",
+                "Tourist Helpline: 1363",
+                "Leh Airport: 01982-252076"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "Booking before 30 days of departure: 50% advance required to confirm booking.",
+                "Booking within 30 days of departure: 100% payment required at the time of booking.",
+                "Payments accepted via bank transfer, UPI, or credit/debit cards (additional charges may apply for card payments).",
+                "Booking confirmed only after receipt of advance payment."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "45+ days before departure: 25% cancellation fee.",
+                "30–44 days before departure: 50% cancellation fee.",
+                "15–29 days before departure: 75% cancellation fee.",
+                "Less than 15 days or No show: 100% cancellation fee.",
+                "All refunds processed within 15 working days after cancellation.",
+                "GST component is non-refundable."
+              ]
+            },
+            {
+              "title": "Amendments",
+              "points": [
+                "Changes to itinerary, dates, or hotel upgrades must be requested at least 30 days before departure.",
+                "All amendments are subject to availability and may incur additional charges.",
+                "Name changes in booking are not permitted.",
+                "No changes allowed within 15 days of departure."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Documents",
+              "points": [
+                "All travelers must carry valid government ID: Aadhar card, Voter ID, or Passport.",
+                "Inner Line Permits for Nubra, Pangong, and Hanley will be facilitated by Travel Junky.",
+                "International travelers must carry valid passport with Indian visa and Protected Area Permit (if applicable).",
+                "Carry 2-3 passport-size photographs for permits."
+              ]
+            },
+            {
+              "title": "Health & Fitness",
+              "points": [
+                "Ladakh is a high-altitude destination with lower oxygen levels.",
+                "Consult your doctor before booking the trip, especially if you have respiratory or cardiac conditions.",
+                "Travel Junky is not responsible for any altitude sickness, health issues, or medical emergencies.",
+                "Pregnant women, infants, and individuals with severe health conditions are advised not to travel to high altitudes."
+              ]
+            },
+            {
+              "title": "Travel Insurance",
+              "points": [
+                "Travel insurance is highly recommended for high-altitude destinations.",
+                "Insurance should cover medical emergencies, trip cancellation, and personal belongings.",
+                "Travel Junky is not liable for any loss, damage, injury, or delay due to unforeseen circumstances."
+              ]
+            },
+            {
+              "title": "Itinerary & Activities",
+              "points": [
+                "Itineraries are subject to change due to weather conditions, roadblocks, landslides, or government orders.",
+                "Certain activities like river rafting and trekking are weather-dependent.",
+                "Travel Junky reserves the right to alter or cancel any part of the itinerary without prior notice due to circumstances beyond control.",
+                "No refunds for missed services or activities due to weather, road conditions, or personal reasons."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Accommodation provided on double/triple sharing basis in standard/deluxe hotels, guesthouses, or camps.",
+                "Room allocation is at the discretion of the hotel/camp management.",
+                "Special requests like room with view, adjoining rooms, or specific floor are subject to availability.",
+                "Early check-in (before 12 PM) and late check-out (after 11 AM) may incur additional charges.",
+                "Similar category hotels may be provided if booked property is unavailable."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "Vehicle type (SUV, Tempo Traveller) depends on the number of passengers.",
+                "Vehicle is point-to-point basis, not at disposal.",
+                "Driver's decision on route, stoppage, and timing will be final.",
+                "Unscheduled travel or extra stops are not permitted.",
+                "AC may not operate in hilly terrains due to gradient."
+              ]
+            },
+            {
+              "title": "Code of Conduct",
+              "points": [
+                "Travelers must respect local customs, culture, and environmental regulations.",
+                "Littering, damaging property, or inappropriate behavior may result in removal from the trip without refund.",
+                "Consumption of alcohol and drugs is strictly prohibited in public places and during drives.",
+                "Follow the instructions of your driver/guide at all times."
+              ]
+            },
+            {
+              "title": "Liability",
+              "points": [
+                "Travel Junky acts as an agent for hotels, transport companies, and other service providers.",
+                "Travel Junky is not liable for any injury, loss, or damage to person or property.",
+                "Travel Junky is not responsible for delays, cancellations, or expenses caused by circumstances beyond its control – weather, natural disasters, political unrest, flight/road closures, etc."
+              ]
+            },
+            {
+              "title": "Photography & Media",
+              "points": [
+                "Travel Junky reserves the right to use photographs, videos, or testimonials taken during the trip for promotional purposes.",
+                "Travelers wishing to opt out must notify Travel Junky in writing before the trip."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "state": "North East",
+      "slug": "North-East",
+      "bannerImage": "https://images.pexels.com/photos/732895/pexels-photo-732895.jpeg",
+      "description": "Meghalaya, meaning 'Abode of Clouds' in Sanskrit, is one of the seven North-Eastern states of India. Famous for its high rainfall, subtropical forests, living root bridges, and biodiversity, it is abutted by Assam in the north and east and by Bangladesh in the south. The state's territory constituted the Khasi-Jaintia Hills and Garo Hills districts of Assam until 1972. Most of the terrain is hilly and experiences heavy rainfall during monsoons, creating lush green landscapes, countless waterfalls, and unique ecosystems found nowhere else in the world.",
+      "packages": [
+        {
+          "packageId": "mg-018",
+          "title": "Meghalaya: Abode of Clouds – Waterfalls, Root Bridges & Culture",
+          "slug": "meghalaya-abode-of-clouds-6-days",
+          "duration": "6D/5N",
+          "citiesCovered": [
+            "Guwahati",
+            "Shillong",
+            "Cherrapunjee (Sohra)",
+            "Shnongpdawng",
+            "Mawphalang",
+            "Dwaki"
+          ],
+          "price": {
+            "startingFrom": 27999,
+            "originalPrice": 32999,
+            "currency": "INR",
+            "per": "Per Adult on twin sharing basis"
+          },
+          "tags": [
+            "Northeast",
+            "Waterfalls",
+            "Living Root Bridges",
+            "Trekking",
+            "Adventure",
+            "Culture",
+            "Caves"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/5560271/pexels-photo-5560271.jpeg",
+          "featured": true,
+          "highlights": [
+            "Visit Umiam Lake – one of the largest artificial lakes in Meghalaya",
+            "Explore Cherrapunjee (Sohra) – one of the wettest places on Earth",
+            "Witness Nohkalikai Falls – India's tallest plunge waterfall",
+            "Trek to Umshiang Double Decker Living Root Bridge (3,500 steps)",
+            "Swim at Wei-Sawdong Waterfalls – the highest plunge falls in India",
+            "Visit Asia's cleanest village – Mawphalang Sacred Grove",
+            "Experience Indo-Bangladesh border at Dwaki with crystal clear water boat ride",
+            "Explore Mawsmai Cave, Arwah Cave & Seven Sisters Falls",
+            "Camp beside lake at Shnongpdawng with bonfire"
+          ],
+          "inclusions": [
+            "02 nights accommodation in Shillong",
+            "02 nights accommodation in Cherrapunjee",
+            "01 night accommodation in Shnongpdawng (lake campsite)",
+            "5 Breakfasts & 5 Dinners (Fixed Menu)",
+            "All toll taxes and parking fees",
+            "All sightseeing and transfers by SUV / Traveller",
+            "Assistance at all arrival and departure points",
+            "Driver allowance, fuel, and night charges"
+          ],
+          "exclusions": [
+            "5% GST",
+            "Airfare / Train fare",
+            "Any pony / mule charges",
+            "Entry tickets / camera charges at monuments, caves, waterfalls",
+            "Any adventure activities (boating, zip-lining, etc.)",
+            "Trip to any place other than itinerary",
+            "Expenses of personal nature like tips, laundry, phone calls",
+            "Any extra meal & lunch",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Guwahati – Transfer to Shillong via Umiam Lake",
+              "stay": "Shillong",
+              "meals": ["Dinner"],
+              "highlights": [
+                "Arrival at Guwahati Airport (before noon)",
+                "12:30 PM vehicle departure to Shillong",
+                "Visit Umiam Lake",
+                "Boating at Umiam Lake",
+                "Evening stroll at Police Bazar"
+              ],
+              "description": "Arrive at Lokpriya Gopinath Bardoloi International Airport, Guwahati before noon. Our tour representative will receive you and transfer you to Shillong (vehicle departs at 12:30 PM). En route, visit Umiam Lake, one of the largest artificial lakes in Meghalaya, and enjoy boating in its serene waters. Continue your journey and reach Shillong by evening. Check into your hotel and freshen up. Take a leisurely stroll at Police Bazar (like Mall Road) for shopping and local snacks. Overnight stay at hotel in Shillong."
+            },
+            {
+              "day": 2,
+              "title": "Shillong to Cherrapunjee – Valleys, Caves & Waterfalls",
+              "stay": "Cherrapunjee",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Check out from Shillong hotel",
+                "Mawkdok Dympep Valley View Point",
+                "Wahkabah Falls",
+                "Arwah Cave",
+                "Nohkalikai Falls",
+                "Mawsmai Cave",
+                "Seven Sisters Waterfalls"
+              ],
+              "description": "After breakfast, check out from the hotel around 10:00 AM and drive to Cherrapunjee, locally known as Sohra – one of the wettest places on Earth. En route, visit Mawkdok Dympep Valley View Point for breathtaking panoramic views. Upon reaching Cherrapunjee, explore Wahkabah Falls, Arwah Cave with its limestone formations, Nohkalikai Falls – India's tallest plunge waterfall, Mawsmai Cave – a beautifully lit limestone cave, and the Seven Sisters Waterfalls. Cherrapunjee's abundant natural beauty, valleys, waterfalls, caves, and evergreen misty landscapes will leave you spellbound. Overnight stay in Cherrapunjee."
+            },
+            {
+              "day": 3,
+              "title": "Wei-Sawdong Waterfalls & Double Decker Root Bridge",
+              "stay": "Cherrapunjee",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Wei-Sawdong Waterfalls – swim in the highest plunge falls",
+                "Umshiang Double Decker Living Root Bridge (3,500 steps)",
+                "Tempu Waterfalls (alternate option)"
+              ],
+              "description": "After breakfast, drive to Wei-Sawdong Waterfalls, the highest plunge falls in India. You can swim in the crystal clear natural pools here – a truly refreshing experience. Next, proceed to the famous Umshiang Double Decker Living Root Bridge, an engineering marvel of nature. This trek involves approximately 3,500 steps on one side, but the effort is rewarded with one of Meghalaya's most iconic sights. If you prefer a less strenuous option, you can visit Tempu Waterfalls instead. Return to your hotel by evening. Overnight stay in Cherrapunjee."
+            },
+            {
+              "day": 4,
+              "title": "Single Root Bridge – Mawphalang Village – Dwaki Border",
+              "stay": "Shnongpdawng",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Single Root Bridge",
+                "Mawphalang Village Sacred Grove – Asia's cleanest village",
+                "Dwaki Indo-Bangladesh Border",
+                "Boat ride on crystal clear water",
+                "Lake campsite & Bonfire"
+              ],
+              "description": "After breakfast, check out from the hotel by 9:00 AM. En route, visit a Single Root Bridge, another living root bridge creation. Then head to Mawphalang Village Sacred Grove, a perfect representation of Khasi culture and beliefs, also known as Asia's cleanest village. Later, proceed to Dwaki at the Indo-Bangladesh border and enjoy a boat ride on the stunning crystal clear waters (at your own expense). Transfer to Shnongpdawng village and check into your lakeside campsite. Enjoy a bonfire in the evening under the starry sky. Overnight stay at Shnongpdawng lake campsite."
+            },
+            {
+              "day": 5,
+              "title": "Adventure Activities & Return to Shillong",
+              "stay": "Shillong",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Adventure activities (own expense)",
+                "Check out from campsite",
+                "Return to Shillong",
+                "Free time for shopping & souvenirs",
+                "Explore Shillong city"
+              ],
+              "description": "After breakfast, get ready for adventure activities by 8:00 AM (available at your own expense). Check out from the campsite around 11:00 AM and return to Shillong. Check into your hotel and freshen up. The evening is free for you to explore Shillong city on your own. This is your last night of the trip – don't forget to buy souvenirs, local handicrafts, and Khasi traditional items from Police Bazar or Bara Bazar. Overnight stay at hotel in Shillong."
+            },
+            {
+              "day": 6,
+              "title": "Departure from Shillong – Transfer to Guwahati Airport",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at hotel",
+                "10:00 AM departure from Shillong",
+                "Airport transfer",
+                "Departure"
+              ],
+              "description": "After breakfast, we will assist you with transfers to Lokpriya Gopinath Bardoloi International Airport, Guwahati. Depart from Shillong at 10:00 AM. Please book your return flights from Guwahati after 2:30 PM to allow sufficient travel time. Fly back home with beautiful memories of Meghalaya's waterfalls, living root bridges, caves, and warm Khasi hospitality."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "October to April – Pleasant weather, clear skies, ideal for sightseeing and trekking.",
+                "May to September – Monsoon season, Cherrapunjee receives highest rainfall, waterfalls at full glory, but roadblocks possible.",
+                "November to February – Winter, cold mornings and evenings, perfect for camping and bonfire.",
+                "July-August – Living root bridges are lush green, but trekking can be slippery."
+              ]
+            },
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Summer (March-June): 15°C to 28°C – Light cottons, raincoat/umbrella.",
+                "Winter (November-February): 4°C to 18°C – Heavy woolens, jackets, sweaters, gloves.",
+                "Monsoon (July-September): Heavy rainfall – Waterproof jackets, umbrellas, quick-dry clothing.",
+                "Sturdy trekking shoes with good grip are essential for root bridge treks.",
+                "Carry flip-flops for campsite and water activities."
+              ]
+            },
+            {
+              "title": "Living Root Bridges – Trekking Information",
+              "points": [
+                "Umshiang Double Decker Root Bridge – 3,500+ steps one way, 2-3 hours trek.",
+                "Single Root Bridge – Less strenuous, shorter trek.",
+                "Wear comfortable trekking shoes with good grip.",
+                "Carry water, energy bars, and light snacks.",
+                "Start early to avoid afternoon heat and crowds.",
+                "Hire local guides (available at trek starting points) for better experience."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Shillong has decent 4G coverage (Jio, Airtel, BSNL).",
+                "Cherrapunjee has limited connectivity in some areas.",
+                "Remote villages and trekking areas may have no network.",
+                "Wi-Fi available at select hotels in Shillong and Cherrapunjee.",
+                "Inform family and friends about limited connectivity in advance."
+              ]
+            },
+            {
+              "title": "Food & Water",
+              "points": [
+                "Khasi cuisine: Jadoh (rice with meat), Dohneiiong (pork with black sesame), Tungrymbai (fermented soybean), Pumaloi (steamed rice powder).",
+                "North Indian, Chinese, and Continental food widely available in Shillong and Cherrapunjee.",
+                "Stick to bottled or filtered water.",
+                "Try local tea and traditional meals at family-run eateries.",
+                "Carry dry fruits, chocolates, and energy bars for trekking days."
+              ]
+            },
+            {
+              "title": "Cultural Etiquette",
+              "points": [
+                "Khasis, Jaintias, and Garos are the major communities – each with unique matrilineal traditions.",
+                "Respect local customs and traditions.",
+                "Dress modestly, especially when visiting sacred groves and villages.",
+                "Ask permission before photographing locals and their property.",
+                "Mawphalang is Asia's cleanest village – do not litter, maintain hygiene.",
+                "Sacred groves are protected – do not remove anything."
+              ]
+            },
+            {
+              "title": "Permits",
+              "points": [
+                "Indian citizens do not require Inner Line Permit (ILP) for Meghalaya.",
+                "Foreign nationals require Protected Area Permit (PAP) – obtain in advance.",
+                "Carry valid government ID (Aadhar, Voter ID, Passport) for hotel check-ins.",
+                "Some restricted areas may require special permits – check with your tour operator."
+              ]
+            },
+            {
+              "title": "Health & Safety",
+              "points": [
+                "Carry basic first aid kit – pain relievers, antiseptic, bandages, ORS.",
+                "Mosquito repellent is essential, especially in evenings.",
+                "Motion sickness pills recommended for winding roads.",
+                "Travel insurance is strongly recommended.",
+                "Be cautious while swimming in waterfalls – rocks can be slippery.",
+                "Stay hydrated, especially during trekking."
+              ]
+            },
+            {
+              "title": "Packing Essentials",
+              "points": [
+                "Comfortable clothing (cotton for summer, woolens for winter)",
+                "Sturdy trekking/waterproof shoes",
+                "Raincoat/umbrella (monsoon season)",
+                "Sunscreen, sunglasses, lip balm",
+                "Personal medications and first aid kit",
+                "Power bank (frequent power cuts in remote areas)",
+                "Water bottle",
+                "Snacks, energy bars, dry fruits",
+                "Valid ID proof",
+                "Camera with extra batteries"
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 100",
+                "Ambulance: 102/108",
+                "Shillong Police Station: 0364-2224377",
+                "NEIGRIHMS Hospital Shillong: 0364-2538020",
+                "Tourist Helpline: 1363",
+                "Lokpriya Gopinath Bordoloi Airport, Guwahati: 0361-2840228"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "25% advance payment required to confirm booking.",
+                "50% payment required 21 days before departure.",
+                "Remaining balance must be paid 10 days before departure.",
+                "Booking confirmed only after full payment.",
+                "Payments accepted via bank transfer, UPI, or credit/debit cards (additional charges may apply for card payments)."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 15% cancellation fee.",
+                "21–29 days before departure: 25% cancellation fee.",
+                "14–20 days before departure: 50% cancellation fee.",
+                "7–13 days before departure: 75% cancellation fee.",
+                "Less than 7 days or No show: 100% cancellation fee.",
+                "All refunds processed within 15 working days after cancellation.",
+                "GST component is non-refundable."
+              ]
+            },
+            {
+              "title": "Amendments",
+              "points": [
+                "Changes to itinerary, dates, or hotel upgrades must be requested at least 21 days before departure.",
+                "All amendments are subject to availability and may incur additional charges.",
+                "Name changes in booking are not permitted.",
+                "No changes allowed within 10 days of departure."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Documents",
+              "points": [
+                "All travelers must carry valid government ID: Aadhar card, Voter ID, or Passport.",
+                "Foreign nationals require valid passport with Indian visa and Protected Area Permit.",
+                "Children must carry school ID or birth certificate."
+              ]
+            },
+            {
+              "title": "Health & Fitness",
+              "points": [
+                "Umshiang Double Decker Root Bridge trek involves 3,500+ steps – moderate fitness level required.",
+                "Consult your doctor before booking if you have respiratory or cardiac conditions.",
+                "Travel Junky is not responsible for any health issues or medical emergencies.",
+                "Pregnant women and individuals with severe health conditions are advised not to undertake strenuous treks."
+              ]
+            },
+            {
+              "title": "Travel Insurance",
+              "points": [
+                "Travel insurance is highly recommended.",
+                "Insurance should cover medical emergencies, trip cancellation, and personal belongings.",
+                "Travel Junky is not liable for any loss, damage, injury, or delay due to unforeseen circumstances."
+              ]
+            },
+            {
+              "title": "Itinerary & Activities",
+              "points": [
+                "Itineraries are subject to change due to weather conditions, roadblocks, landslides, or government orders.",
+                "Living root bridge treks are weather-dependent – may be slippery during monsoon.",
+                "Travel Junky reserves the right to alter or cancel any part of the itinerary without prior notice due to circumstances beyond control.",
+                "No refunds for missed services or activities due to weather, road conditions, or personal reasons."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Accommodation provided on double/triple sharing basis in standard/deluxe hotels and camps.",
+                "Shnongpdawng stay is at a lake campsite with basic amenities.",
+                "Room allocation is at the discretion of the hotel/camp management.",
+                "Special requests are subject to availability.",
+                "Early check-in (before 12 PM) and late check-out (after 11 AM) may incur additional charges.",
+                "Similar category hotels may be provided if booked property is unavailable."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "Vehicle type (SUV, Traveller) depends on the number of passengers.",
+                "Vehicle is point-to-point basis, not at disposal.",
+                "Driver's decision on route, stoppage, and timing will be final.",
+                "Unscheduled travel or extra stops are not permitted.",
+                "Departure from Guwahati at 12:30 PM sharp – late arrivals may need to arrange alternate transport."
+              ]
+            },
+            {
+              "title": "Flight Booking Guidelines",
+              "points": [
+                "Arrival flight to Guwahati must be scheduled before 12:00 PM.",
+                "Departure flight from Guwahati must be scheduled after 2:30 PM.",
+                "Travel Junky is not responsible for missed flights due to traffic or weather delays."
+              ]
+            },
+            {
+              "title": "Code of Conduct",
+              "points": [
+                "Travelers must respect local customs, culture, and environmental regulations.",
+                "Mawphalang is Asia's cleanest village – maintain hygiene, do not litter.",
+                "Sacred groves are protected – do not remove anything.",
+                "Littering, damaging property, or inappropriate behavior may result in removal from the trip without refund.",
+                "Follow the instructions of your driver/guide at all times."
+              ]
+            },
+            {
+              "title": "Liability",
+              "points": [
+                "Travel Junky acts as an agent for hotels, transport companies, and other service providers.",
+                "Travel Junky is not liable for any injury, loss, or damage to person or property.",
+                "Travel Junky is not responsible for delays, cancellations, or expenses caused by circumstances beyond its control – weather, natural disasters, political unrest, flight/road closures, etc."
+              ]
+            },
+            {
+              "title": "Photography & Media",
+              "points": [
+                "Travel Junky reserves the right to use photographs, videos, or testimonials taken during the trip for promotional purposes.",
+                "Travelers wishing to opt out must notify Travel Junky in writing before the trip."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "state": "Rajasthan",
+      "slug": "rajasthan",
+      "bannerImage": "https://media.traveljunky.in/website-assets/sub-navigation/rajasthan-tour-packages/68ba9e27afa42.webp",
+      "description": "Experience the royal heritage of Rajasthan with our Jaipur and Udaipur Tour Package. Journey through the Pink City's majestic forts and the White City's serene lakes, blending vibrant culture, architectural marvels, and timeless romance. Perfect for families, couples, and history lovers seeking an unforgettable Rajasthani experience.",
+      "packages": [
+        {
+          "packageId": "rj-021",
+          "title": "Jaipur and Udaipur Tour Package: Royal Rajasthan",
+          "slug": "jaipur-udaipur-royal-rajasthan-5-days",
+          "duration": "5D/4N",
+          "citiesCovered": ["Jaipur", "Udaipur"],
+          "price": {
+            "startingFrom": 18999,
+            "originalPrice": 22999,
+            "currency": "INR",
+            "per": "Per Adult on twin sharing basis"
+          },
+          "tags": [
+            "Heritage",
+            "Palaces",
+            "Forts",
+            "Lakes",
+            "Culture",
+            "Honeymoon",
+            "Family"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/3581363/pexels-photo-3581363.jpeg",
+          "featured": true,
+          "highlights": [
+            "Explore UNESCO World Heritage Site – Amber Fort with underground tunnels",
+            "Visit Jaigarh Fort (Fort of Victory) & Nahargarh Fort overlooking Jaipur",
+            "Photograph the iconic Hawa Mahal's 900 tiny windows",
+            "Shop for Rajasthani handicrafts at vibrant Bapu Bazar",
+            "Witness sunset at Jal Mahal, the floating palace in Man Sagar Lake",
+            "Experience Udaipur's romantic Lake Pichola & Fateh Sagar Lake",
+            "Visit Sajjan Garh Palace (Monsoon Palace) with panoramic city views",
+            "Explore 1000-year-old Eklingji Temple & Jagdish Temple",
+            "Stroll through Saheliyon ki Bari – Garden of the Maidens",
+            "Panoramic views of Udaipur from Karni Mata Temple"
+          ],
+          "inclusions": [
+            "Pickup and Drop off (Airport/Railway station)",
+            "Accommodation for 4 nights on twin-sharing basis: 2 nights in Jaipur, 2 nights in Udaipur",
+            "Meals: 4 Buffet breakfasts & 4 Dinners",
+            "Transfers and sightseeing in private air-conditioned car",
+            "Vehicle provided as per the itinerary (not at disposal)",
+            "All current taxes: hotel taxes and transportation taxes",
+            "Driver allowance, fuel, toll, and parking charges"
+          ],
+          "exclusions": [
+            "5% GST",
+            "Airfare / Train fare",
+            "Entrance fees at monuments, forts, palaces, and temples",
+            "Camera/video charges at monuments",
+            "Meals not mentioned in inclusions (lunches, additional meals)",
+            "Expenses of personal nature: tips, laundry, phone calls, etc",
+            "Any kind of insurance",
+            "Any increase in government taxes or state taxes",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Jaipur – Amber Fort & Majestic Forts",
+              "stay": "Jaipur",
+              "meals": ["Dinner"],
+              "highlights": [
+                "Arrival at Jaipur Airport/Railway station",
+                "Hotel check-in",
+                "Amber Fort – UNESCO World Heritage Site",
+                "Jaigarh Fort – Fort of Victory",
+                "Nahargarh Fort – Aravalli Hills",
+                "Jal Mahal – Floating Palace"
+              ],
+              "description": "Your Rajasthan journey begins as you arrive at Jaipur Airport or Railway station. Our representative will take you to your beautiful stay location. Check into your hotel and relax for a while. Later, get ready to explore the Pink City. First, discover the stunning Amber Fort, a UNESCO World Heritage site perched high on a hill. Don't miss exploring the underground tunnels that connect Amer to Jaigarh Fort. Continue to Jaigarh Fort, also known as the Fort of Victory, and Nahargarh Fort, perched on the edge of the Aravalli Hills. Conclude with a photo stop at Jal Mahal, the beautiful palace floating in the middle of Man Sagar Lake. Return to your hotel for a delicious dinner and overnight stay."
+            },
+            {
+              "day": 2,
+              "title": "Jaipur City Tour – Palaces, Bazaars & Museum",
+              "stay": "Jaipur",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "City Palace – Maharaja Sawai Jai Singh's palace",
+                "Hawa Mahal – Palace of Winds (900 tiny windows)",
+                "Bapu Bazar – Rajasthani handicraft shopping",
+                "Albert Hall Museum"
+              ],
+              "description": "After a mouthwatering breakfast, embark on your Jaipur city tour. Visit the magnificent City Palace, built by Maharaja Sawai Jai Singh, still home to the royal family. Next, head to the iconic Hawa Mahal, the Palace of Winds, with its 900 tiny windows adorned with intricate latticework. Continue to bustling Bapu Bazar, perfect for buying beautiful Rajasthani handicrafts, textiles, jewelry, and souvenirs. Conclude your day at the Albert Hall Museum, a grand architectural marvel spread across 19 acres. Return to your accommodation for a delicious dinner and peaceful overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Jaipur to Udaipur – Monsoon Palace & Lakes",
+              "stay": "Udaipur",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Scenic 9-10 hour drive to Udaipur",
+                "Sajjan Garh Palace – Monsoon Palace",
+                "Eklingji Temple – 1000-year-old temple complex",
+                "Shilpgram – Rural art and craft complex",
+                "Fateh Sagar Lake",
+                "Bagore ki Haweli",
+                "Jagdish Temple"
+              ],
+              "description": "Wake up early, enjoy your satisfying breakfast, and transfer to the beautiful city of Udaipur. The 9-10 hour scenic drive offers stunning views of Rajasthan's countryside. Upon arrival, check into your hotel and freshen up. Begin exploring Udaipur with a visit to Sajjan Garh Palace, also known as the Monsoon Palace, offering breathtaking panoramic views of Udaipur city and its surrounding lakes. Continue to the 1000-year-old Eklingji Temple complex, dedicated to Lord Shiva. Visit Shilpgram, a rural art and craft complex showcasing traditional Rajasthani culture. Head to Fateh Sagar Lake, a beautiful artificial lake built in the 1680s – sit quietly and enjoy the serenity. Explore Bagore ki Haweli, an 18th-century haveli overlooking Lake Pichola. Conclude at Jagdish Temple, an Indo-Aryan temple dedicated to Lord Vishnu. Return to your hotel for a satisfying meal and overnight stay."
+            },
+            {
+              "day": 4,
+              "title": "Udaipur Exploration – City Palace, Gardens & Temples",
+              "stay": "Udaipur",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "City Palace – Overlooking Lake Pichola",
+                "Gulab Bagh – Largest garden in Udaipur",
+                "Lake Pichola",
+                "Saheliyon ki Bari – Garden of the Maidens",
+                "Karni Mata Temple – Panoramic city views"
+              ],
+              "description": "After breakfast, discover more of Udaipur's treasures. First, visit the magnificent City Palace, a white palace complex that towers over Lake Pichola, offering rich heritage and stunning architecture. Next, head to Gulab Bagh, one of the largest gardens in Udaipur, perfect for a leisurely stroll. Spend quality time at the peaceful Lake Pichola, absorbing its romantic ambiance. Continue to Saheliyon ki Bari, or Garden of the Maidens, a stunning garden built for royal women of the Mewar dynasty. Capture beautiful photos with fountains and lush green lawns in the background. Finally, visit Karni Mata Temple, perched atop Machla Magra Hills, offering panoramic views of Udaipur city and Lake Pichola. Conclude your last day in Udaipur and return to your accommodation for a delicious dinner and overnight stay."
+            },
+            {
+              "day": 5,
+              "title": "Departure – Farewell to Rajasthan",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at hotel",
+                "Hotel check-out",
+                "Transfer to Jaipur/Jodhpur Airport",
+                "Departure"
+              ],
+              "description": "On the final day of your Jaipur to Udaipur trip, wake up early to the royal charm of Rajasthan. Enjoy your mouthwatering breakfast, then pack your bags with wonderful memories. Check out from your hotel and proceed either to Jaipur or Jodhpur Airport/Railway station for your onward journey. With a smile on your face and heart filled with memories of Rajasthan's royal grandeur, serene lakes, and vibrant culture, board your flight or train back home."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "October to March – Pleasant weather, ideal for sightseeing, 10°C to 25°C.",
+                "November to February – Winter season, cool evenings, perfect for exploring forts and palaces.",
+                "July to September – Monsoon, lush greenery, fewer crowds.",
+                "April to June – Summer, hot (35°C to 45°C), but less crowded and budget-friendly."
+              ]
+            },
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Winter (Nov-Feb): 5°C to 22°C – Pack light woolens, jackets, sweaters.",
+                "Summer (Mar-Jun): 25°C to 45°C – Light cotton clothes, sunglasses, sunscreen, hat.",
+                "Monsoon (Jul-Sep): 25°C to 35°C – Umbrella/raincoat, quick-dry clothing.",
+                "Comfortable walking shoes are essential for fort and palace explorations.",
+                "Carry a scarf/stole for temple visits and sun protection."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Both Jaipur and Udaipur have excellent 4G coverage (Jio, Airtel, Vi).",
+                "Wi-Fi available at all hotels and most cafes.",
+                "Jaipur Airport is well-connected to major Indian cities.",
+                "Udaipur Airport has direct flights from Delhi, Mumbai, and Jaipur."
+              ]
+            },
+            {
+              "title": "Food & Water",
+              "points": [
+                "Rajasthani cuisine: Dal Baati Churma, Laal Maas, Gatte ki Sabzi, Ker Sangri.",
+                "Must-try: Pyaz Kachori, Mirchi Vada in Jaipur, and traditional thalis in Udaipur.",
+                "Stick to bottled or filtered water.",
+                "Eat at trusted restaurants and hotel dining areas.",
+                "Bapu Bazar in Jaipur offers delicious street food."
+              ]
+            },
+            {
+              "title": "Cultural Etiquette",
+              "points": [
+                "Rajasthan is culturally rich and traditional – dress modestly at religious sites.",
+                "Remove shoes before entering temples and certain palace interiors.",
+                "Greet with 'Namaste' or 'Ram Ram'.",
+                "Photography restrictions may apply inside palaces and temples – check signage.",
+                "Bargaining is common at local bazaars – start at 50-60% of quoted price."
+              ]
+            },
+            {
+              "title": "Shopping",
+              "points": [
+                "Jaipur: Bapu Bazar – Textiles, blue pottery, jewelry, leather goods, puppets.",
+                "Jaipur: Johari Bazar – Kundan jewelry, gemstones, meenakari work.",
+                "Udaipur: Hathi Pol – Miniature paintings, silver jewelry, handicrafts.",
+                "Udaipur: Shilpgram – Traditional Rajasthani crafts, puppets, souvenirs.",
+                "Bandhej (tie-dye), block prints, and Pashmina shawls are popular buys."
+              ]
+            },
+            {
+              "title": "Health & Safety",
+              "points": [
+                "Carry basic first aid kit – pain relievers, antiseptic, bandages, ORS.",
+                "Stay hydrated, especially during summer months.",
+                "Sunscreen and sunglasses essential for day-long fort visits.",
+                "Travel insurance is strongly recommended.",
+                "Be cautious of touts and unofficial guides at major tourist attractions."
+              ]
+            },
+            {
+              "title": "Packing Essentials",
+              "points": [
+                "Comfortable cotton clothing (summer) / light woolens (winter)",
+                "Comfortable walking shoes",
+                "Sunscreen, sunglasses, hat/cap",
+                "Personal medications and first aid kit",
+                "Power bank",
+                "Water bottle",
+                "Camera with extra batteries",
+                "Valid ID proof",
+                "Scarf/stole for temple visits"
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 100",
+                "Ambulance: 102/108",
+                "Jaipur Police Station: 0141-2744100",
+                "Udaipur Police Station: 0294-2411000",
+                "Sawai Man Singh Hospital, Jaipur: 0141-2560351",
+                "MB Hospital, Udaipur: 0294-2528241",
+                "Tourist Helpline: 1363",
+                "Jaipur Airport: 0141-2550623",
+                "Udaipur Airport: 0294-2655070"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "25% advance payment required to confirm booking.",
+                "50% payment required 21 days before departure.",
+                "Remaining balance must be paid 10 days before departure.",
+                "Booking confirmed only after full payment.",
+                "Payments accepted via bank transfer, UPI, or credit/debit cards (additional charges may apply for card payments)."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 15% cancellation fee.",
+                "21–29 days before departure: 25% cancellation fee.",
+                "14–20 days before departure: 50% cancellation fee.",
+                "7–13 days before departure: 75% cancellation fee.",
+                "Less than 7 days or No show: 100% cancellation fee.",
+                "All refunds processed within 15 working days after cancellation.",
+                "GST component is non-refundable."
+              ]
+            },
+            {
+              "title": "Amendments",
+              "points": [
+                "Changes to itinerary, dates, or hotel upgrades must be requested at least 21 days before departure.",
+                "All amendments are subject to availability and may incur additional charges.",
+                "Name changes in booking are not permitted.",
+                "No changes allowed within 10 days of departure."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Documents",
+              "points": [
+                "All travelers must carry valid government ID: Aadhar card, Voter ID, or Passport.",
+                "Foreign nationals require valid passport with Indian visa.",
+                "Children must carry school ID or birth certificate."
+              ]
+            },
+            {
+              "title": "Travel Insurance",
+              "points": [
+                "Travel insurance is highly recommended.",
+                "Insurance should cover medical emergencies, trip cancellation, and personal belongings.",
+                "Travel Junky is not liable for any loss, damage, injury, or delay due to unforeseen circumstances."
+              ]
+            },
+            {
+              "title": "Itinerary & Activities",
+              "points": [
+                "Itineraries are subject to change due to weather conditions, roadblocks, or government orders.",
+                "Monument entry timings may vary by season – guide will adjust accordingly.",
+                "Travel Junky reserves the right to alter or cancel any part of the itinerary without prior notice due to circumstances beyond control.",
+                "No refunds for missed services or activities due to personal reasons."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Accommodation provided on double/triple sharing basis in standard/deluxe hotels.",
+                "Room allocation is at the discretion of the hotel management.",
+                "Special requests like room with view, adjoining rooms, or specific floor are subject to availability.",
+                "Early check-in (before 12 PM) and late check-out (after 11 AM) may incur additional charges.",
+                "Similar category hotels may be provided if booked property is unavailable."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "Private air-conditioned sedan/SUV (Swift Dzire/Etios or similar) for all transfers and sightseeing.",
+                "Vehicle is point-to-point basis, not at disposal.",
+                "Driver's decision on route, stoppage, and timing will be final.",
+                "Unscheduled travel or extra stops are not permitted.",
+                "AC may not operate in hilly terrains due to gradient."
+              ]
+            },
+            {
+              "title": "Monument Entry Fees",
+              "points": [
+                "Entry fees at forts, palaces, and museums are NOT included in the package.",
+                "ASI monument fees: Amber Fort, City Palace, Jantar Mantar, etc.",
+                "Differential pricing applies for Indian and foreign nationals.",
+                "Camera/video charges extra at most monuments."
+              ]
+            },
+            {
+              "title": "Code of Conduct",
+              "points": [
+                "Travelers must respect local customs, culture, and heritage regulations.",
+                "Littering, damaging property, or inappropriate behavior may result in removal from the trip without refund.",
+                "Follow the instructions of your driver/guide at all times."
+              ]
+            },
+            {
+              "title": "Liability",
+              "points": [
+                "Travel Junky acts as an agent for hotels, transport companies, and other service providers.",
+                "Travel Junky is not liable for any injury, loss, or damage to person or property.",
+                "Travel Junky is not responsible for delays, cancellations, or expenses caused by circumstances beyond its control – weather, natural disasters, political unrest, flight/road closures, etc."
+              ]
+            },
+            {
+              "title": "Photography & Media",
+              "points": [
+                "Travel Junky reserves the right to use photographs, videos, or testimonials taken during the trip for promotional purposes.",
+                "Travelers wishing to opt out must notify Travel Junky in writing before the trip."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
+    },
+    {
+      "state": "Uttarakhand",
+      "slug": "uttarakhand",
+      "bannerImage": "https://media.traveljunky.in/packages/chardham-yatra-tour-package/gallery/658d10a9e016a.png",
+      "description": "Embark on a sacred Himalayan pilgrimage with our Chardham Yatra Tour Package, taking you through the four revered shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath. This spiritually enriching journey through the Garhwal Himalayas offers breathtaking landscapes, serene riverbanks, ancient temples, and divine blessings. Ideal for pilgrims and peace seekers alike, this yatra promises a comfortable, safe, and transformative experience in God's own country.",
+      "packages": [
+        {
+          "packageId": "uk-025",
+          "title": "Chardham Yatra Tour Package: Sacred Himalayan Pilgrimage",
+          "slug": "chardham-yatra-uttarakhand-11-days",
+          "duration": "11D/10N",
+          "citiesCovered": [
+            "Haridwar",
+            "Barkot",
+            "Yamunotri",
+            "Uttarkashi",
+            "Gangotri",
+            "Guptkashi",
+            "Kedarnath",
+            "Badrinath",
+            "Rishikesh"
+          ],
+          "price": {
+            "startingFrom": 42999,
+            "originalPrice": 49999,
+            "currency": "INR",
+            "per": "Per Adult on twin sharing basis"
+          },
+          "tags": [
+            "Pilgrimage",
+            "Spiritual",
+            "Trekking",
+            "Himalayas",
+            "Temples",
+            "Heritage",
+            "Yatra"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/137039/pexels-photo-137039.jpeg",
+          "featured": true,
+          "highlights": [
+            "Attend the divine Ganga Aarti at Haridwar",
+            "Trek to Yamunotri Temple via Janki Chatti (5-6 km)",
+            "Holy dip in Yamunotri's hot spring & Divya Shila prayer",
+            "Visit Gangotri Temple – highest temple dedicated to Goddess Ganga",
+            "Scenic drive through Doon Valley & Kempty Falls",
+            "14 km Kedarnath trek with breathtaking Himalayan views",
+            "Sacred dip at Gaurikund hot water spring",
+            "Darshan at Badrinath Temple & evening Aarti",
+            "Explore Gangnani, Dharali & Harsil en route",
+            "Visit Shankaracharya Samadhi, Pitra Kund & Udar Kund"
+          ],
+          "inclusions": [
+            "Accommodation for 10 nights as per itinerary",
+            "10 Breakfasts & 10 Dinners",
+            "All transfers and sightseeing by private air-conditioned cab as per itinerary",
+            "All inter-state taxes, toll taxes, driver allowance & parking",
+            "All applicable taxes",
+            "Driver night charges and fuel",
+            "Assistance at all arrival and departure points"
+          ],
+          "exclusions": [
+            "5% GST",
+            "Airfare / Train fare",
+            "Any meals other than those specified in Inclusions (lunches, additional meals)",
+            "Expenses of personal nature: tips, telephone calls, laundry, Pooja samagri, etc",
+            "Porterage at hotels/airports/railway stations, and during trekking",
+            "Ponies / Dollies / Palki during trekking",
+            "Entrance fees at temples and monuments during sightseeing",
+            "Camera / Video fees",
+            "Emergency & medical costs",
+            "Helicopter tickets for any of the Dhams",
+            "Cost incidental due to road blocks, landslides, change in itinerary/stay due to bad weather, ill health, or factors beyond control",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Haridwar – Ganga Aarti & Spiritual Evening",
+              "stay": "Haridwar",
+              "meals": ["Dinner"],
+              "highlights": [
+                "Arrival at Haridwar",
+                "Hotel check-in",
+                "Explore temples and ashrams",
+                "River ghats",
+                "Evening Ganga Aarti"
+              ],
+              "description": "Your Uttarakhand Chardham Yatra begins as you arrive at Haridwar. Our representative will take you to your beautiful stay location. Check into your hotel and freshen up. Enjoy your delicious breakfast. Step outside and explore the spiritual capital of India – visit ancient temples, peaceful ashrams, or sit near the serene river ghats. In the evening, attend the world-famous Ganga Aarti at Har Ki Pauri, witnessing the divine spectacle of lamps, chants, and devotion. Feel the serenity and spiritual energy that Haridwar is renowned for. Return to your hotel for a mouthwatering dinner and overnight stay."
+            },
+            {
+              "day": 2,
+              "title": "Haridwar to Barkot – Doon Valley & Kempty Falls",
+              "stay": "Barkot",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Scenic drive through Doon Valley",
+                "Lesser Himalaya & Shivalik Range views",
+                "Kempty Falls near Mussoorie"
+              ],
+              "description": "Wake up early, check out from Haridwar, and proceed to Barkot. En route, enjoy breathtaking scenic views of the Doon Valley, nestled between the Lesser Himalaya and the Shivalik Range. Stop at the beautiful Kempty Falls near Mussoorie – capture photos and enjoy the cascading water. Continue your journey through winding mountain roads adorned with pine forests and river streams. Reach Barkot by evening, check into your accommodation, and acclimatize yourself for the Yamunotri trek ahead. Enjoy a hearty dinner and overnight stay."
+            },
+            {
+              "day": 3,
+              "title": "Yamunotri Trek – Divya Shila & Hot Spring Dip",
+              "stay": "Barkot",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Drive to Janki Chatti",
+                "5-6 km Yamunotri trek",
+                "Yamunotri Temple",
+                "Divya Shila prayer",
+                "Holy dip in hot spring"
+              ],
+              "description": "After a nutritious breakfast, proceed to Janki Chatti, the starting point of the Yamunotri trek. Begin your 5-6 km trek through stunning Himalayan landscapes, with breathtaking views of snow-capped peaks and the sacred Yamuna River flowing alongside. The 4-5 hour trek leads you to the beautiful Yamunotri Temple, dedicated to Goddess Yamuna. Offer prayers at Divya Shila, a sacred stone near the temple entrance, and take a holy dip in the Tapt Kund hot spring, believed to have healing properties. You can pre-book the evening aarti ceremony. After your spiritual visit, trek down to Janki Chatti and drive back to Barkot. Enjoy a delicious dinner and peaceful overnight stay."
+            },
+            {
+              "day": 4,
+              "title": "Barkot to Uttarkashi – Himalayan Journey",
+              "stay": "Uttarkashi",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "4-5 hour scenic drive",
+                "Mountain, valley & river views"
+              ],
+              "description": "Rise early, enjoy your breakfast, and check out from Barkot as you proceed to Uttarkashi. This 4-5 hour journey offers spectacular views of the Garhwal Himalayas, lush valleys, and pristine rivers. The drive itself is a spiritual experience, with every turn revealing nature's grandeur. Reach Uttarkashi by afternoon, check into your accommodation, and rest for a while. Uttarkashi, meaning 'Kashi of the north', is home to the revered Kashi Vishwanath Temple. Enjoy a mouthwatering dinner and peaceful overnight stay."
+            },
+            {
+              "day": 5,
+              "title": "Uttarkashi to Gangotri – Goddess Ganga's Abode",
+              "stay": "Uttarkashi/Gangnani",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "3-4 hour drive to Gangotri",
+                "Gangotri Temple",
+                "Bhagirathi River views",
+                "Gangnani, Dharali & Harsil"
+              ],
+              "description": "Wake up early and enjoy your breakfast as you embark on the journey to Gangotri, one of the four sacred Char Dham shrines. The 3-4 hour drive offers serene views of the Bhagirathi River, towering mountains, and verdant valleys. Reach Gangotri town and visit the Gangotri Temple, the highest temple dedicated to Goddess Ganga, built by the Gorkha general Amar Singh Thapa. Offer prayers and take a holy dip at the Gangotri ghat, believed to absolve sins. En route back to Uttarkashi, explore additional scenic destinations like Gangnani (famous for hot springs), Dharali, and Harsil – each offering unique Himalayan beauty. Based on timing, you may stay at Gangnani or return to Uttarkashi. Rejuvenate with a mouthwatering dinner and peaceful sleep."
+            },
+            {
+              "day": 6,
+              "title": "Uttarkashi to Guptkashi – Garhwal Himalayan Drive",
+              "stay": "Guptkashi",
+              "meals": ["Breakfast", "Dinner"],
+              "highlight": [
+                "8-10 hour scenic drive",
+                "Garhwal Himalayas breeze",
+                "Mountain landscapes"
+              ],
+              "description": "Start your day with a satisfying breakfast and continue your Chardham Yatra with a beautiful drive from Uttarkashi/Gangnani to Guptkashi. This 8-10 hour journey through the Garhwal Himalayas is nothing short of spectacular – winding roads, pine forests, gushing rivers, and panoramic mountain views. Enjoy every moment of this ride – listen to devotional music, feel the cool Himalayan breeze, or simply meditate on the divine landscape. Reach Sitapur/Guptkashi by evening, complete check-in formalities, and relax. Enjoy your delicious dinner and overnight stay."
+            },
+            {
+              "day": 7,
+              "title": "Kedarnath Trek – Lord Shiva's Divine Abode",
+              "stay": "Kedarnath",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Drive to Gaurikund",
+                "Holy dip at Gaurikund hot spring",
+                "14 km Kedarnath trek (6-8 hours)",
+                "Kedarnath Temple darshan",
+                "Shankaracharya Samadhi",
+                "Pitra Kund & Udar Kund",
+                "Rama Cave"
+              ],
+              "description": "After an energizing breakfast, drive to Gaurikund, a 15-20 minute journey. Take a fresh, holy dip at the Gaurikund hot water spring, believed to be where Goddess Parvati meditated to win Lord Shiva. Begin your 14 km sacred trek to Kedarnath – this 6-8 hour journey is the highlight of your yatra. Walk alongside fellow devotees, chanting hymns and absorbing the spiritual energy of the Himalayas. Upon reaching Kedarnath, offer prayers at the ancient Kedarnath Temple, dedicated to Lord Shiva and one of the 12 Jyotirlingas. Visit the Shankaracharya Samadhi, the resting place of Adi Shankaracharya. Don't miss darshan at Pitra Kund and Udar Kund. Seek blessings from meditating sadhus near Rama Cave. After this divine experience, return to your stay location, enjoy a mouthwatering dinner, and rest well."
+            },
+            {
+              "day": 8,
+              "title": "Kedarnath Descent – Return to Guptkashi",
+              "stay": "Guptkashi",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": ["Trek down to Gaurikund", "Scenic return drive"],
+              "description": "Wake up early to the divine vibrations of Kedarnath. Enjoy your satisfying breakfast and begin your descent back to Gaurikund. The trek down offers a different perspective of the majestic Himalayas. Upon reaching Gaurikund, our driver will take you back to Sitapur/Guptkashi. Spend the day at your own pace – rest, reflect on your Kedarnath experience, or explore the local surroundings. Enjoy a mouthwatering dinner and rest well."
+            },
+            {
+              "day": 9,
+              "title": "Guptkashi to Badrinath – Lord Vishnu's Abode",
+              "stay": "Badrinath",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "10-12 hour scenic drive",
+                "Badrinath Temple darshan",
+                "Evening Aarti"
+              ],
+              "description": "Rise early, enjoy a fulfilling breakfast, and check out from Guptkashi. Proceed on your 10-12 hour journey to Badrinath, the final Dham of your Chardham Yatra. The drive through the Alaknanda River valley offers spectacular mountain scenery. By evening, reach the sacred Badrinath Temple, dedicated to Lord Vishnu and part of the 108 Divya Desams. Offer prayers and attend the divine evening Aarti. Feel the spiritual energy of this ancient pilgrimage site, surrounded by the Nar and Narayan mountain ranges. Return to your accommodation, enjoy a delicious dinner, and peaceful overnight stay."
+            },
+            {
+              "day": 10,
+              "title": "Badrinath to Rishikesh – Return to the Foothills",
+              "stay": "Haridwar/Rishikesh",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "10-12 hour scenic drive",
+                "Return to the foothills"
+              ],
+              "description": "On your second-to-last day, wake up early and enjoy your breakfast. Head back from Badrinath to Rishikesh/Haridwar. This 10-12 hour journey takes you through the ever-changing landscapes of Uttarakhand – from high-altitude Himalayan terrain to lush foothills. Look outside the window, admire the beauty, listen to devotional music, or meditate on your yatra experience. Reach Rishikesh/Haridwar by evening, check into your hotel, and enjoy your mouthwatering dinner. Reflect on your divine journey as you rest for the night."
+            },
+            {
+              "day": 11,
+              "title": "Departure – Farewell to the Himalayas",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Breakfast at hotel",
+                "Hotel check-out",
+                "Airport/Railway station transfer",
+                "Departure"
+              ],
+              "description": "On the final day of your Chardham Yatra, rise and shine early. Enjoy your fulfilling breakfast and check out from your hotel, carrying beautiful memories, divine blessings, and a heart full of spiritual fulfillment. Our representative will transfer you to the airport or railway station for your onward journey back home. May the blessings of Yamunotri, Gangotri, Kedarnath, and Badrinath remain with you always."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Best Time to Visit",
+              "points": [
+                "May to June – Peak season, pleasant weather, all routes open.",
+                "September to October – Post-monsoon, clear skies, fewer crowds.",
+                "November to April – Winter season, Kedarnath & Badrinath closed due to heavy snow.",
+                "July to August – Monsoon season, landslides possible, trekking challenging.",
+                "Kedarnath Temple opens in April/May and closes in October/November."
+              ]
+            },
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Summer (May-June): 15°C to 25°C – Light woolens, comfortable cottons.",
+                "Winter (Nov-Apr): -5°C to 10°C – Heavy woolens, thermal inners, down jacket, gloves, monkey cap.",
+                "Monsoon (Jul-Sep): 10°C to 20°C – Raincoat, umbrella, waterproof shoes.",
+                "Sturdy trekking shoes with good grip are essential for Yamunotri & Kedarnath treks.",
+                "Carry multiple layers – temperature drops significantly at higher altitudes."
+              ]
+            },
+            {
+              "title": "Trekking Information",
+              "points": [
+                "Yamunotri Trek: 5-6 km one way, 4-5 hours, moderate difficulty.",
+                "Kedarnath Trek: 14 km one way, 6-8 hours, moderate to difficult.",
+                "Ponies, palanquins, and dolly services available at additional cost.",
+                "Start treks early morning to avoid afternoon weather changes.",
+                "Carry water, energy bars, dry fruits, and basic medications.",
+                "Hire licensed guides for better experience and safety."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Haridwar, Rishikesh, Dehradun have excellent 4G coverage.",
+                "Barkot, Uttarkashi, Guptkashi have decent mobile network (BSNL/Airtel).",
+                "Kedarnath and Yamunotri have very limited/no network.",
+                "Badrinath has BSNL connectivity.",
+                "Inform family and friends about limited connectivity in advance.",
+                "Offline maps are highly recommended."
+              ]
+            },
+            {
+              "title": "Food & Water",
+              "points": [
+                "Uttarakhand cuisine is simple and sattvic, especially near temples.",
+                "Must-try: Aloo ke Gutke, Phaanu, Kafuli, Chainsoo, Bal Mithai, Singhauri.",
+                "Stick to bottled or filtered water throughout the yatra.",
+                "Vegetarian-only food in pilgrimage areas – no alcohol/non-veg near temples.",
+                "Eat at recommended or hygienic restaurants and hotel dining areas."
+              ]
+            },
+            {
+              "title": "Cultural Etiquette",
+              "points": [
+                "Respect local traditions and temple customs.",
+                "Dress modestly – cover shoulders and knees, avoid revealing clothes.",
+                "Remove shoes before entering temple premises.",
+                "Photography is prohibited inside most temples.",
+                "Avoid public display of affection near religious sites.",
+                "Maintain silence and discipline during aarti ceremonies."
+              ]
+            },
+            {
+              "title": "Health Precautions",
+              "points": [
+                "Carry motion sickness tablets for winding mountain roads.",
+                "High-altitude acclimatization is essential – take it slow on trek days.",
+                "Basic medical kit: pain relievers, antiseptic, bandages, ORS, Diamox (after consulting doctor).",
+                "Carry personal medications for at least 10-12 days.",
+                "Oxygen levels drop at Kedarnath (11,755 ft) and Badrinath (10,279 ft).",
+                "Travel insurance is strongly recommended."
+              ]
+            },
+            {
+              "title": "Local Laws",
+              "points": [
+                "Consumption of alcohol and meat is strictly prohibited in Haridwar, Rishikesh, Badrinath, and Kedarnath.",
+                "Smoking is banned in public places.",
+                "Avoid plastic use near rivers and forest zones – carry reusable bottles.",
+                "Respect wildlife and forest regulations.",
+                "Follow temple entry timings and dress codes strictly."
+              ]
+            },
+            {
+              "title": "Eco-Responsibility",
+              "points": [
+                "Uttarakhand's fragile Himalayan ecosystems need your care.",
+                "Say no to plastic – carry reusable water bottles and bags.",
+                "Do not litter on treks, temple routes, or river ghats.",
+                "Keep Ganga and its tributaries clean – do not offer plastic-wrapped items.",
+                "Take only memories, leave only footprints.",
+                "Respect the 'Clean Yatra' mission of the Uttarakhand government."
+              ]
+            },
+            {
+              "title": "Packing Essentials",
+              "points": [
+                "Sturdy waterproof trekking shoes",
+                "Warm clothing (layers, fleece, down jacket)",
+                "Raincoat/poncho (monsoon season)",
+                "Torch/headlamp with extra batteries",
+                "Power bank (frequent power cuts in remote areas)",
+                "Sunscreen, sunglasses, lip balm",
+                "Personal medications and first aid kit",
+                "Water bottle (preferably insulated)",
+                "Snacks, energy bars, dry fruits, chocolates",
+                "Valid ID proof",
+                "Pooja samagri (if offering special prayers)",
+                "Camera with extra batteries",
+                "Walking stick (available locally)"
+              ]
+            },
+            {
+              "title": "Emergency Numbers",
+              "points": [
+                "Police: 100",
+                "Ambulance: 102/108",
+                "Disaster Management: 1070",
+                "Haridwar Police: 01334-224521",
+                "Uttarkashi Police: 01374-222233",
+                "Rudraprayag Police: 01364-233233",
+                "Chamoli Police: 01372-252233",
+                "GMVN Tourist Helpline: 1800-180-1515",
+                "Kedarnath Temple Committee: 01388-233002",
+                "Badrinath Temple Committee: 01381-222206"
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "25% advance payment required to confirm booking.",
+                "50% payment required 30 days before departure.",
+                "Remaining balance must be paid 15 days before departure.",
+                "Booking confirmed only after full payment.",
+                "Payments accepted via bank transfer, UPI, or credit/debit cards (additional charges may apply for card payments)."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "30+ days before departure: 15% cancellation fee.",
+                "21–29 days before departure: 25% cancellation fee.",
+                "14–20 days before departure: 50% cancellation fee.",
+                "7–13 days before departure: 75% cancellation fee.",
+                "Less than 7 days or No show: 100% cancellation fee.",
+                "All refunds processed within 15 working days after cancellation.",
+                "GST component is non-refundable."
+              ]
+            },
+            {
+              "title": "Amendments",
+              "points": [
+                "Changes to itinerary, dates, or hotel upgrades must be requested at least 21 days before departure.",
+                "All amendments are subject to availability and may incur additional charges.",
+                "Name changes in booking are not permitted.",
+                "No changes allowed within 10 days of departure."
+              ]
+            },
+            {
+              "title": "GST",
+              "points": [
+                "5% GST applicable on total package cost.",
+                "GST is non-refundable even in case of cancellation."
+              ]
+            },
+            {
+              "title": "Documents",
+              "points": [
+                "All travelers must carry valid government ID: Aadhar card, Voter ID, or Passport.",
+                "Foreign nationals require valid passport with Indian visa.",
+                "Children must carry school ID or birth certificate.",
+                "Carry 4-5 passport-size photographs for permits and registrations."
+              ]
+            },
+            {
+              "title": "Health & Fitness",
+              "points": [
+                "Kedarnath trek (14 km one way) requires moderate to good fitness level.",
+                "Consult your doctor before booking if you have respiratory or cardiac conditions.",
+                "Travel Junky is not responsible for any altitude sickness, health issues, or medical emergencies.",
+                "Pregnant women, infants, and individuals with severe health conditions are advised not to undertake this yatra.",
+                "Mandatory health screening recommended for elderly pilgrims."
+              ]
+            },
+            {
+              "title": "Travel Insurance",
+              "points": [
+                "Travel insurance is highly recommended for high-altitude pilgrimage.",
+                "Insurance should cover medical emergencies, trip cancellation, helicopter evacuation, and personal belongings.",
+                "Travel Junky is not liable for any loss, damage, injury, or delay due to unforeseen circumstances."
+              ]
+            },
+            {
+              "title": "Itinerary & Activities",
+              "points": [
+                "Itineraries are subject to change due to weather conditions, roadblocks, landslides, or government orders.",
+                "Kedarnath and Yamunotri treks are weather-dependent – may be altered for safety.",
+                "Chardham Yatra routes often face traffic jams – itinerary flexibility is essential.",
+                "Travel Junky reserves the right to alter or cancel any part of the itinerary without prior notice due to circumstances beyond control.",
+                "No refunds for missed services or activities due to weather, road conditions, or personal reasons."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Accommodation provided on double/triple sharing basis in standard hotels, guesthouses, or GMVN lodges.",
+                "Kedarnath accommodation is basic (camps, dharamshalas, or GMVN) due to high-altitude terrain.",
+                "Room allocation is at the discretion of the hotel/lodge management.",
+                "Special requests are subject to availability.",
+                "Early check-in (before 12 PM) and late check-out (after 11 AM) may incur additional charges.",
+                "Similar category accommodation may be provided if booked property is unavailable."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "Private air-conditioned SUV/Innova/Tempo Traveller for all transfers and sightseeing.",
+                "Vehicle is point-to-point basis, not at disposal.",
+                "AC may not operate in hilly terrains due to gradient.",
+                "Driver's decision on route, stoppage, and timing will be final.",
+                "Unscheduled travel or extra stops are not permitted."
+              ]
+            },
+            {
+              "title": "Trekking & Porterage",
+              "points": [
+                "Ponies, palanquins, and dolly services are available at additional cost.",
+                "Travel Junky can assist in arranging these services on request.",
+                "Porter charges are not included in the package.",
+                "Trek leaders/guides are not provided – available locally at additional cost.",
+                "Travel Junky is not responsible for any injury or loss during trekking."
+              ]
+            },
+            {
+              "title": "Helicopter Services",
+              "points": [
+                "Helicopter tickets for Kedarnath are NOT included in the package.",
+                "Helicopter bookings are subject to availability and separate payment.",
+                "Travel Junky can assist in booking helicopter tickets at actual cost (additional).",
+                "Helicopter services are weather-dependent and may be cancelled without prior notice.",
+                "No refunds for helicopter cancellations due to weather – alternative arrangements to be made by traveler."
+              ]
+            },
+            {
+              "title": "Code of Conduct",
+              "points": [
+                "Travelers must respect local customs, temple traditions, and environmental regulations.",
+                "Alcohol, non-vegetarian food, and smoking are strictly prohibited in pilgrimage towns.",
+                "Littering, damaging property, or inappropriate behavior may result in removal from the trip without refund.",
+                "Follow the instructions of your driver/guide at all times.",
+                "Maintain discipline during temple darshan and aarti ceremonies."
+              ]
+            },
+            {
+              "title": "Liability",
+              "points": [
+                "Travel Junky acts as an agent for hotels, transport companies, and other service providers.",
+                "Travel Junky is not liable for any injury, loss, or damage to person or property.",
+                "Travel Junky is not responsible for delays, cancellations, or expenses caused by circumstances beyond its control – weather, natural disasters, landslides, roadblocks, political unrest, flight/road closures, etc."
+              ]
+            },
+            {
+              "title": "Photography & Media",
+              "points": [
+                "Travel Junky reserves the right to use photographs, videos, or testimonials taken during the trip for promotional purposes.",
+                "Travelers wishing to opt out must notify Travel Junky in writing before the trip."
+              ]
+            },
+            {
+              "title": "Governing Law",
+              "points": [
+                "All disputes subject to Indian jurisdiction.",
+                "Any legal proceedings shall be conducted in courts of Delhi/NCR."
+              ]
+            }
+          ],
+          "status": "active",
+          "featured": true,
+          "createdAt": "2026-02-12"
+        }
+      ]
     }
   ]
 }

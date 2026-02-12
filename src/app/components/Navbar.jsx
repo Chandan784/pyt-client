@@ -1,6 +1,17 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import {
+  FiChevronDown,
+  FiMenu,
+  FiX,
+  FiStar,
+  FiMapPin,
+  FiGlobe,
+  FiHome,
+  FiPhone,
+  FiMail,
+} from "react-icons/fi";
 
 export default function Navbar() {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -38,27 +49,41 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          {/* LOGO */}
-          <div className="flex items-center gap-3">
-            <img
-              src="/pyt-logo.jpg"
-              alt="Plan Your Trip"
-              className="w-11 h-11 rounded-full object-cover shadow"
-            />
-            <span className="text-sm md:text-xl font-semibold text-gray-800">
-              PrimeVistaJourney
-            </span>
-          </div>
+      <nav className="bg-white/95 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-gray-200/80">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+          {/* LOGO - Primevista Journey */}
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative">
+              <img
+                src="/pyt-logo.jpg"
+                alt="Primevista Journey"
+                className="w-11 h-11 rounded-full object-cover shadow-md border-2 border-white group-hover:border-blue-500 transition-all duration-300"
+              />
+              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center border-2 border-white">
+                <FiStar className="text-white text-xs" />
+              </div>
+            </div>
+            <div className="flex flex-col">
+              <span className="text-base md:text-lg font-bold text-gray-800 leading-tight">
+                PrimeVista<span className="text-blue-600">Journey</span>
+              </span>
+              <span className="text-[10px] md:text-xs text-gray-500 tracking-wider">
+                Travel Beyond Horizons
+              </span>
+            </div>
+          </Link>
 
           {/* DESKTOP MENU */}
           <div
             ref={menuRef}
-            className="hidden md:flex items-center gap-10 font-medium text-gray-700 relative"
+            className="hidden md:flex items-center gap-8 font-medium text-gray-700 relative"
           >
-            <Link href="/" className="hover:text-[var(--theme)] transition">
-              Home
+            <Link
+              href="/"
+              className="flex items-center gap-1 hover:text-blue-600 transition-colors duration-300 px-3 py-2 rounded-lg hover:bg-blue-50"
+            >
+              <FiHome className="text-sm" />
+              <span>Home</span>
             </Link>
 
             {/* Domestic */}
@@ -67,23 +92,40 @@ export default function Navbar() {
                 onClick={() =>
                   setActiveMenu(activeMenu === "domestic" ? null : "domestic")
                 }
-                className="hover:text-[var(--theme)] transition"
+                className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
+                  activeMenu === "domestic"
+                    ? "text-blue-600 bg-blue-50"
+                    : "hover:text-blue-600 hover:bg-blue-50"
+                }`}
               >
-                Domestic ▾
+                <FiMapPin className="text-sm" />
+                <span>Domestic</span>
+                <FiChevronDown
+                  className={`text-sm transition-transform duration-300 ${
+                    activeMenu === "domestic" ? "rotate-180" : ""
+                  }`}
+                />
               </button>
 
               {activeMenu === "domestic" && (
-                <div className="absolute top-12 left-0 bg-white shadow-2xl rounded-2xl w-60 py-4 border z-50">
-                  {domestic.map((place) => (
-                    <Link
-                      key={place}
-                      href={`/domestic/${place.toLowerCase()}`}
-                      onClick={() => setActiveMenu(null)}
-                      className="block px-6 py-2 hover:bg-gray-100"
-                    >
-                      {place}
-                    </Link>
-                  ))}
+                <div className="absolute top-12 left-0 bg-white shadow-xl rounded-2xl w-64 py-3 border border-gray-200/80 z-50 animate-fadeIn">
+                  <div className="px-4 py-2 bg-gradient-to-r from-blue-50 to-transparent">
+                    <p className="text-xs font-semibold text-blue-600 uppercase tracking-wider">
+                      Explore India
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-2 gap-1 p-2">
+                    {domestic.map((place) => (
+                      <Link
+                        key={place}
+                        href={`/domestic/${place.toLowerCase()}`}
+                        onClick={() => setActiveMenu(null)}
+                        className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
+                      >
+                        {place}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
@@ -96,28 +138,54 @@ export default function Navbar() {
                     activeMenu === "international" ? null : "international",
                   )
                 }
-                className="hover:text-[var(--theme)] transition"
+                className={`flex items-center gap-1 px-3 py-2 rounded-lg transition-all duration-300 ${
+                  activeMenu === "international"
+                    ? "text-blue-600 bg-blue-50"
+                    : "hover:text-blue-600 hover:bg-blue-50"
+                }`}
               >
-                International ▾
+                <FiGlobe className="text-sm" />
+                <span>International</span>
+                <FiChevronDown
+                  className={`text-sm transition-transform duration-300 ${
+                    activeMenu === "international" ? "rotate-180" : ""
+                  }`}
+                />
               </button>
 
               {activeMenu === "international" && (
-                <div className="absolute top-12 left-0 bg-white shadow-2xl rounded-2xl w-60 py-4 border z-50">
-                  {international.map((place) => (
-                    <Link
-                      key={place}
-                      href={`/international/${place.toLowerCase()}`}
-                      onClick={() => setActiveMenu(null)}
-                      className="block px-6 py-2 hover:bg-gray-100"
-                    >
-                      {place}
-                    </Link>
-                  ))}
+                <div className="absolute top-12 left-0 bg-white shadow-xl rounded-2xl w-64 py-3 border border-gray-200/80 z-50 animate-fadeIn">
+                  <div className="px-4 py-2 bg-gradient-to-r from-blue-50 to-transparent">
+                    <p className="text-xs font-semibold text-blue-600 uppercase tracking-wider">
+                      Explore World
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-2 gap-1 p-2">
+                    {international.map((place) => (
+                      <Link
+                        key={place}
+                        href={`/international/${place.toLowerCase()}`}
+                        onClick={() => setActiveMenu(null)}
+                        className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
+                      >
+                        {place}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
 
-            <button className="bg-[var(--theme)] text-white px-6 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition">
+            <Link
+              href="/contact"
+              className="flex items-center gap-1 px-3 py-2 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition-all duration-300"
+            >
+              <FiPhone className="text-sm" />
+              <span>Contact</span>
+            </Link>
+
+            <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center gap-2">
+              <FiStar className="text-yellow-300" />
               Book Now
             </button>
           </div>
@@ -125,9 +193,9 @@ export default function Navbar() {
           {/* HAMBURGER */}
           <button
             onClick={() => setDrawerOpen(true)}
-            className="md:hidden text-3xl text-gray-700"
+            className="md:hidden text-2xl text-gray-700 hover:text-blue-600 transition-colors p-2"
           >
-            ☰
+            <FiMenu />
           </button>
         </div>
       </nav>
@@ -136,71 +204,145 @@ export default function Navbar() {
       {drawerOpen && (
         <div
           onClick={() => setDrawerOpen(false)}
-          className="fixed inset-0 bg-black/40 z-40"
+          className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 animate-fadeIn"
         />
       )}
 
       {/* MOBILE DRAWER */}
-      {/* MOBILE DRAWER */}
       <div
-        className={`fixed top-0 right-0 h-screen w-[80%] max-w-sm bg-white z-50 shadow-2xl 
-  transform transition-transform duration-300 ${
-    drawerOpen ? "translate-x-0" : "translate-x-full"
-  }`}
+        className={`fixed top-0 right-0 h-screen w-[85%] max-w-sm bg-white z-50 shadow-2xl 
+          transform transition-transform duration-500 ease-out ${
+            drawerOpen ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         <div className="h-full flex flex-col">
           {/* Header */}
-          <div className="p-6 flex justify-between items-center border-b shrink-0">
-            <span className="font-semibold text-lg">Menu</span>
-            <button onClick={() => setDrawerOpen(false)} className="text-2xl">
-              ✕
+          <div className="p-6 flex justify-between items-center border-b bg-gradient-to-r from-blue-50 to-white">
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                <img
+                  src="/pyt-logo.jpg"
+                  alt="Primevista Journey"
+                  className="w-10 h-10 rounded-full object-cover border-2 border-blue-600"
+                />
+              </div>
+              <div>
+                <span className="font-bold text-gray-800">
+                  PrimeVistaJourney
+                </span>
+                <p className="text-[10px] text-gray-500">
+                  Travel Beyond Horizons
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={() => setDrawerOpen(false)}
+              className="text-2xl text-gray-500 hover:text-blue-600 transition-colors"
+            >
+              <FiX />
             </button>
           </div>
 
           {/* Scrollable Content */}
-          <div className="flex-1 overflow-y-auto p-6 flex flex-col gap-5 font-medium text-gray-700">
-            <Link href="/" onClick={() => setDrawerOpen(false)}>
-              Home
-            </Link>
+          <div className="flex-1 overflow-y-auto p-6">
+            <div className="flex flex-col gap-2 font-medium text-gray-700">
+              <Link
+                href="/"
+                onClick={() => setDrawerOpen(false)}
+                className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-blue-50 hover:text-blue-600 transition-all duration-300"
+              >
+                <FiHome className="text-lg" />
+                <span>Home</span>
+              </Link>
 
-            {/* Domestic Mobile */}
-            <details>
-              <summary className="cursor-pointer">Domestic Travel</summary>
-              <div className="ml-4 mt-3 flex flex-col gap-2 text-sm">
-                {domestic.map((place) => (
-                  <Link
-                    key={place}
-                    href={`/domestic/${place.toLowerCase()}`}
-                    onClick={() => setDrawerOpen(false)}
-                  >
-                    {place}
-                  </Link>
-                ))}
+              {/* Domestic Mobile */}
+              <div className="border-b border-gray-100 pb-2">
+                <div className="flex items-center gap-3 px-4 py-3 text-gray-800">
+                  <FiMapPin className="text-lg text-blue-600" />
+                  <span className="font-semibold">Domestic Travel</span>
+                </div>
+                <div className="ml-8 grid grid-cols-2 gap-2 mt-1">
+                  {domestic.map((place) => (
+                    <Link
+                      key={place}
+                      href={`/domestic/${place.toLowerCase()}`}
+                      onClick={() => setDrawerOpen(false)}
+                      className="px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
+                    >
+                      {place}
+                    </Link>
+                  ))}
+                </div>
               </div>
-            </details>
 
-            {/* International Mobile */}
-            <details>
-              <summary className="cursor-pointer">International Travel</summary>
-              <div className="ml-4 mt-3 flex flex-col gap-2 text-sm">
-                {international.map((place) => (
-                  <Link
-                    key={place}
-                    href={`/international/${place.toLowerCase()}`}
-                    onClick={() => setDrawerOpen(false)}
-                  >
-                    {place}
-                  </Link>
-                ))}
+              {/* International Mobile */}
+              <div className="border-b border-gray-100 pb-2">
+                <div className="flex items-center gap-3 px-4 py-3 text-gray-800">
+                  <FiGlobe className="text-lg text-blue-600" />
+                  <span className="font-semibold">International Travel</span>
+                </div>
+                <div className="ml-8 grid grid-cols-2 gap-2 mt-1">
+                  {international.map((place) => (
+                    <Link
+                      key={place}
+                      href={`/international/${place.toLowerCase()}`}
+                      onClick={() => setDrawerOpen(false)}
+                      className="px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-300"
+                    >
+                      {place}
+                    </Link>
+                  ))}
+                </div>
               </div>
-            </details>
 
-            <button className="mt-4 bg-[var(--theme)] text-white py-3 rounded-full shadow">
-              Book Now
+              <Link
+                href="/contact"
+                onClick={() => setDrawerOpen(false)}
+                className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-blue-50 hover:text-blue-600 transition-all duration-300"
+              >
+                <FiPhone className="text-lg" />
+                <span>Contact</span>
+              </Link>
+
+              <Link
+                href="/about"
+                onClick={() => setDrawerOpen(false)}
+                className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-blue-50 hover:text-blue-600 transition-all duration-300"
+              >
+                <FiMail className="text-lg" />
+                <span>About Us</span>
+              </Link>
+            </div>
+          </div>
+
+          {/* Bottom CTA */}
+          <div className="p-6 border-t bg-gray-50">
+            <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3.5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 flex items-center justify-center gap-2">
+              <FiStar className="text-yellow-300" />
+              Book Your Journey
             </button>
+            <p className="text-center text-xs text-gray-500 mt-4">
+              ✈️ 500+ destinations • 24/7 support
+            </p>
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(-10px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fadeIn {
+          animation: fadeIn 0.3s ease-out;
+        }
+      `}</style>
     </>
   );
 }
