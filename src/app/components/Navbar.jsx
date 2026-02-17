@@ -55,21 +55,13 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative">
               <img
-                src="/pyt-logo.jpg"
+                src="/pvjlogo.png"
                 alt="Primevista Journey"
-                className="w-11 h-11 rounded-full object-cover shadow-md border-2 border-white group-hover:border-blue-500 transition-all duration-300"
+                className=" lg:w-56 sm:w-36 shadow-md border-2 border-white group-hover:border-blue-500 transition-all duration-300"
               />
               <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center border-2 border-white">
                 <FiStar className="text-white text-xs" />
               </div>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-base md:text-lg font-bold text-gray-800 leading-tight">
-                PrimeVista<span className="text-blue-600">Journey</span>
-              </span>
-              <span className="text-[10px] md:text-xs text-gray-500 tracking-wider">
-                Travel Beyond Horizons
-              </span>
             </div>
           </Link>
 
@@ -221,18 +213,10 @@ export default function Navbar() {
             <div className="flex items-center gap-3">
               <div className="relative">
                 <img
-                  src="/pyt-logo.jpg"
+                  src="/pvjlogo.png"
                   alt="Primevista Journey"
-                  className="w-10 h-10 rounded-full object-cover border-2 border-blue-600"
+                  className="w-56 h-10  border-2 border-blue-600"
                 />
-              </div>
-              <div>
-                <span className="font-bold text-gray-800">
-                  PrimeVistaJourney
-                </span>
-                <p className="text-[10px] text-gray-500">
-                  Travel Beyond Horizons
-                </p>
               </div>
             </div>
             <button

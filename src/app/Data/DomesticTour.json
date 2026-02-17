@@ -501,6 +501,185 @@
           "status": "active",
           "featured": true,
           "createdAt": "2026-02-12"
+        },
+        {
+          "packageId": "hp-011",
+          "title": "Kasol to Tosh: A Scenic Trek",
+          "slug": "kasol-tosh-trek-4-days",
+          "duration": "4D/3N",
+          "citiesCovered": ["Delhi", "Kasol", "Tosh", "Kutla", "Manikaran"],
+          "price": {
+            "startingFrom": 11500,
+            "originalPrice": 21200,
+            "currency": "INR",
+            "per": "Per Person"
+          },
+          "tags": [
+            "Trekking",
+            "Adventure",
+            "Himalayas",
+            "Backpacking",
+            "Village Exploration",
+            "Nature Escape"
+          ],
+          "thumbnail": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg",
+          "featured": false,
+          "highlights": [
+            "Scenic 4 km Tosh trek through pine forests",
+            "Explore Kutla Village & Buddha Van forest",
+            "Glacier Point snow-clad mountain views",
+            "Famous Israeli cafes in Kasol",
+            "Visit Manikaran Sahib Gurudwara & hot springs",
+            "Parvati Valley landscapes",
+            "Sunrise views from Tosh village",
+            "Bonfire & mountain vibe experience"
+          ],
+          "inclusions": [
+            "Accommodation: 2 nights (Kasol & Tosh/Kutla)",
+            "3 Breakfasts & 2 Dinners",
+            "Transportation from Delhi (AC Volvo bus)",
+            "All toll taxes and parking",
+            "All sightseeing as per itinerary",
+            "Bonfire and Music session (subject to availability)",
+            "Local transfers as per itinerary"
+          ],
+          "exclusions": [
+            "Air / Train fare",
+            "Any pony charges",
+            "Entry fee at trekking sites (if applicable)",
+            "Any adventure activities",
+            "Expenses of personal nature like tips, laundry, phone calls",
+            "Any extra meal not mentioned in inclusions",
+            "5% GST",
+            "Anything not specifically mentioned under Inclusions"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Departure from Delhi – Overnight Journey",
+              "stay": "Overnight Bus",
+              "meals": [],
+              "highlights": [
+                "Board AC Volvo bus from Delhi",
+                "10-12 hours overnight journey",
+                "Scenic mountain highway drive"
+              ],
+              "description": "Begin your Himachal adventure in the evening by boarding the AC Volvo bus from Delhi to Kasol. Enjoy a comfortable overnight journey through winding mountain roads."
+            },
+            {
+              "day": 2,
+              "title": "Arrival in Kasol – Cafes & Valley Exploration",
+              "stay": "Kasol",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "Early morning arrival in Kasol",
+                "Hotel check-in & relaxation",
+                "Explore Parvati Valley",
+                "Jim Morrison Café & Moon Dance Café",
+                "Israeli cuisine tasting",
+                "Local shopping"
+              ],
+              "description": "Arrive early morning in Kasol. After check-in and rest, explore the charming hill town, riverside cafes, and local markets. Enjoy authentic Israeli cuisine and vibrant backpacker vibes."
+            },
+            {
+              "day": 3,
+              "title": "Tosh Trek – Kutla Village & Glacier Point",
+              "stay": "Tosh / Kutla",
+              "meals": ["Breakfast", "Dinner"],
+              "highlights": [
+                "4 km Tosh trek",
+                "Kutla Village exploration",
+                "Buddha Van forest",
+                "Glacier Point views",
+                "Sunset in the mountains"
+              ],
+              "description": "After breakfast, begin your scenic 4 km trek to Tosh. Capture breathtaking views of the Parvati Valley. Later explore Kutla Village, Buddha Van forest and Glacier Point with panoramic snow-capped peaks."
+            },
+            {
+              "day": 4,
+              "title": "Sunrise at Tosh – Manikaran Visit & Departure",
+              "stay": null,
+              "meals": ["Breakfast"],
+              "highlights": [
+                "Sunrise at Tosh",
+                "Trek down to Barshaini",
+                "Visit Manikaran Sahib Gurudwara",
+                "Natural hot water springs",
+                "Evening Volvo to Delhi"
+              ],
+              "description": "Wake up early to witness the sunrise at Tosh. After breakfast, trek down to Barshaini and visit Manikaran Sahib Gurudwara. Explore the holy hot springs before returning to Kasol and boarding your Volvo bus to Delhi."
+            }
+          ],
+          "keyInfo": [
+            {
+              "title": "Climate & Clothing",
+              "points": [
+                "Chilly mornings and cool evenings throughout the year.",
+                "Carry warm layers and sturdy trekking shoes.",
+                "Sunscreen and sunglasses recommended due to high altitude UV exposure."
+              ]
+            },
+            {
+              "title": "Trek Difficulty",
+              "points": [
+                "Tosh trek is easy to moderate.",
+                "Approx 4 km one way.",
+                "Suitable for beginners with basic fitness.",
+                "Gradual ascent with scenic trails."
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "points": [
+                "Kasol has decent network coverage.",
+                "Limited or weak signal in Tosh and Kutla.",
+                "Carry sufficient cash."
+              ]
+            },
+            {
+              "title": "Eco-Responsibility",
+              "points": [
+                "Do not litter – carry back all waste.",
+                "Avoid plastic usage.",
+                "Respect forest trails and village life."
+              ]
+            }
+          ],
+          "termsAndConditions": [
+            {
+              "title": "Booking & Payments",
+              "points": [
+                "50% advance payment required to confirm booking.",
+                "Remaining balance payable 7 days before departure."
+              ]
+            },
+            {
+              "title": "Cancellation Policy",
+              "points": [
+                "15+ days before departure: 25% charge.",
+                "8–14 days before departure: 50% charge.",
+                "4–7 days before departure: 75% charge.",
+                "Less than 3 days: 100% charge."
+              ]
+            },
+            {
+              "title": "Transportation",
+              "points": [
+                "AC Volvo bus from Delhi to Kasol and return.",
+                "Local transfers as per itinerary."
+              ]
+            },
+            {
+              "title": "Accommodation",
+              "points": [
+                "Kasol: Hotel/guesthouse on double/triple sharing.",
+                "Tosh/Kutla: Guesthouse or homestay.",
+                "Subject to availability."
+              ]
+            }
+          ],
+          "status": "active",
+          "createdAt": "2026-02-17"
         }
       ]
     },
