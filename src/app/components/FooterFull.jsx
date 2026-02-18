@@ -15,6 +15,12 @@ import {
 } from "react-icons/fi";
 
 export default function FooterFull() {
+  const footerLinks = [
+    { name: "About Us", href: "/about-us" },
+    { name: "Contact Us", href: "/contact" },
+    { name: "Policies", href: "/privacy-policy" },
+    { name: "Terms & Conditions", href: "/terms" },
+  ];
   const currentYear = new Date().getFullYear();
 
   return (
@@ -113,7 +119,7 @@ export default function FooterFull() {
             </ul>
           </div> */}
 
-          {/* Tour By Interest */}
+          {/* Tour By Interest
           <div className="col-span-1">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-5 border-b-2 border-blue-500/50 pb-2 inline-block">
               By Interest
@@ -137,7 +143,7 @@ export default function FooterFull() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Company */}
           <div className="col-span-1">
@@ -145,18 +151,16 @@ export default function FooterFull() {
               Company
             </h4>
             <ul className="space-y-2.5">
-              {["About Us", "Contact Us", "Policies", "Terms & Conditions"].map(
-                (item) => (
-                  <li key={item}>
-                    <Link
-                      href="#"
-                      className="text-sm text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                ),
-              )}
+              {footerLinks.map((item) => (
+                <li key={item.name}>
+                  <Link
+                    href={item.href}
+                    className="text-sm text-gray-300 hover:text-white hover:translate-x-1 transition-all duration-300 inline-block"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -195,7 +199,7 @@ export default function FooterFull() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white">
-                    Primevista Journey
+                    PrimevistaJourney
                   </h3>
                   <p className="text-xs text-gray-400">
                     Travel Beyond Horizons
@@ -289,16 +293,19 @@ export default function FooterFull() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © 2025
-            <span className="text-white font-medium">Primevista Journey</span>.
+            © 2025{" "}
+            <span className="text-white font-medium">PrimevistaJourney</span>.
             All Rights Reserved.
           </p>
           <div className="flex items-center gap-4 text-xs text-gray-500">
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link
+              href="/privacy-policy"
+              className="hover:text-white transition-colors"
+            >
               Privacy Policy
             </Link>
             <span>•</span>
-            <Link href="#" className="hover:text-white transition-colors">
+            <Link href="/terms" className="hover:text-white transition-colors">
               Terms of Use
             </Link>
           </div>

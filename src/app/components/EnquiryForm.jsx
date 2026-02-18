@@ -15,7 +15,7 @@ export default function TravelEnquirySection() {
   const sendWhatsApp = (e) => {
     e.preventDefault();
 
-    const whatsappNumber = "919871597736";
+    const whatsappNumber = "918178420122";
 
     const text = `
 🌍 TRAVEL ENQUIRY
