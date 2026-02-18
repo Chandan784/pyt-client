@@ -84,7 +84,7 @@ export default function FooterFull() {
           </div>
 
           {/* Honeymoon Packages */}
-          <div className="col-span-1">
+          {/* <div className="col-span-1">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-5 border-b-2 border-blue-500/50 pb-2 inline-block">
               <span className="flex items-center gap-1">
                 Honeymoon <FiHeart className="text-pink-400 text-xs" />
@@ -111,7 +111,7 @@ export default function FooterFull() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Tour By Interest */}
           <div className="col-span-1">
@@ -145,7 +145,7 @@ export default function FooterFull() {
               Company
             </h4>
             <ul className="space-y-2.5">
-              {["About Us", "Contact Us", "Blogs", "Careers", "FAQ's"].map(
+              {["About Us", "Contact Us", "Policies", "Terms & Conditions"].map(
                 (item) => (
                   <li key={item}>
                     <Link
@@ -161,7 +161,7 @@ export default function FooterFull() {
           </div>
 
           {/* Policies */}
-          <div className="col-span-1">
+          {/* <div className="col-span-1">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-5 border-b-2 border-blue-500/50 pb-2 inline-block">
               Policies
             </h4>
@@ -169,8 +169,7 @@ export default function FooterFull() {
               {[
                 "Terms & Conditions",
                 "Privacy Policies",
-                "Fraud Alert",
-                "Secure Payment",
+                
               ].map((item) => (
                 <li key={item}>
                   <Link
@@ -182,7 +181,7 @@ export default function FooterFull() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Brand Section - Primevista Journey */}
@@ -226,25 +225,6 @@ export default function FooterFull() {
             </div>
 
             {/* Newsletter */}
-            <div className="lg:col-span-1">
-              <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
-                Subscribe to Our Newsletter
-              </h4>
-              <p className="text-sm text-gray-400 mb-4">
-                Get travel inspiration, exclusive offers, and updates straight
-                to your inbox.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <input
-                  type="email"
-                  placeholder="Your email address"
-                  className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
-                />
-                <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium text-sm transition-all duration-300 hover:shadow-lg whitespace-nowrap">
-                  Subscribe
-                </button>
-              </div>
-            </div>
 
             {/* Social Links */}
             <div className="lg:col-span-1">
@@ -309,7 +289,7 @@ export default function FooterFull() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            © {currentYear}{" "}
+            © 2025
             <span className="text-white font-medium">Primevista Journey</span>.
             All Rights Reserved.
           </p>
@@ -320,14 +300,6 @@ export default function FooterFull() {
             <span>•</span>
             <Link href="#" className="hover:text-white transition-colors">
               Terms of Use
-            </Link>
-            <span>•</span>
-            <Link href="#" className="hover:text-white transition-colors">
-              Cookie Policy
-            </Link>
-            <span>•</span>
-            <Link href="#" className="hover:text-white transition-colors">
-              Sitemap
             </Link>
           </div>
         </div>
