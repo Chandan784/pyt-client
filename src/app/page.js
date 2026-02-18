@@ -9,6 +9,7 @@ import InternationalDestinations from "./components/InternationalDestination";
 import TripStats from "./components/TripStats";
 import DomesticTripsSection from "./components/DomesticTrip";
 import WhyPrimevista from "./components/WhyPyt";
+import ReviewImageSection from "./components/Reviews";
 function Home() {
   return (
     <div>
@@ -16,9 +17,11 @@ function Home() {
 
       <DomesticTripsSection />
       <ContactSection />
-      <TravelEnquirySection />
+
       <InternationalDestinations />
+      <TravelEnquirySection />
       <TripStats />
+      <ReviewImageSection />
       <WhyPrimevista />
     </div>
   );

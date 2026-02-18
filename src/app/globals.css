@@ -44,3 +44,12 @@ body {
 .animate-fadeUp {
   animation: fadeUp 1s ease-out;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
