@@ -48,8 +48,8 @@ export default function ContactSection() {
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-[3px] mb-1">
                 Call Us 24/7
               </p>
-              <p className="text-xl md:text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                +91 98715 97736
+              <p className="text-sm md:text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                +91 81784 20122
               </p>
               <p className="text-xs text-gray-500 mt-1 flex items-center gap-1">
                 <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
@@ -78,8 +78,8 @@ export default function ContactSection() {
               <p className="text-xs font-semibold text-gray-400 uppercase tracking-[3px] mb-1">
                 Email Us
               </p>
-              <p className="text-xl md:text-2xl font-bold text-gray-800 group-hover:text-indigo-600 transition-colors break-all">
-                info@traveljunky.co.in
+              <p className="text-sm md:text-xl font-bold text-gray-800 group-hover:text-indigo-600 transition-colors break-all">
+                info@primevistajourney.com
               </p>
               <p className="text-xs text-gray-500 mt-1">
                 ⚡ Reply within 2 hours
