@@ -216,7 +216,7 @@ export default function FooterFull() {
                 </div>
                 <div className="flex items-center gap-3 text-sm text-gray-300">
                   <FiPhone className="text-blue-400 flex-shrink-0" />
-                  <span>+91 98715 97736</span>
+                  <span>+91 81784 20122</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm text-gray-300">
                   <FiMail className="text-blue-400 flex-shrink-0" />
