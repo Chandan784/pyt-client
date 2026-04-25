@@ -9,7 +9,7 @@ export default function ReviewImageManager() {
   const [uploading, setUploading] = useState(false);
   const [deletingId, setDeletingId] = useState(null);
 
-  const API = "http://api.primevistajourney.com/api/reviews";
+  const API = "https://api.primevistajourney.com/api/reviews";
 
   const fetchImages = async () => {
     try {
