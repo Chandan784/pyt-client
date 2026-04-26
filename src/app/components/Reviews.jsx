@@ -108,7 +108,7 @@ export default function ReviewImageSection() {
               reviewImages.map((img) => (
                 <div
                   key={img.id}
-                  className="flex-shrink-0 w-[70%] sm:w-[40%] md:w-[28%] lg:w-[20%]"
+                  className="flex-shrink-0 w-[70%] sm:w-[30%] md:w-[24%] lg:w-[20%]"
                 >
                   <div
                     onClick={() => setActiveImage(img.image_url)}
@@ -118,8 +118,8 @@ export default function ReviewImageSection() {
                       src={img.image_url}
                       alt="review"
                       width={400}
-                      height={500}
-                      className="w-full h-48 object-cover"
+                      height={600}
+                      className="w-full h-fit object-cover"
                     />
                   </div>
                 </div>
