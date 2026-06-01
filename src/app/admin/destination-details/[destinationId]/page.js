@@ -153,6 +153,7 @@ export default function DestinationDetailsPage() {
 
         perText: formData.per,
       };
+      console.log("fhf");
 
       // ================= UPDATE =================
       if (editingId) {
