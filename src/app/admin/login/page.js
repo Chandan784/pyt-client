@@ -44,10 +44,13 @@ export default function AdminLoginPage() {
     try {
       setLoading(true);
 
-      const res = await axios.post("http://localhost:5000/api/auth/login", {
-        email: formData.email,
-        password: formData.password,
-      });
+      const res = await axios.post(
+        "https://api.primevistajourney.com/api/auth/login",
+        {
+          email: formData.email,
+          password: formData.password,
+        },
+      );
 
       console.log(res.data);
 
