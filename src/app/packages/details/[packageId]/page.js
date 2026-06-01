@@ -20,7 +20,7 @@ export default function TourDetails() {
         setLoading(true);
 
         const res = await axios.get(
-          `http://localhost:5000/api/package-details/${packageId}`,
+          `https://api.primevistajourney.com/api/package-details/${packageId}`,
         );
 
         setTour(res.data);

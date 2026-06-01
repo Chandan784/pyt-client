@@ -23,7 +23,9 @@ export default function DomesticTripsSection() {
     try {
       setLoading(true);
 
-      const res = await axios.get("http://localhost:5000/api/destinations");
+      const res = await axios.get(
+        "https://api.primevistajourney.com/api/destinations",
+      );
 
       console.log(res.data);
 

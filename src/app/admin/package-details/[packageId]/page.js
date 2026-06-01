@@ -76,7 +76,7 @@ export default function PackageDetailsPage({ packageId = 7 }) {
       setFetchLoading(true);
 
       const res = await axios.get(
-        `http://localhost:5000/api/package-details/${packageId}`,
+        `https://api.primevistajourney.com/api/package-details/${packageId}`,
       );
 
       const data = res.data;
@@ -366,7 +366,7 @@ export default function PackageDetailsPage({ packageId = 7 }) {
       setLoading(true);
 
       await axios.put(
-        `http://localhost:5000/api/package-details/${detailsId}`,
+        `https://api.primevistajourney.com/api/package-details/${detailsId}`,
         formData,
       );
 
@@ -391,7 +391,7 @@ export default function PackageDetailsPage({ packageId = 7 }) {
 
     try {
       await axios.delete(
-        `http://localhost:5000/api/package-details/${detailsId}`,
+        `https://api.primevistajourney.com/api/package-details/${detailsId}`,
       );
 
       alert("Deleted Successfully");
