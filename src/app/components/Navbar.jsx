@@ -57,7 +57,7 @@ export default function Navbar() {
               <img
                 src="/pvjlogo.png"
                 alt="Primevista Journey"
-                className=" lg:w-56 sm:w-36 shadow-md border-2 border-white group-hover:border-blue-500 transition-all duration-300"
+                className=" lg:w-56 sm:w-36  group-hover:border-blue-500 transition-all duration-300"
               />
               <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center border-2 border-white">
                 <FiStar className="text-white text-xs" />

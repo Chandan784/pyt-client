@@ -1,90 +1,231 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 
-export default function LoginPage() {
-  const router = useRouter();
+import axios from "axios";
 
-  const [form, setForm] = useState({
-    username: "",
+import { Mail, Lock, Loader2, ShieldCheck } from "lucide-react";
+
+export default function AdminLoginPage() {
+  const [loading, setLoading] = useState(false);
+
+  const [message, setMessage] = useState("");
+
+  const [error, setError] = useState(false);
+
+  const [formData, setFormData] = useState({
+    email: "",
     password: "",
   });
 
-  const [error, setError] = useState("");
-  const [showPass, setShowPass] = useState(false);
+  /* =====================================================
+      INPUT
+  ===================================================== */
 
-  const handleLogin = (e) => {
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  /* =====================================================
+      LOGIN
+  ===================================================== */
+
+  const handleLogin = async (e) => {
     e.preventDefault();
 
-    // Demo credentials (you can change)
-    const validUser = "admin";
-    const validPass = "123456";
+    setMessage("");
 
-    if (form.username === validUser && form.password === validPass) {
-      router.push("/"); // redirect to dashboard
-    } else {
-      setError("Invalid username or password");
+    setError(false);
+
+    try {
+      setLoading(true);
+
+      const res = await axios.post("http://localhost:5000/api/auth/login", {
+        email: formData.email,
+        password: formData.password,
+      });
+
+      console.log(res.data);
+
+      /* ==========================================
+          SUCCESS
+      ========================================== */
+
+      if (res.data?.success) {
+        /* ADMIN CHECK */
+
+        if (res.data.user?.type !== "admin") {
+          setError(true);
+
+          setMessage("Access denied. Admin only.");
+
+          return;
+        }
+
+        /* SAVE */
+
+        localStorage.setItem("admin_token", "loggedin");
+
+        localStorage.setItem("admin_user", JSON.stringify(res.data.user));
+
+        setError(false);
+
+        setMessage("Login successful");
+
+        /* REDIRECT */
+
+        setTimeout(() => {
+          window.location.href = "/admin";
+        }, 1000);
+      } else {
+        setError(true);
+
+        setMessage(res.data?.message || "Login failed");
+      }
+    } catch (err) {
+      console.log(err);
+
+      setError(true);
+
+      setMessage(err?.response?.data?.message || "Invalid email or password");
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
-      <div className="bg-white shadow-xl rounded-xl w-full max-w-md p-6">
-        <h2 className="text-2xl font-bold text-center mb-6">Admin Login</h2>
+    <div className="min-h-screen bg-[#f4f7fb] flex items-center justify-center p-4">
+      <div className="w-full max-w-md bg-white rounded-[36px] shadow-2xl border border-gray-100 overflow-hidden">
+        {/* =====================================================
+            TOP
+        ===================================================== */}
 
-        <form onSubmit={handleLogin} className="space-y-4">
-          {/* Username */}
-          <div>
-            <label className="text-sm text-gray-600">Username</label>
-            <input
-              type="text"
-              placeholder="Enter username"
-              className="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-              value={form.username}
-              onChange={(e) => setForm({ ...form, username: e.target.value })}
-              required
-            />
+        <div className="bg-black px-8 py-10 text-white text-center">
+          <div className="w-20 h-20 rounded-3xl bg-white text-black mx-auto flex items-center justify-center shadow-xl">
+            <ShieldCheck size={38} />
           </div>
 
-          {/* Password */}
-          <div>
-            <label className="text-sm text-gray-600">Password</label>
-            <div className="relative">
-              <input
-                type={showPass ? "text" : "password"}
-                placeholder="Enter password"
-                className="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                value={form.password}
-                onChange={(e) => setForm({ ...form, password: e.target.value })}
-                required
-              />
-              <button
-                type="button"
-                className="absolute right-2 top-2 text-sm text-gray-500"
-                onClick={() => setShowPass(!showPass)}
+          <h1 className="text-4xl font-black mt-5">Admin Login</h1>
+
+          <p className="text-gray-300 mt-2">Secure access to dashboard</p>
+        </div>
+
+        {/* =====================================================
+            FORM
+        ===================================================== */}
+
+        <div className="p-8">
+          <form onSubmit={handleLogin} className="space-y-5">
+            {/* MESSAGE */}
+
+            {message && (
+              <div
+                className={`rounded-2xl px-4 py-4 text-sm font-semibold border
+                ${
+                  error
+                    ? " bg-red-100 text-red-600 border-red-200"
+                    : "bg-green-50 text-green-600 border-green-200"
+                }
+                `}
               >
-                {showPass ? "Hide" : "Show"}
-              </button>
+                {message}
+              </div>
+            )}
+
+            {/* EMAIL */}
+
+            <div>
+              <label className="block mb-2 text-sm font-bold text-gray-700">
+                Email Address
+              </label>
+
+              <div className="h-14 rounded-2xl border border-gray-200 px-4 flex items-center gap-3 focus-within:border-black transition-all">
+                <Mail size={20} className="text-gray-500" />
+
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  placeholder="Enter email"
+                  className="flex-1 bg-transparent outline-none text-gray-800"
+                  required
+                />
+              </div>
             </div>
+
+            {/* PASSWORD */}
+
+            <div>
+              <label className="block mb-2 text-sm font-bold text-gray-700">
+                Password
+              </label>
+
+              <div className="h-14 rounded-2xl border border-gray-200 px-4 flex items-center gap-3 focus-within:border-black transition-all">
+                <Lock size={20} className="text-gray-500" />
+
+                <input
+                  type="password"
+                  name="password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  placeholder="Enter password"
+                  className="flex-1 bg-transparent outline-none text-gray-800"
+                  required
+                />
+              </div>
+            </div>
+
+            {/* BUTTON */}
+
+            <button
+              type="submit"
+              disabled={loading}
+              className={`
+                w-full
+                min-h-[56px]
+                rounded-2xl
+                text-white
+                font-black
+                text-lg
+                flex
+                items-center
+                justify-center
+                gap-3
+                transition-all
+                duration-300
+                ${
+                  loading
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-black hover:scale-[1.02]"
+                }
+              `}
+            >
+              {loading ? (
+                <>
+                  <Loader2 size={22} className="animate-spin" />
+                  Please wait...
+                </>
+              ) : (
+                "Login"
+              )}
+            </button>
+          </form>
+
+          {/* FOOTER */}
+
+          <div className="mt-6 bg-gray-50 border border-gray-200 rounded-2xl p-4">
+            <p className="font-bold text-gray-800 mb-2">Admin Access</p>
+
+            <p className="text-sm text-gray-600">
+              Only admin accounts can login here.
+            </p>
           </div>
-
-          {/* Error */}
-          {error && <p className="text-red-500 text-sm">{error}</p>}
-
-          {/* Button */}
-          <button
-            type="submit"
-            className="w-full bg-gray-800 text-white py-2 rounded-lg hover:bg-gray-900 transition"
-          >
-            Login
-          </button>
-        </form>
-
-        {/* Footer */}
-        <p className="text-xs text-center text-gray-400 mt-4">
-          Demo: admin / 123456
-        </p>
+        </div>
       </div>
     </div>
   );
