@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { useParams } from "next/navigation";
 
 import {
   Plus,
@@ -15,7 +16,15 @@ import {
   Star,
 } from "lucide-react";
 
-export default function PackageDetailsPage({ packageId = 7 }) {
+export default function PackageDetailsPage() {
+  // ================= ROUTER =================
+  const router = useRouter();
+
+  // ================= PARAMS =================
+  const params = useParams();
+
+  const packageId = params?.packageId;
+
   const [loading, setLoading] = useState(false);
 
   const [fetchLoading, setFetchLoading] = useState(true);
@@ -366,7 +375,7 @@ export default function PackageDetailsPage({ packageId = 7 }) {
       setLoading(true);
 
       await axios.put(
-        `https://api.primevistajourney.com/api/package-details/${detailsId}`,
+        `https://api.primevistajourney.com/api/package-details/${packageId}`,
         formData,
       );
 
@@ -391,7 +400,7 @@ export default function PackageDetailsPage({ packageId = 7 }) {
 
     try {
       await axios.delete(
-        `https://api.primevistajourney.com/api/package-details/${detailsId}`,
+        `https://api.primevistajourney.com/api/package-details/${packageId}`,
       );
 
       alert("Deleted Successfully");
