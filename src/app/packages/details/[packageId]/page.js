@@ -12,6 +12,68 @@ export default function TourDetails() {
   const [tour, setTour] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  const [quoteForm, setQuoteForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const handleQuoteChange = (e) => {
+    setQuoteForm({
+      ...quoteForm,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleWhatsAppSubmit = () => {
+    let newErrors = {};
+
+    // NAME VALIDATION
+    if (!quoteForm.name.trim()) {
+      newErrors.name = "Name is required";
+    }
+
+    // EMAIL VALIDATION
+    if (!quoteForm.email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (
+      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(quoteForm.email)
+    ) {
+      newErrors.email = "Invalid email";
+    }
+
+    // PHONE VALIDATION
+    if (!quoteForm.phone.trim()) {
+      newErrors.phone = "Phone number is required";
+    } else if (!/^[0-9]{10}$/.test(quoteForm.phone)) {
+      newErrors.phone = "Enter valid 10 digit phone number";
+    }
+
+    setErrors(newErrors);
+
+    // STOP IF ERRORS
+    if (Object.keys(newErrors).length > 0) return;
+
+    // WHATSAPP MESSAGE
+    const message = `
+Hello Prime Vista Journey,
+
+I want a free quote.
+
+Name: ${quoteForm.name}
+Email: ${quoteForm.email}
+Phone: ${quoteForm.phone}
+`;
+
+    // YOUR WHATSAPP NUMBER
+    const whatsappNumber = "+918178420122";
+
+    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(url, "_blank");
+  };
   /* ================= FETCH API ================= */
 
   useEffect(() => {
@@ -124,7 +186,10 @@ export default function TourDetails() {
 
             {/* CTA BUTTON */}
             <div className="mt-4">
-              <button className="px-4 py-3 bg-blue-600 hover:bg-blue-700 transition rounded-xl font-semibold shadow-lg">
+              <button
+                onClick={handleWhatsAppSubmit}
+                className="px-4 py-3 bg-blue-600 hover:bg-blue-700 transition rounded-xl font-semibold shadow-lg"
+              >
                 Enquire Now
               </button>
             </div>
@@ -248,23 +313,77 @@ export default function TourDetails() {
             </div>
 
             {/* FORM */}
-            <div className="mt-6 space-y-3">
-              <h3 className="text-xl font-bold">Get Free Quote</h3>
+            <div className="mt-6 space-y-4">
+              <h3 className="text-2xl font-black text-gray-800">
+                Get Free Quote
+              </h3>
 
-              <input
-                className="w-full border p-3 rounded-xl"
-                placeholder="Name"
-              />
-              <input
-                className="w-full border p-3 rounded-xl"
-                placeholder="Email"
-              />
-              <input
-                className="w-full border p-3 rounded-xl"
-                placeholder="Phone"
-              />
+              {/* NAME */}
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  value={quoteForm.name}
+                  onChange={handleQuoteChange}
+                  className={`w-full border p-4 rounded-2xl outline-none ${
+                    errors.name
+                      ? "border-red-500"
+                      : "border-gray-200 focus:border-blue-500"
+                  }`}
+                  placeholder="Enter Your Name"
+                />
 
-              <button className="w-full bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-700">
+                {errors.name && (
+                  <p className="text-red-500 text-sm mt-1">{errors.name}</p>
+                )}
+              </div>
+
+              {/* EMAIL */}
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  value={quoteForm.email}
+                  onChange={handleQuoteChange}
+                  className={`w-full border p-4 rounded-2xl outline-none ${
+                    errors.email
+                      ? "border-red-500"
+                      : "border-gray-200 focus:border-blue-500"
+                  }`}
+                  placeholder="Enter Your Email"
+                />
+
+                {errors.email && (
+                  <p className="text-red-500 text-sm mt-1">{errors.email}</p>
+                )}
+              </div>
+
+              {/* PHONE */}
+              <div>
+                <input
+                  type="tel"
+                  name="phone"
+                  value={quoteForm.phone}
+                  onChange={handleQuoteChange}
+                  className={`w-full border p-4 rounded-2xl outline-none ${
+                    errors.phone
+                      ? "border-red-500"
+                      : "border-gray-200 focus:border-blue-500"
+                  }`}
+                  placeholder="Enter Your Phone Number"
+                />
+
+                {errors.phone && (
+                  <p className="text-red-500 text-sm mt-1">{errors.phone}</p>
+                )}
+              </div>
+
+              {/* BUTTON */}
+              <button
+                type="button"
+                onClick={handleWhatsAppSubmit}
+                className="w-full bg-blue-600 hover:bg-blue-700 transition-all text-white py-4 rounded-2xl font-black text-lg"
+              >
                 Request Callback
               </button>
             </div>

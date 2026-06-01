@@ -18,7 +18,6 @@ import {
 
 export default function PackageDetailsPage() {
   // ================= ROUTER =================
-  const router = useRouter();
 
   // ================= PARAMS =================
   const params = useParams();
@@ -374,21 +373,51 @@ export default function PackageDetailsPage() {
     try {
       setLoading(true);
 
-      await axios.put(
-        `https://api.primevistajourney.com/api/package-details/${packageId}`,
-        formData,
-      );
+      // =========================
+      // CREATE NEW DETAILS
+      // =========================
+      if (!detailsId) {
+        const res = await axios.post(
+          "http://localhost:5000/api/package-details",
+          {
+            ...formData,
+            package_id: packageId,
+          },
+        );
 
-      alert("Updated Successfully");
+        // SAVE NEW DETAILS ID
+        setDetailsId(res.data.id);
+
+        alert("Package Details Added Successfully");
+      }
+
+      // =========================
+      // UPDATE EXISTING DETAILS
+      // =========================
+      else {
+        await axios.put(
+          `https://api.primevistajouenry.com/api/package-details/${detailsId}`,
+          {
+            ...formData,
+            package_id: packageId,
+          },
+        );
+
+        alert("Package Details Updated Successfully");
+      }
     } catch (error) {
       console.log(error);
 
-      alert("Update Failed");
+      // BACKEND ERROR MESSAGE
+      if (error.response?.data?.message) {
+        alert(error.response.data.message);
+      } else {
+        alert("Something went wrong");
+      }
     } finally {
       setLoading(false);
     }
   };
-
   /* ======================================================
       DELETE
   ====================================================== */
@@ -400,7 +429,7 @@ export default function PackageDetailsPage() {
 
     try {
       await axios.delete(
-        `https://api.primevistajourney.com/api/package-details/${packageId}`,
+        `https://api.primevistajourney.com/api/package-details/${detailsId}`,
       );
 
       alert("Deleted Successfully");

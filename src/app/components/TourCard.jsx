@@ -220,8 +220,7 @@ export default function TourCard({ tour }) {
         </div>
 
         {/* BUTTON */}
-
-        <Link href={`/packages/details/${tour?.packageId}`}>
+        <Link href={`/packages/details/${tour?.id}`}>
           <button
             className="
               w-full
