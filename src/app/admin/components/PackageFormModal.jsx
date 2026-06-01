@@ -109,7 +109,7 @@ export default function PackageFormModal({
       // UPDATE
       if (editingId) {
         await axios.put(
-          `http://localhost:5000/api/packages/${editingId}`,
+          `https://api.primevistajourney.com/api/packages/${editingId}`,
           form,
           {
             headers: {
@@ -121,11 +121,15 @@ export default function PackageFormModal({
 
       // CREATE
       else {
-        await axios.post("http://localhost:5000/api/packages", form, {
-          headers: {
-            "Content-Type": "multipart/form-data",
+        await axios.post(
+          "https://api.primevistajourney.com/api/packages",
+          form,
+          {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
           },
-        });
+        );
       }
 
       fetchPackages();
