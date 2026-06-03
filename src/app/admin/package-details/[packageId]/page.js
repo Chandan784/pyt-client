@@ -378,7 +378,7 @@ export default function PackageDetailsPage() {
       // =========================
       if (!detailsId) {
         const res = await axios.post(
-          "https://api.primevistajouenry.com/api/package-details",
+          "https://api.primevistajourney.com/api/package-details",
           {
             ...formData,
             package_id: packageId,
@@ -396,7 +396,7 @@ export default function PackageDetailsPage() {
       // =========================
       else {
         await axios.put(
-          `https://api.primevistajouenry.com/api/package-details/${detailsId}`,
+          `https://api.primevistajourney.com/api/package-details/${detailsId}`,
           {
             ...formData,
             package_id: packageId,
