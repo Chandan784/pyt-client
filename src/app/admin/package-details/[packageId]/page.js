@@ -378,7 +378,7 @@ export default function PackageDetailsPage() {
       // =========================
       if (!detailsId) {
         const res = await axios.post(
-          "http://localhost:5000/api/package-details",
+          "https://api.primevistajouenry.com/api/package-details",
           {
             ...formData,
             package_id: packageId,

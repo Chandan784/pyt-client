@@ -92,7 +92,7 @@ export default function InternationalDestinations() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-6 xl:gap-8">
               {destinations.map((item, index) => (
                 <Link
-                  href={`/packages/${item.slug}`}
+                  href={`/packages/${item.id}`}
                   key={item.id || index}
                   className="block group"
                 >
