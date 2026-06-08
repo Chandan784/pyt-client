@@ -28,7 +28,7 @@ export default function Navbar() {
   const fetchDestinations = async () => {
     try {
       const res = await fetch(
-        "http://api.primevistajourney.com/api/destinations",
+        "https://api.primevistajourney.com/api/destinations",
       );
       const data = await res.json();
       setDestinations(data);
