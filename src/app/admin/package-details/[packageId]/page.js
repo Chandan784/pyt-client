@@ -88,7 +88,7 @@ export default function PackageDetailsPage() {
       );
 
       const data = res.data;
-
+      nh;
       console.log("API DATA => ", data);
 
       setDetailsId(data.id);

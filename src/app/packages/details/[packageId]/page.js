@@ -181,7 +181,9 @@ Phone: ${quoteForm.phone}
             {/* CITIES COVERED */}
             <div className="mt-10 text-sm text-white/80">
               <span className="font-semibold text-white">Cities Covered:</span>{" "}
-              {(tour.cities || ["Bhubaneswar", "Puri", "Konark"]).join(" → ")}
+              {(tour.citiesCovered || ["Bhubaneswar", "Puri", "Konark"]).join(
+                " → ",
+              )}
             </div>
 
             {/* CTA BUTTON */}

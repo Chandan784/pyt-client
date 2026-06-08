@@ -23,6 +23,7 @@ export default function HeroSlider() {
   ];
 
   const [index, setIndex] = useState(0);
+
   const [isAnimating, setIsAnimating] = useState(false);
   const intervalRef = useRef(null);
 
