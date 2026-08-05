@@ -26,9 +26,9 @@ export const metadata = {
     "Prime Vista Journey offers premium domestic and international tour packages including Andaman, Himachal, Kerala, Dubai, Bali and more.",
 
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
