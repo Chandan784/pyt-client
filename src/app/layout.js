@@ -18,14 +18,18 @@ export const metadata = {
   metadataBase: new URL("https://www.primevistajourney.com"),
 
   title: {
-    default:
-      "Prime Vista Journey | Explore India & International Tour Packages",
-
+    default: "Prime Vista Journey | Explore India & International Tour Packages",
     template: "%s | Prime Vista Journey",
   },
 
   description:
     "Prime Vista Journey offers premium domestic and international tour packages including Andaman, Himachal, Kerala, Dubai, Bali and more.",
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
