@@ -13,6 +13,7 @@ import {
   FiHeart,
   FiStar,
 } from "react-icons/fi";
+import social from "@/config/social";
 
 export default function FooterFull() {
   const footerLinks = [
@@ -235,90 +236,78 @@ export default function FooterFull() {
               <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
                 Connect With Us
               </h4>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="#"
-                  className="w-10 h-10 bg-gray-800 hover:bg-blue-600 rounded-lg flex items-center justify-center text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
-                >
-                  <FiFacebook />
-                </Link>
-                <Link
-                  href="#"
-                  className="w-10 h-10 bg-gray-800 hover:bg-blue-400 rounded-lg flex items-center justify-center text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
-                >
-                  <FiTwitter />
-                </Link>
-                <Link
-                  href="#"
-                  className="w-10 h-10 bg-gray-800 hover:bg-pink-600 rounded-lg flex items-center justify-center text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
-                >
-                  <FiInstagram />
-                </Link>
-                <Link
-                  href="#"
-                  className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
-                >
-                  <FiYoutube />
-                </Link>
-                <Link
-                  href="#"
-                  className="w-10 h-10 bg-gray-800 hover:bg-blue-700 rounded-lg flex items-center justify-center text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
-                >
-                  <FiLinkedin />
-                </Link>
-              </div>
 
-              {/* Payment Methods */}
-              <div className="mt-6">
-                <p className="text-xs text-gray-400 mb-3">We Accept</p>
-                <div className="flex gap-2">
-                  <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
-                    Visa
-                  </span>
-                  <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
-                    Mastercard
-                  </span>
-                  <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
-                    UPI
-                  </span>
-                  <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
-                    PayPal
-                  </span>
-                </div>
+              <div className="flex flex-wrap gap-3">
+                {social.map((item) => {
+                  const Icon = item.icon;
+
+                  return (
+                    <Link
+                      key={item.name}
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={item.name}
+                      className={`w-10 h-10 bg-gray-800 ${item.hover} rounded-lg flex items-center justify-center text-gray-300 hover:text-white transition-all duration-300 hover:scale-110`}
+                    >
+                      <Icon />
+                    </Link>
+                  );
+                })}
+              </div>
+            
+
+            {/* Payment Methods */}
+            <div className="mt-6">
+              <p className="text-xs text-gray-400 mb-3">We Accept</p>
+              <div className="flex gap-2">
+                <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
+                  Visa
+                </span>
+                <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
+                  Mastercard
+                </span>
+                <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
+                  UPI
+                </span>
+                <span className="px-3 py-1.5 bg-gray-800 rounded-md text-xs text-gray-300">
+                  PayPal
+                </span>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        {/* Bottom Bar */}
-        <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-gray-400">
-            © 2025{" "}
-            <span className="text-white font-medium">PrimevistaJourney</span>.
-            All Rights Reserved.
-          </p>
-          <div className="flex items-center gap-4 text-xs text-gray-500">
-            <Link
-              href="/privacy-policy"
-              className="hover:text-white transition-colors"
-            >
-              Privacy Policy
-            </Link>
-            <span>•</span>
-            <Link href="/terms" className="hover:text-white transition-colors">
-              Terms of Use
-            </Link>
-          </div>
-        </div>
-
-        {/* Brand Tagline */}
-        <div className="mt-8 text-center">
-          <p className="text-xs text-gray-600 flex items-center justify-center gap-1">
-            Designed with <FiHeart className="text-pink-500" /> for travelers
-            around the world
-          </p>
+      {/* Bottom Bar */}
+      <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p className="text-sm text-gray-400">
+          © 2025{" "}
+          <span className="text-white font-medium">PrimevistaJourney</span>.
+          All Rights Reserved.
+        </p>
+        <div className="flex items-center gap-4 text-xs text-gray-500">
+          <Link
+            href="/privacy-policy"
+            className="hover:text-white transition-colors"
+          >
+            Privacy Policy
+          </Link>
+          <span>•</span>
+          <Link href="/terms" className="hover:text-white transition-colors">
+            Terms of Use
+          </Link>
         </div>
       </div>
-    </footer>
+
+      {/* Brand Tagline */}
+      <div className="mt-8 text-center">
+        <p className="text-xs text-gray-600 flex items-center justify-center gap-1">
+          Designed with <FiHeart className="text-pink-500" /> for travelers
+          around the world
+        </p>
+      </div>
+    </div>
+    </footer >
   );
 }
