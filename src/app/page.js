@@ -14,10 +14,8 @@ function Home() {
   return (
     <div>
       <HeroSlider />
-
       <DomesticTripsSection />
       <ContactSection />
-
       <InternationalDestinations />
       <TravelEnquirySection />
       <TripStats />
