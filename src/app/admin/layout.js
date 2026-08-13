@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 import Link from "next/link";
 
-import { LayoutDashboard, MapPinned, Image, LogOut } from "lucide-react";
+import { LayoutDashboard, MapPinned, Image, LogOut,Sliders } from "lucide-react";
 
 const menuItems = [
   {
@@ -25,6 +25,11 @@ const menuItems = [
     name: "Reviews",
     href: "/admin/upload",
     icon: Image,
+  },
+  {
+    name: "Sliders",
+    href: "/admin/hero",
+    icon: Sliders,
   },
 ];
 
