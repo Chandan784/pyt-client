@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+  "https://api.primevistajourney.com" || "http://localhost:5000";
 
 function Hero() {
   const [slides, setSlides] = useState([]);
