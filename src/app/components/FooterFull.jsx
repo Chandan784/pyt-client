@@ -200,7 +200,7 @@ export default function FooterFull() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white">
-                    PrimevistaJourney
+                    PrimeVistaJourney
                   </h3>
                   <p className="text-xs text-gray-400">
                     Travel Beyond Horizons
@@ -283,7 +283,7 @@ export default function FooterFull() {
       <div className="mt-12 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-sm text-gray-400">
           © 2025{" "}
-          <span className="text-white font-medium">PrimevistaJourney</span>.
+          <span className="text-white font-medium">PrimeVistaJourney</span>.
           All Rights Reserved.
         </p>
         <div className="flex items-center gap-4 text-xs text-gray-500">

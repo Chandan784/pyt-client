@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import LayoutWrapper from "./components/LayoutWrapper";
-
+import SocialFloat from "./components/SocialFloat";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -39,6 +39,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <LayoutWrapper>{children}</LayoutWrapper>
+        <SocialFloat/>
       </body>
     </html>
   );

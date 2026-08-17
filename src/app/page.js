@@ -26,7 +26,7 @@ function Home() {
       <WhyPrimevista />
       <TravelEnquiryPopup/>
      
-      <SocialFloat/>
+     
     </div>
   );
 }
