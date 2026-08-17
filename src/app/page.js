@@ -12,6 +12,7 @@ import DomesticTripsSection from "./components/DomesticTrip";
 import WhyPrimevista from "./components/WhyPyt";
 import ReviewImageSection from "./components/Reviews";
 import WhatsAppFloat from "./components/WhatsappFloat";
+import SocialFloat from "./components/SocialFloat";
 function Home() {
   return (
     <div>
@@ -24,7 +25,8 @@ function Home() {
       <ReviewImageSection />
       <WhyPrimevista />
       <TravelEnquiryPopup/>
-      <WhatsAppFloat/>
+     
+      <SocialFloat/>
     </div>
   );
 }

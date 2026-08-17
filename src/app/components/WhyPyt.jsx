@@ -73,7 +73,7 @@ export default function WhyPrimevista() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
             Why Travel with{" "}
             <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent relative">
-              Primevista Journey?
+              PrimeVistaJourney?
               <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-blue-800 rounded-full"></div>
             </span>
           </h2>
