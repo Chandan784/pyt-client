@@ -16,7 +16,7 @@ function Hero() {
   const [editingId, setEditingId] = useState(null);
 
   const [imagePreview, setImagePreview] = useState(null);
-
+  
   const [form, setForm] = useState({
     title: "",
     description: "",
