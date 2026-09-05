@@ -45,7 +45,7 @@ export default function AdminLoginPage() {
       setLoading(true);
 
       const res = await axios.post(
-        "https://api.primevistajourney.com/api/auth/login",
+        "http://localhost:5000/api/auth/login",
         {
           email: formData.email,
           password: formData.password,

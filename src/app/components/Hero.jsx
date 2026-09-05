@@ -12,10 +12,10 @@ export default function HeroSlider() {
   const intervalRef = useRef(null);
 
   const API_URL =
-   "https://api.primevistajourney.com" || "http://localhost:5000";
+   "https://travdigitapi.applutetech.com" || "http://localhost:5000";
 
   /* ================= GET HERO SLIDES ================= */
-
+  //fkjgjhg
   const getSlides = async () => {
     try {
       setLoading(true);

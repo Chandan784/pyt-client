@@ -109,7 +109,7 @@ export default function PackageFormModal({
       // UPDATE
       if (editingId) {
         await axios.put(
-          `https://api.primevistajourney.com/api/packages/${editingId}`,
+          `https://travdigitapi.applutetech.com/api/packages/${editingId}`,
           form,
           {
             headers: {
@@ -122,7 +122,7 @@ export default function PackageFormModal({
       // CREATE
       else {
         await axios.post(
-          "https://api.primevistajourney.com/api/packages",
+          "https://travdigitapi.applutetech.com/api/packages",
           form,
           {
             headers: {

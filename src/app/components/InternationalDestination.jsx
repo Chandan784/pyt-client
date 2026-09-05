@@ -24,7 +24,7 @@ export default function DomesticTripsSection() {
       setLoading(true);
 
       const res = await axios.get(
-        "https://api.primevistajourney.com/api/destinations",
+        "https://travdigitapi.applutetech.com/api/destinations",
       );
 
       console.log(res.data);

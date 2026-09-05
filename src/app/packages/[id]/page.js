@@ -36,7 +36,7 @@ export default function PackageDetails() {
       ----------------------------------------- */
 
       const destinationRes = await axios.get(
-        `https://api.primevistajourney.com/api/destinations/${id}`,
+        `https://travdigitapi.applutetech.com/api/destinations/${id}`,
       );
 
       const destinationData = destinationRes.data;
@@ -48,7 +48,7 @@ export default function PackageDetails() {
       ----------------------------------------- */
 
       const packageRes = await axios.get(
-        `https://api.primevistajourney.com/api/packages/destination/${destinationData.id}`,
+        `https://travdigitapi.applutetech.com/api/packages/destination/${destinationData.id}`,
       );
 
       setTours(packageRes.data || []);

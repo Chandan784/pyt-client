@@ -84,7 +84,7 @@ export default function PackageDetailsPage() {
       setFetchLoading(true);
 
       const res = await axios.get(
-        `https://api.primevistajourney.com/api/package-details/${packageId}`,
+        `https://travdigitapi.applutetech.com/api/package-details/${packageId}`,
       );
 
       const data = res.data;
@@ -378,7 +378,7 @@ export default function PackageDetailsPage() {
       // =========================
       if (!detailsId) {
         const res = await axios.post(
-          "https://api.primevistajourney.com/api/package-details",
+          "https://travdigitapi.applutetech.com/api/package-details",
           {
             ...formData,
             package_id: packageId,
@@ -396,7 +396,7 @@ export default function PackageDetailsPage() {
       // =========================
       else {
         await axios.put(
-          `https://api.primevistajourney.com/api/package-details/${detailsId}`,
+          `https://travdigitapi.applutetech.com/api/package-details/${detailsId}`,
           {
             ...formData,
             package_id: packageId,
@@ -429,7 +429,7 @@ export default function PackageDetailsPage() {
 
     try {
       await axios.delete(
-        `https://api.primevistajourney.com/api/package-details/${detailsId}`,
+        `https://travdigitapi.applutetech.com/api/package-details/${detailsId}`,
       );
 
       alert("Deleted Successfully");

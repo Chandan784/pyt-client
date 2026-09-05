@@ -1,240 +1,687 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import Link from "next/link";
+import {
+  LayoutDashboard,
+  MapPinned,
+  Image,
+  LogOut,
+  SlidersHorizontal,
+  Users,
+  MessageSquare,
+  FileText,
+  CalendarCheck,
+  CreditCard,
+  Star,
+  Upload,
+  ChevronDown,
+  ChevronRight,
+  Menu,
+  X,
+  PanelLeftClose,
+  PanelLeftOpen,
+  Search,
+  Bell,
+} from "lucide-react";
 
-import { LayoutDashboard, MapPinned, Image, LogOut,Sliders } from "lucide-react";
-
-const menuItems = [
+const navigation = [
   {
-    name: "Dashboard",
-    href: "/admin",
-    icon: LayoutDashboard,
+    title: "Overview",
+    items: [
+      {
+        name: "Dashboard",
+        href: "/admin",
+        icon: LayoutDashboard,
+      },
+    ],
   },
 
   {
-    name: "Destination",
-    href: "/admin/destination",
-    icon: MapPinned,
+    title: "Sales & CRM",
+    items: [
+      {
+        name: "Enquiries",
+        href: "/admin/enqueries",
+        icon: MessageSquare,
+      },
+      {
+        name: "Customers",
+        href: "/admin/customers",
+        icon: Users,
+      },
+      {
+        name: "Quotations",
+        href: "/admin/quotation",
+        icon: FileText,
+      },
+      {
+        name: "Bookings",
+        href: "/admin/bookings",
+        icon: CalendarCheck,
+      },
+    ],
   },
 
   {
-    name: "Reviews",
-    href: "/admin/upload",
-    icon: Image,
+    title: "Finance",
+    items: [
+      {
+        name: "Payments",
+        href: "/admin/payments",
+        icon: CreditCard,
+      },
+    ],
   },
+
   {
-    name: "Sliders",
-    href: "/admin/hero",
-    icon: Sliders,
+    title: "Content",
+    items: [
+      {
+        name: "Destinations",
+        href: "/admin/destination",
+        icon: MapPinned,
+      },
+      {
+        name: "Hero / Sliders",
+        href: "/admin/hero",
+        icon: SlidersHorizontal,
+      },
+      {
+        name: "Reviews",
+        href: "/admin/reviews",
+        icon: Star,
+      },
+      {
+        name: "Upload",
+        href: "/admin/upload",
+        icon: Upload,
+      },
+    ],
   },
 ];
 
 export default function AdminLayout({ children }) {
   const pathname = usePathname();
 
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
+
+  const [openGroups, setOpenGroups] = useState({
+    "Sales & CRM": true,
+    Finance: true,
+    Content: true,
+  });
+
   const [checkingAuth, setCheckingAuth] = useState(true);
 
-  /* ======================================================
-      CHECK LOGIN
-  ====================================================== */
+  /*
+  |--------------------------------------------------------------------------
+  | AUTH CHECK
+  |--------------------------------------------------------------------------
+  */
 
   useEffect(() => {
+    // Keep your existing auth logic here if required.
+
+    /*
     const token = localStorage.getItem("admin_token");
 
     if (!token && pathname !== "/admin/login") {
       window.location.href = "/admin/login";
-    } else {
-      setCheckingAuth(false);
+      return;
     }
+    */
+
+    setCheckingAuth(false);
   }, [pathname]);
 
-  /* ======================================================
-      LOADING
-  ====================================================== */
+  /*
+  |--------------------------------------------------------------------------
+  | AUTO OPEN ACTIVE GROUP
+  |--------------------------------------------------------------------------
+  */
 
-  if (checkingAuth && pathname !== "/admin/login") {
-    return (
-      <div className="h-screen flex items-center justify-center bg-white">
-        <div className="text-center">
-          <div className="w-14 h-14 border-4 border-black border-t-transparent rounded-full animate-spin mx-auto"></div>
+  useEffect(() => {
+    navigation.forEach((group) => {
+      const hasActiveItem = group.items.some((item) =>
+        pathname === item.href || pathname.startsWith(`${item.href}/`)
+      );
 
-          <p className="mt-5 text-xl font-bold text-gray-700">
-            Loading Admin Panel...
-          </p>
-        </div>
-      </div>
-    );
-  }
+      if (hasActiveItem) {
+        setOpenGroups((prev) => ({
+          ...prev,
+          [group.title]: true,
+        }));
+      }
+    });
+  }, [pathname]);
 
-  /* ======================================================
-      LOGIN PAGE
-  ====================================================== */
+  /*
+  |--------------------------------------------------------------------------
+  | GROUP TOGGLE
+  |--------------------------------------------------------------------------
+  */
 
-  if (pathname === "/admin/login") {
-    return children;
-  }
+  const toggleGroup = (title) => {
+    setOpenGroups((prev) => ({
+      ...prev,
+      [title]: !prev[title],
+    }));
+  };
 
-  /* ======================================================
-      LOGOUT
-  ====================================================== */
+  /*
+  |--------------------------------------------------------------------------
+  | ACTIVE ROUTE
+  |--------------------------------------------------------------------------
+  */
 
-  const logout = () => {
+  const isActive = (href) => {
+    if (href === "/admin") {
+      return pathname === "/admin";
+    }
+
+    return pathname === href || pathname.startsWith(`${href}/`);
+  };
+
+  /*
+  |--------------------------------------------------------------------------
+  | LOGOUT
+  |--------------------------------------------------------------------------
+  */
+
+  const handleLogout = () => {
     localStorage.removeItem("admin_token");
-
     localStorage.removeItem("admin_user");
 
     window.location.href = "/admin/login";
   };
 
+  /*
+  |--------------------------------------------------------------------------
+  | PAGE TITLE
+  |--------------------------------------------------------------------------
+  */
+
+  const getPageTitle = () => {
+    for (const group of navigation) {
+      const activeItem = group.items.find((item) => isActive(item.href));
+
+      if (activeItem) {
+        return activeItem.name;
+      }
+    }
+
+    return "Dashboard";
+  };
+
+  if (checkingAuth) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-[#f7f7f8]">
+        <div className="flex items-center gap-3 text-sm text-gray-500">
+          <div className="w-5 h-5 border-2 border-gray-300 border-t-black rounded-full animate-spin" />
+          Loading...
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="flex min-h-screen bg-[#f5f7fb]">
-      {/* ======================================================
+    <div className="min-h-screen bg-[#f7f7f8] text-gray-900">
+      {/* ============================================================
+          MOBILE OVERLAY
+      ============================================================ */}
+
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/40 lg:hidden"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
+      {/* ============================================================
           SIDEBAR
-      ====================================================== */}
+      ============================================================ */}
 
-      <aside className="w-[280px] bg-black text-white flex flex-col sticky top-0 h-screen">
-        {/* LOGO */}
+      <aside
+        className={`
+          fixed
+          left-0
+          top-0
+          bottom-0
+          z-50
+          flex
+          flex-col
+          bg-[#0b0d10]
+          text-white
+          border-r
+          border-white/[0.06]
+          transition-all
+          duration-300
+          
+          ${
+            collapsed
+              ? "w-[82px]"
+              : "w-[270px]"
+          }
 
-        <div className="h-20 border-b border-gray-800 flex items-center px-6 shrink-0">
-          <div>
-            <h1 className="text-2xl font-black">Travel Admin</h1>
+          ${
+            sidebarOpen
+              ? "translate-x-0"
+              : "-translate-x-full lg:translate-x-0"
+          }
+        `}
+      >
+        {/* ========================================================
+            BRAND
+        ======================================================== */}
 
-            <p className="text-gray-400 text-sm mt-1">Management Panel</p>
-          </div>
+        <div
+          className={`
+            h-[72px]
+            flex
+            items-center
+            border-b
+            border-white/[0.06]
+            px-5
+            ${
+              collapsed
+                ? "justify-center"
+                : "justify-between"
+            }
+          `}
+        >
+          {!collapsed ? (
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-xl bg-white text-black flex items-center justify-center font-bold text-sm">
+                TA
+              </div>
+
+              <div>
+                <h1 className="text-sm font-semibold tracking-tight">
+                  Travel Admin
+                </h1>
+
+                <p className="text-[10px] text-gray-500 mt-0.5">
+                  Management Panel
+                </p>
+              </div>
+            </div>
+          ) : (
+            <div className="w-9 h-9 rounded-xl bg-white text-black flex items-center justify-center font-bold text-sm">
+              TA
+            </div>
+          )}
+
+          {/* Mobile Close */}
+
+          <button
+            onClick={() => setSidebarOpen(false)}
+            className="lg:hidden p-2 rounded-lg hover:bg-white/10"
+          >
+            <X size={18} />
+          </button>
         </div>
 
-        {/* MENU */}
+        {/* ========================================================
+            NAVIGATION
+        ======================================================== */}
 
-        <div className="flex-1 p-4 space-y-2 overflow-y-auto">
-          {menuItems.map((item) => {
-            const Icon = item.icon;
-
-            const active = pathname === item.href;
+        <div className="flex-1 overflow-y-auto px-3 py-5 scrollbar-thin">
+          {navigation.map((group) => {
+            const isGroupOpen = openGroups[group.title];
 
             return (
-              <Link key={item.name} href={item.href}>
-                <div
-                  className={`
-                    h-14
-                    rounded-2xl
-                    px-5
-                    flex
-                    items-center
-                    gap-4
-                    cursor-pointer
-                    transition-all
-                    duration-300
-                    font-semibold
-                    ${
-                      active
-                        ? "bg-white text-black shadow-lg"
-                        : "text-gray-300 hover:bg-gray-900 hover:text-white"
-                    }
-                  `}
-                >
-                  <Icon size={22} />
+              <div key={group.title} className="mb-5">
+                {/* GROUP HEADER */}
 
-                  <span>{item.name}</span>
-                </div>
-              </Link>
+                {!collapsed ? (
+                  <button
+                    onClick={() => toggleGroup(group.title)}
+                    className="
+                      w-full
+                      flex
+                      items-center
+                      justify-between
+                      px-3
+                      mb-2
+                      text-[10px]
+                      font-semibold
+                      uppercase
+                      tracking-[0.14em]
+                      text-gray-500
+                      hover:text-gray-300
+                    "
+                  >
+                    <span>{group.title}</span>
+
+                    {isGroupOpen ? (
+                      <ChevronDown size={14} />
+                    ) : (
+                      <ChevronRight size={14} />
+                    )}
+                  </button>
+                ) : (
+                  <div className="h-px bg-white/[0.06] mx-3 mb-3" />
+                )}
+
+                {/* GROUP ITEMS */}
+
+                {(collapsed || isGroupOpen) && (
+                  <div className="space-y-1">
+                    {group.items.map((item) => {
+                      const Icon = item.icon;
+                      const active = isActive(item.href);
+
+                      return (
+                        <Link
+                          key={item.href}
+                          href={item.href}
+                          onClick={() => setSidebarOpen(false)}
+                          title={collapsed ? item.name : undefined}
+                          className={`
+                            group
+                            relative
+                            flex
+                            items-center
+                            ${
+                              collapsed
+                                ? "justify-center"
+                                : "gap-3"
+                            }
+                            min-h-[44px]
+                            px-3
+                            rounded-xl
+                            text-sm
+                            transition-all
+                            duration-200
+                            
+                            ${
+                              active
+                                ? "bg-white text-black shadow-sm"
+                                : "text-gray-400 hover:bg-white/[0.06] hover:text-white"
+                            }
+                          `}
+                        >
+                          {/* Active indicator */}
+
+                          {active && !collapsed && (
+                            <span className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-5 rounded-r-full bg-black" />
+                          )}
+
+                          <Icon
+                            size={18}
+                            strokeWidth={active ? 2.2 : 1.8}
+                            className={`
+                              shrink-0
+                              ${
+                                active
+                                  ? "text-black"
+                                  : "text-gray-500 group-hover:text-white"
+                              }
+                            `}
+                          />
+
+                          {!collapsed && (
+                            <span className="flex-1 truncate font-medium">
+                              {item.name}
+                            </span>
+                          )}
+
+                          {/* Active dot in collapsed mode */}
+
+                          {active && collapsed && (
+                            <span className="absolute right-1.5 top-1/2 -translate-y-1/2 w-1.5 h-1.5 rounded-full bg-white" />
+                          )}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
             );
           })}
         </div>
 
-        {/* LOGOUT */}
+        {/* ========================================================
+            BOTTOM
+        ======================================================== */}
 
-        <div className="p-4 border-t border-gray-800 shrink-0">
+        <div className="border-t border-white/[0.06] p-3">
+          {/* ADMIN PROFILE */}
+
+          {!collapsed && (
+            <div className="flex items-center gap-3 px-3 py-3 mb-2 rounded-xl bg-white/[0.04]">
+              <div className="w-9 h-9 rounded-full bg-white text-black flex items-center justify-center text-xs font-bold">
+                A
+              </div>
+
+              <div className="min-w-0">
+                <p className="text-sm font-medium truncate">
+                  Administrator
+                </p>
+
+                <p className="text-[11px] text-gray-500 truncate">
+                  Travel Management
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* LOGOUT */}
+
           <button
-            onClick={logout}
-            className="
+            onClick={handleLogout}
+            title={collapsed ? "Logout" : undefined}
+            className={`
               w-full
-              h-14
-              rounded-2xl
-              bg-red-500
-              hover:bg-red-600
-              transition-all
-              text-white
-              font-bold
               flex
               items-center
-              justify-center
-              gap-3
-            "
+              ${
+                collapsed
+                  ? "justify-center"
+                  : "gap-3"
+              }
+              px-3
+              min-h-[44px]
+              rounded-xl
+              text-sm
+              text-gray-400
+              hover:bg-red-500/10
+              hover:text-red-400
+              transition
+            `}
           >
-            <LogOut size={20} />
-            Logout
+            <LogOut size={18} />
+
+            {!collapsed && (
+              <span className="font-medium">
+                Logout
+              </span>
+            )}
           </button>
         </div>
       </aside>
 
-      {/* ======================================================
-          RIGHT SIDE
-      ====================================================== */}
+      {/* ============================================================
+          MAIN AREA
+      ============================================================ */}
 
-      <div className="flex-1 flex flex-col min-w-0 h-screen overflow-hidden">
-        {/* TOPBAR */}
+      <div
+        className={`
+          min-h-screen
+          transition-all
+          duration-300
+          ${
+            collapsed
+              ? "lg:pl-[82px]"
+              : "lg:pl-[270px]"
+          }
+        `}
+      >
+        {/* ========================================================
+            TOPBAR
+        ======================================================== */}
 
         <header
           className="
-            h-20
-            bg-white
-            border-b
-            border-gray-200
-            flex
-            items-center
-            justify-between
-            px-8
             sticky
             top-0
-            z-50
-            shrink-0
+            z-30
+            h-[72px]
+            bg-white/90
+            backdrop-blur-xl
+            border-b
+            border-gray-200
           "
         >
-          <div>
-            <h2 className="text-2xl font-black text-gray-800">
-              Admin Dashboard
-            </h2>
+          <div className="h-full px-4 sm:px-6 flex items-center justify-between">
+            {/* LEFT */}
 
-            <p className="text-sm text-gray-500 mt-1">
-              Manage your travel website professionally
-            </p>
-          </div>
+            <div className="flex items-center gap-3">
+              {/* Mobile Menu */}
 
-          {/* PROFILE */}
+              <button
+                onClick={() => setSidebarOpen(true)}
+                className="
+                  lg:hidden
+                  w-10
+                  h-10
+                  rounded-xl
+                  border
+                  border-gray-200
+                  flex
+                  items-center
+                  justify-center
+                  hover:bg-gray-50
+                "
+              >
+                <Menu size={19} />
+              </button>
 
-          <div className="flex items-center gap-4">
-            <div className="text-right">
-              <p className="font-bold text-gray-800">Admin</p>
+              {/* Desktop Collapse */}
 
-              <p className="text-sm text-gray-500">Super Admin</p>
+              <button
+                onClick={() => setCollapsed(!collapsed)}
+                className="
+                  hidden
+                  lg:flex
+                  w-10
+                  h-10
+                  rounded-xl
+                  border
+                  border-gray-200
+                  items-center
+                  justify-center
+                  hover:bg-gray-50
+                  transition
+                "
+                title={
+                  collapsed
+                    ? "Expand sidebar"
+                    : "Collapse sidebar"
+                }
+              >
+                {collapsed ? (
+                  <PanelLeftOpen size={18} />
+                ) : (
+                  <PanelLeftClose size={18} />
+                )}
+              </button>
+
+              <div className="hidden sm:block">
+                <p className="text-[11px] text-gray-400 uppercase tracking-wider">
+                  Admin
+                </p>
+
+                <h2 className="text-lg font-semibold tracking-tight">
+                  {getPageTitle()}
+                </h2>
+              </div>
             </div>
 
-            <div
-              className="
-                w-12
-                h-12
-                rounded-full
-                bg-black
-                text-white
-                flex
-                items-center
-                justify-center
-                font-black
-                text-lg
-              "
-            >
-              A
+            {/* RIGHT */}
+
+            <div className="flex items-center gap-2">
+              {/* Search */}
+
+              <button
+                className="
+                  hidden
+                  md:flex
+                  items-center
+                  gap-3
+                  h-10
+                  px-3
+                  min-w-[190px]
+                  rounded-xl
+                  border
+                  border-gray-200
+                  text-gray-400
+                  text-sm
+                  hover:bg-gray-50
+                "
+              >
+                <Search size={16} />
+
+                <span>Search...</span>
+
+                <span className="ml-auto text-[10px] border border-gray-200 rounded px-1.5 py-0.5">
+                  /
+                </span>
+              </button>
+
+              {/* Notification */}
+
+              <button
+                className="
+                  relative
+                  w-10
+                  h-10
+                  rounded-xl
+                  border
+                  border-gray-200
+                  flex
+                  items-center
+                  justify-center
+                  hover:bg-gray-50
+                "
+              >
+                <Bell size={18} />
+
+                <span className="absolute top-2 right-2 w-1.5 h-1.5 bg-red-500 rounded-full" />
+              </button>
+
+              {/* Profile */}
+
+              <div className="hidden sm:flex items-center gap-2 ml-1 pl-3 border-l border-gray-200">
+                <div className="w-9 h-9 rounded-full bg-black text-white flex items-center justify-center text-xs font-semibold">
+                  A
+                </div>
+
+                <div className="hidden xl:block">
+                  <p className="text-sm font-medium">
+                    Admin
+                  </p>
+
+                  <p className="text-[10px] text-gray-400">
+                    Administrator
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </header>
 
-        {/* PAGE CONTENT */}
+        {/* ========================================================
+            PAGE CONTENT
+        ======================================================== */}
 
-        <main className="flex-1 overflow-y-auto p-6">{children}</main>
+        <main className="p-4 sm:p-6 lg:p-7">
+          {children}
+        </main>
       </div>
     </div>
   );

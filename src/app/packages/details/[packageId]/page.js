@@ -82,7 +82,7 @@ Phone: ${quoteForm.phone}
         setLoading(true);
 
         const res = await axios.get(
-          `https://api.primevistajourney.com/api/package-details/${packageId}`,
+          `https://travdigitapi.applutetech.com/api/package-details/${packageId}`,
         );
 
         setTour(res.data);

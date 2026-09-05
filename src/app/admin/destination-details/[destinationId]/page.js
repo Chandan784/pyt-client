@@ -9,7 +9,7 @@ import PackageFormModal from "../../components/PackageFormModal";
 
 export default function DestinationDetailsPage() {
   // ================= API =================
-  const API = "https://api.primevistajourney.com/api";
+  const API = "https://travdigitapi.applutetech.com/api";
   const DEMO_API = "http://localhost:5000/api";
   // ================= ROUTER =================
   const router = useRouter();

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const API_URL =
-  "https://api.primevistajourney.com" || "http://localhost:5000";
+  "https://travdigitapi.applutetech.com" || "http://localhost:5000";
 
 function Hero() {
   const [slides, setSlides] = useState([]);
