@@ -91,14 +91,10 @@ const navigation = [
       },
       {
         name: "Reviews",
-        href: "/admin/reviews",
+        href: "/admin/upload",
         icon: Star,
       },
-      {
-        name: "Upload",
-        href: "/admin/upload",
-        icon: Upload,
-      },
+
     ],
   },
 ];
