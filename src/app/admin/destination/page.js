@@ -5,7 +5,7 @@ import axios from "axios";
 import DestinationFormModal from "../components/DestinationFormModal";
 import { useRouter } from "next/navigation";
 
-const API = "https://travdigitapi.applutetech.com/api/destinations";
+const API = "https://api.primevistajourney.com/api/destinations";
 
 export default function DestinationManager() {
   const router = useRouter();
