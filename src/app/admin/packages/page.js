@@ -14,7 +14,7 @@ export default function PackageAdminPage() {
       setLoading(true);
 
       const res = await axios.get(
-        "https://travdigitapi.applutetech.com/api/packages",
+        "https://api.primevistajourney.com/api/packages",
       );
 
       setPackages(res.data);
@@ -35,7 +35,7 @@ export default function PackageAdminPage() {
 
     try {
       await axios.delete(
-        `https://travdigitapi.applutetech.com/api/packages/${id}`,
+        `https://api.primevistajourney.com/api/packages/${id}`,
       );
 
       fetchPackages();
