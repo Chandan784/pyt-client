@@ -37,7 +37,7 @@ export default function CreatePassword({
       setLoading(true);
 
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/auth/signup/create-password`,
+        `${process.env.NEXT_PUBLIC_API_URL}/auth/signup/create-password`,
         {
           method: "POST",
           headers: {

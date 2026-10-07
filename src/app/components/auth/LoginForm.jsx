@@ -1,14 +1,20 @@
 "use client";
 
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+
 import AuthButton from "./AuthButton";
 import PasswordInput from "./PasswordInput";
 import AuthMessage from "./AuthMessage";
+
+import { loginSuccess } from "@/store/slices/authSlice";
 
 export default function LoginForm({
   onSignup,
   onForgotPassword,
 }) {
+  const dispatch = useDispatch();
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -28,13 +34,19 @@ export default function LoginForm({
     try {
       setLoading(true);
 
+      const API_URL =
+        process.env.NEXT_PUBLIC_API_URL ||
+        "http://localhost:5000/api";
+
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/auth/login`,
+        `${API_URL}/auth/login`,
         {
           method: "POST",
+
           headers: {
             "Content-Type": "application/json",
           },
+
           body: JSON.stringify({
             email,
             password,
@@ -45,15 +57,54 @@ export default function LoginForm({
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.message);
+        throw new Error(
+          data.message || "Login failed"
+        );
       }
 
-      localStorage.setItem("token", data.token);
+      /*
+       * Save token
+       */
+      localStorage.setItem(
+        "token",
+        data.token
+      );
+
+      /*
+       * Save user
+       */
+      localStorage.setItem(
+        "user",
+        JSON.stringify(data.user)
+      );
+
+      /*
+       * Update Redux
+       */
+      dispatch(
+        loginSuccess({
+          user: data.user,
+          token: data.token,
+        })
+      );
 
       console.log("Login successful");
 
+      /*
+       * You can redirect here if required.
+       *
+       * Example:
+       *
+       * window.location.href = "/";
+       *
+       * or if using Next Router:
+       *
+       * router.push("/");
+       */
     } catch (error) {
-      setError(error.message);
+      setError(
+        error.message || "Something went wrong"
+      );
     } finally {
       setLoading(false);
     }
@@ -84,8 +135,16 @@ export default function LoginForm({
           onChange={(e) =>
             setEmail(e.target.value)
           }
-          className="w-full rounded-lg border border-gray-300
-                     px-4 py-3 outline-none focus:border-black"
+          className="
+            w-full
+            rounded-lg
+            border
+            border-gray-300
+            px-4
+            py-3
+            outline-none
+            focus:border-black
+          "
         />
 
         <PasswordInput
@@ -112,7 +171,9 @@ export default function LoginForm({
 
       <p className="mt-6 text-center text-sm text-gray-500">
         Don't have an account?{" "}
+
         <button
+          type="button"
           onClick={onSignup}
           className="font-semibold text-black"
         >

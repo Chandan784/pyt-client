@@ -22,7 +22,7 @@ export async function getPayments(params = {}) {
   });
 
   const response = await fetch(
-    `${API_URL}/api/payment?${query.toString()}`,
+    `${API_URL}/payment?${query.toString()}`,
     {
       method: "GET",
       headers: {
@@ -38,7 +38,7 @@ export async function getPayments(params = {}) {
 // Get payment
 export async function getPayment(id) {
   const response = await fetch(
-    `${API_URL}/api/payment/${id}`,
+    `${API_URL}/payment/${id}`,
     {
       method: "GET",
       headers: {
@@ -54,7 +54,7 @@ export async function getPayment(id) {
 // Create payment
 export async function createPayment(data) {
   const response = await fetch(
-    `${API_URL}/api/payment`,
+    `${API_URL}/payment`,
     {
       method: "POST",
       headers: {
@@ -70,7 +70,7 @@ export async function createPayment(data) {
 // Update payment
 export async function updatePayment(id, data) {
   const response = await fetch(
-    `${API_URL}/api/payment/${id}`,
+    `${API_URL}/payment/${id}`,
     {
       method: "PATCH",
       headers: {
@@ -86,7 +86,7 @@ export async function updatePayment(id, data) {
 // Update status
 export async function updatePaymentStatus(id, status) {
   const response = await fetch(
-    `${API_URL}/api/payment/${id}/status`,
+    `${API_URL}/payment/${id}/status`,
     {
       method: "PATCH",
       headers: {
@@ -104,7 +104,7 @@ export async function updatePaymentStatus(id, status) {
 // Get booking payments
 export async function getBookingPayments(bookingId) {
   const response = await fetch(
-    `${API_URL}/api/payment/booking/${bookingId}`,
+    `${API_URL}/payment/booking/${bookingId}`,
     {
       method: "GET",
       headers: {
@@ -120,7 +120,7 @@ export async function getBookingPayments(bookingId) {
 // Get summary
 export async function getPaymentSummary() {
   const response = await fetch(
-    `${API_URL}/api/payment/summary`,
+    `${API_URL}/payment/summary`,
     {
       method: "GET",
       headers: {

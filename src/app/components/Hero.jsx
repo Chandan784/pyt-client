@@ -11,7 +11,7 @@ export default function HeroSlider() {
 
   const intervalRef = useRef(null);
 
-  const API_URL =
+  const API_URL =  process.env.NEXT_PUBLIC_API_URL ||
    "https://api.primevistajourney.com";
 
   /* ================= GET HERO SLIDES ================= */
@@ -21,7 +21,7 @@ export default function HeroSlider() {
       setLoading(true);
 
       const response = await fetch(
-        `${API_URL}/api/heroSliders/active`,
+        `${API_URL}/heroSliders/active`,
         {
           cache: "no-store",
         }

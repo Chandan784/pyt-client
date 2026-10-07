@@ -11,6 +11,8 @@ export default function DomesticTripsSection() {
 
   const [loading, setLoading] = useState(true);
 
+  const API_URL =  process.env.NEXT_PUBLIC_API_URL ||
+   "http:localhost:5000/api";
   /* =====================================================
       FETCH DESTINATIONS
   ===================================================== */
@@ -24,7 +26,7 @@ export default function DomesticTripsSection() {
       setLoading(true);
 
       const res = await axios.get(
-        "https://api.primevistajourney.com/api/destinations",
+        `${API_URL}/destinations`,
       );
 
       console.log(res.data);

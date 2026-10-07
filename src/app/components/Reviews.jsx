@@ -12,11 +12,12 @@ export default function ReviewImageSection() {
   const scrollRef = useRef(null);
   const autoSlideRef = useRef(null);
 
-  const API = "https://api.primevistajourney.com/api/reviews";
+  const API_URL =  process.env.NEXT_PUBLIC_API_URL ||
+   "http:localhost:5000/api";
 
   // 🔥 Fetch Images
   useEffect(() => {
-    fetch(API)
+    fetch(`${API_URL}/reviews`)
       .then((res) => res.json())
       .then((data) => {
         setReviewImages(data);

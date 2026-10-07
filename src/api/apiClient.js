@@ -4,7 +4,7 @@ const API_BASE_URL =
 
 const apiClient = async (endpoint, options = {}) => {
   const response = await fetch(
-    `${API_BASE_URL}/api${endpoint}`,
+    `${API_BASE_URL}${endpoint}`,
     {
       ...options,
       headers: {

@@ -78,7 +78,7 @@ export default function OtpVerification({
             setLoading(true);
 
             const response = await fetch(
-                `${process.env.NEXT_PUBLIC_API_URL}/api/auth/signup/verify-otp`,
+                `${process.env.NEXT_PUBLIC_API_URL}/auth/signup/verify-otp`,
                 {
                     method: "POST",
 
@@ -131,8 +131,8 @@ export default function OtpVerification({
 
             const endpoint =
                 purpose === "SIGNUP"
-                    ? "/api/auth/signup/send-otp"
-                    : "/api/auth/forgot-password";
+                    ? "/auth/signup/send-otp"
+                    : "/auth/forgot-password";
 
             const response = await fetch(
                 `${process.env.NEXT_PUBLIC_API_URL}${endpoint}`,

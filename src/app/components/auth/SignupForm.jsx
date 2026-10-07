@@ -27,7 +27,7 @@ export default function SignupForm({
       setLoading(true);
 
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/auth/signup/send-otp`,
+        `${process.env.NEXT_PUBLIC_API_URL}/auth/signup/send-otp`,
         {
           method: "POST",
           headers: {
