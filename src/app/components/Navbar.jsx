@@ -807,7 +807,7 @@ export default function Navbar() {
             </Link>
 
             {/* PACKAGES */}
-
+{/* 
             <Link
               href="/packages"
               onClick={closeDrawer}
@@ -827,10 +827,10 @@ export default function Navbar() {
                 size={15}
                 className="text-slate-300"
               />
-            </Link>
+            </Link> */}
 
             {/* DESTINATIONS */}
-
+{/* 
             <Link
               href="/destinations"
               onClick={closeDrawer}
@@ -850,7 +850,7 @@ export default function Navbar() {
                 size={15}
                 className="text-slate-300"
               />
-            </Link>
+            </Link> */}
 
             {/* CONTACT */}
 
