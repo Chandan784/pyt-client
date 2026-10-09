@@ -252,7 +252,7 @@ export default function Navbar() {
 
     return (
       <Link
-        href={`/destinations/${slug}`}
+        href={`/packages/${destination.id}`}
         onClick={closeMenus}
         className="group flex items-center gap-3 rounded-xl px-3 py-2.5 transition hover:bg-slate-50"
       >
@@ -650,16 +650,7 @@ export default function Navbar() {
 
             {/* BOOK NOW */}
 
-            <Link
-              href="/packages"
-              className="flex items-center gap-2 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-blue-700 hover:shadow-md"
-            >
-              <FiStar
-                size={16}
-                fill="currentColor"
-              />
-              Book Now
-            </Link>
+          
           </div>
 
           {/* MOBILE MENU BUTTON */}

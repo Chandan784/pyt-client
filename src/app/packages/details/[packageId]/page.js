@@ -20,6 +20,7 @@ export default function TourDetails() {
     email: "",
     phone: "",
   });
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.primevistajourney.com";
 
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -110,7 +111,7 @@ Thank you!`;
         setError(null);
 
         const res = await axios.get(
-          `https://api.primevistajourney.com/api/package-details/${packageId}`,
+          `${API_URL}/package-details/${packageId}`,
           {
             timeout: 10000,
             headers: {

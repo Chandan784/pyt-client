@@ -22,7 +22,7 @@ export default function PackageDetails() {
   /* ======================================================
       FETCH DESTINATION + PACKAGES
   ====================================================== */
-
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://api.primevistajourney.com";
   useEffect(() => {
     fetchData();
   }, [id]);
@@ -36,7 +36,7 @@ export default function PackageDetails() {
       ----------------------------------------- */
 
       const destinationRes = await axios.get(
-        `https://api.primevistajourney.com/api/destinations/${id}`,
+        `${API_URL}/destinations/${id}`,
       );
 
       const destinationData = destinationRes.data;
@@ -48,7 +48,7 @@ export default function PackageDetails() {
       ----------------------------------------- */
 
       const packageRes = await axios.get(
-        `https://api.primevistajourney.com/api/packages/destination/${destinationData.id}`,
+        `${API_URL}/packages/destination/${destinationData.id}`,
       );
 
       setTours(packageRes.data || []);
