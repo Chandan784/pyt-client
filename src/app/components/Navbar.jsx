@@ -878,7 +878,7 @@ export default function Navbar() {
             {/* ABOUT */}
 
             <Link
-              href="/about"
+              href="/about-us"
               onClick={closeDrawer}
               className={`flex items-center gap-4 rounded-xl px-3.5 py-3.5 transition ${
                 isActive("/about")
