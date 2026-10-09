@@ -294,12 +294,10 @@ export default function Navbar() {
               <img
                 src="/pvjlogo.png"
                 alt="Prime Vista Journey"
-                className="w-[105px] object-contain sm:w-[135px] lg:w-[155px]"
+                className="w-[205px] object-contain sm:w-[335px] lg:w-[155px]"
               />
 
-              <span className="absolute -right-3 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-amber-50 text-amber-500 shadow-sm">
-                <FiStar size={10} fill="currentColor" />
-              </span>
+             
             </div>
           </Link>
 
@@ -717,9 +715,9 @@ export default function Navbar() {
             className="flex items-center"
           >
             <img
-              src="/logo.png"
+              src="/pvjlogo.png"
               alt="Prime Vista Journey"
-              className="w-[88px] object-contain"
+              className="w-[150px] object-contain"
             />
           </Link>
 
