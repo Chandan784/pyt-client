@@ -486,14 +486,14 @@ export default function Navbar() {
                     )}
                   </div>
 
-                  <Link
+                  {/* <Link
                     href="/destinations"
                     onClick={closeMenus}
                     className="flex items-center justify-between border-t border-slate-100 px-4 py-3 text-sm font-semibold text-blue-600 hover:bg-blue-50"
                   >
                     View all destinations
                     <FiArrowRight size={15} />
-                  </Link>
+                  </Link> */}
                 </div>
               )}
             </div>
