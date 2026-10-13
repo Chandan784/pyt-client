@@ -35,7 +35,7 @@ export default function FooterFull() {
         {/* Main Footer Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-12">
           {/* International Packages */}
-          <div className="col-span-1">
+          {/* <div className="col-span-1">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-5 border-b-2 border-blue-500/50 pb-2 inline-block">
               International
             </h4>
@@ -60,10 +60,10 @@ export default function FooterFull() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Domestic Packages */}
-          <div className="col-span-1">
+          {/* <div className="col-span-1">
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-5 border-b-2 border-blue-500/50 pb-2 inline-block">
               Domestic
             </h4>
@@ -88,7 +88,7 @@ export default function FooterFull() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Honeymoon Packages */}
           {/* <div className="col-span-1">
